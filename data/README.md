@@ -1,6 +1,6 @@
 ## Description of Data Fields
 ### *SalePrice* - the property's sale price in dollars. This is the target variable that you're trying to predict.
-### *Taken from Kaggle*: https://www.kaggle.com/c/home-data-for-ml-course/data?select=train.csv
+### *From Kaggle*: https://www.kaggle.com/c/home-data-for-ml-course/data?select=train.csv
 * MSSubClass: The building class
 * MSZoning: The general zoning classification
 * LotFrontage: Linear feet of street connected to property
