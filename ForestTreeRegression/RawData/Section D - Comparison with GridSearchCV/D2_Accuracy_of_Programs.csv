@@ -1,0 +1,37 @@
+Time Test,Number of Trees Range,Max Depth of Tree Range,NE_increment,MD_increment,Type of Function,Optimal MAE,Optimal Max Depth,Optimal Number of Trees
+1,1-2,2-3,1,1,Grid Search Optimization,38797.055639389226,2,2
+1,1-2,2-3,1,1,Programmed Optimization,37411.0301369863,2,2
+2,1-3,2-4,1,1,Grid Search Optimization,32201.687617185566,3,3
+2,1-3,2-4,1,1,Programmed Optimization,30171.314155251144,3,3
+3,1-4,2-5,1,1,Grid Search Optimization,27037.423333585153,4,4
+3,1-4,2-5,1,1,Programmed Optimization,26857.2,4,4
+4,1-5,2-6,1,1,Grid Search Optimization,25051.860210668878,5,5
+4,1-5,2-6,1,1,Programmed Optimization,25063.483013698627,5,5
+5,1-6,2-7,1,1,Grid Search Optimization,24465.250804130013,6,5
+5,1-6,2-7,1,1,Programmed Optimization,23513.12785388128,6,6
+6,1-7,2-8,1,1,Grid Search Optimization,24637.7479524059,7,6
+6,1-7,2-8,1,1,Programmed Optimization,23513.12785388128,6,6
+7,1-8,2-9,1,1,Grid Search Optimization,24454.2526919066,7,7
+7,1-8,2-9,1,1,Programmed Optimization,23409.13737769081,8,7
+8,1-9,2-10,1,1,Grid Search Optimization,23888.122259777287,8,8
+8,1-9,2-10,1,1,Programmed Optimization,23340.917503805176,8,9
+9,1-10,2-11,1,1,Grid Search Optimization,22880.82924005646,7,9
+9,1-10,2-11,1,1,Programmed Optimization,22675.34835616438,10,10
+10,1-11,2-12,1,1,Grid Search Optimization,22990.592538388028,10,10
+10,1-11,2-12,1,1,Programmed Optimization,22646.85292652553,10,11
+11,1-12,2-13,1,1,Grid Search Optimization,21466.67725614647,9,12
+11,1-12,2-13,1,1,Programmed Optimization,22378.008561643837,10,12
+12,1-13,2-14,1,1,Grid Search Optimization,23085.983647090736,9,11
+12,1-13,2-14,1,1,Programmed Optimization,22245.380716543732,10,13
+13,1-14,2-15,1,1,Grid Search Optimization,22419.013411159904,9,12
+13,1-14,2-15,1,1,Programmed Optimization,22245.380716543732,10,13
+14,1-15,2-16,1,1,Grid Search Optimization,22386.39588460092,9,15
+14,1-15,2-16,1,1,Programmed Optimization,22059.576894977166,10,15
+15,1-16,2-17,1,1,Grid Search Optimization,22830.257599887,9,13
+15,1-16,2-17,1,1,Programmed Optimization,22059.073202054795,10,16
+16,1-17,2-18,1,1,Grid Search Optimization,22586.30792422241,11,14
+16,1-17,2-18,1,1,Programmed Optimization,22032.009830781626,10,17
+17,1-18,2-19,1,1,Grid Search Optimization,22647.851018196467,10,17
+17,1-18,2-19,1,1,Programmed Optimization,22032.009830781626,10,17
+18,1-19,2-20,1,1,Grid Search Optimization,22032.004398340094,10,19
+18,1-19,2-20,1,1,Programmed Optimization,21877.68139870224,10,19

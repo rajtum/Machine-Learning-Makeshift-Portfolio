@@ -1,0 +1,21 @@
+Time Test,Number of Trees Range,Max Depth of Tree Range,NE_increment,MD_increment,Type of Function,Optimal MAE,Optimal Max Depth,Optimal Number of Trees
+1,1-10,2-11,5,5,Grid Search Optimization,24213.469919185096,7,6
+1,1-10,2-11,5,5,Programmed Optimization,23534.71826484018,7,6
+2,1-10,2-21,5,5,Grid Search Optimization,22785.135455078886,12,6
+2,1-10,2-21,5,5,Programmed Optimization,23109.26552511416,12,6
+3,1-10,2-31,5,5,Grid Search Optimization,23713.617256603222,12,6
+3,1-10,2-31,5,5,Programmed Optimization,23109.26552511416,12,6
+4,1-10,2-41,5,5,Grid Search Optimization,24326.677929984777,22,6
+4,1-10,2-41,5,5,Programmed Optimization,23109.26552511416,12,6
+5,1-10,2-51,5,5,Grid Search Optimization,23962.31841704719,37,6
+5,1-10,2-51,5,5,Programmed Optimization,23109.26552511416,12,6
+6,1-10,2-61,5,5,Grid Search Optimization,25270.875342465755,27,6
+6,1-10,2-61,5,5,Programmed Optimization,23109.26552511416,12,6
+7,1-10,2-71,5,5,Grid Search Optimization,22543.126636225265,57,6
+7,1-10,2-71,5,5,Programmed Optimization,23109.26552511416,12,6
+8,1-10,2-81,5,5,Grid Search Optimization,23608.355555555558,57,6
+8,1-10,2-81,5,5,Programmed Optimization,23109.26552511416,12,6
+9,1-10,2-91,5,5,Grid Search Optimization,23998.617047184165,77,6
+9,1-10,2-91,5,5,Programmed Optimization,23109.26552511416,12,6
+10,1-10,2-101,5,5,Grid Search Optimization,23876.013872580996,77,6
+10,1-10,2-101,5,5,Programmed Optimization,23109.26552511416,12,6
