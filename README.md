@@ -8,7 +8,7 @@ With the following code, you can plot a 4D (color being the 4th dimension) visua
     A_data_4d_e2 = for_4D_plot_XGB(XGB_4D_e2)
     interactive_4Dsurface_XGB('Experiment 2', A_data_4d_e2)
     
-<details><summary>Curious about the first two lines of code? Click the toggle to learn more:</summary>
+<details><summary> <em> Curious about the first two lines of code? Click the toggle to learn more: </em></summary>
 <p>
     
  * 200 = Searching from 1 to 200 `n_estimators`
@@ -95,4 +95,10 @@ The portfolio is broken up into the following structure:
 ## D. Exploring
 To explore, tinker, and interact with all the functions, interactive surface plots, and optimization results, please follow these steps: 
 
-
+| Steps | Visual | Rationale |
+|-------|--------|-----------|
+|1. For each section, there is a `README.md` file that covers the section's structure and highlights|  | *To offer more than perfunctory overview as described Section C. here*|
+|2. To create coding playground with the function, simply click on the section's Jupyter notebook (the `.Ipynb` file), and then click the blue `Open to Colab` badge at the top| | *There are three reasons for opening to Colab: (1) this allows for data collected to be stored in one of line of code (and therefore quickly stored into a variable when needed) rather than splayed grotesquely in Github reader like this:  (2) Github blocks any javascript and thus the interactive surface plots do not render in Github, so viewing on Google Colab preserves the interactivity of the graphs, and (3) the file in Google Colab is distinct from the the uploaded copy, so one can tinker around with the code with a peace of mind.*|
+|3. Open the table of contents| | *Navigate through the Jupyter Notebook with Google Colab's built-in table of contents*|
+|4. **Important:** Make sure to run the `Initialization` tab in its entirety before exploring the section. This can easily be done by the method shown in the visual| | *Functions of each section build upon previous sections, and like a building without foundations, the section will fall apart with errors if certain fucntions are not defined* |
+| 5. **Important:** Run the `Functions` and `Defining Predictors` tabs before exploring the subsections below it. | | *Certain sections use different predictors and this could affect a model's results and cause errors in the code* |
