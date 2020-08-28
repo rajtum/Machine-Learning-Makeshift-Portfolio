@@ -1,12 +1,19 @@
 # Machine Learning Portfolio
-With the folllowing code, you can plot a 4D visualization of the hyperparameter optimization for a XGB Regressor Model:
+With the following code, you can plot a 4D visualization of the hyperparameter optimization for a XGB Regressor Model:
 
     XGB_4D_e2 = experiment4D_with_XGB(200, range(2,7), range(1,101), X_train_pipeline, y, 
                                       preprocessor, NE_increment=30, cv = 1)
     A_data_4d_e2 = for_4D_plot_XGB(XGB_4D_e2)
     interactive_4Dsurface_XGB('Experiment 2', A_data_4d_e2)
 
-
+ * 200 = Searching from 1 to 200 `n_estimators`
+ * `range(2,7)` = Searching from 2 to 6 `max_depth`
+ * `range(1,101)` = Searching from .01 to 1 `learning_rate`
+ * `X_train_pipeline` = training data
+ * `y` = actual sale prices
+ * `preprocessor` = `ColumnTransformer` object that imputes and encodes data
+ * `NE_increment = 30`  = Increments `n_estimators` by 30, so instead of 1 to 200, [1, 31, ... 181]
+ * `cv = 1` = Number of K-Folds
 <p align="center">
   <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%202-%204D%20Surface%20Plot.gif"   width="500" /> 
 </p>
