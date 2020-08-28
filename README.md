@@ -7,7 +7,8 @@ With the following code, you can plot a 4D (color being the 4th dimension) visua
                                       preprocessor, NE_increment=30, cv = 1)
     A_data_4d_e2 = for_4D_plot_XGB(XGB_4D_e2)
     interactive_4Dsurface_XGB('Experiment 2', A_data_4d_e2)
-<details><summary>All the functions, and concomitant arguments, will be explained thouroughly Sections II-VI, but here is a sneak peak:</summary>
+    
+<details><summary>Curious about the first two lines of code? Click the toggle to learn more:</summary>
 <p>
     
  * 200 = Searching from 1 to 200 `n_estimators`
@@ -58,18 +59,18 @@ Though we know roughly know what model's optimal parameters should look like, to
 
 
 ## B. About
-The purpose of this portfolio is to (1) *evince* my ability to code machine learning (ML) models, (2) *showcase* my style of computative research, and most importantly, (3) to *politely shout out from the rooftops* my passion for machine learning. In this project, the Ames Housing Dataset, compiled in this [scientific paper](http://jse.amstat.org/v19n3/decock.pdf) by Dean De Cock, was used to build ML models that predict the sale price of houses. Both the training and testing datasets downloaded from Kaggle can be found in the `data` folder as `train_data.csv` and `test_data.csv`. The barometer of the model's predictiveness was mean absolute error (MAE), which measures how the absolute difference between the model's predictions and actual values; in this case, the mean absolute error represents the arithmetic proximity of the model's predicted sale prices of houses in Ames, Iowa to the actual sale prices of these houses.
+The purpose of this portfolio is to (1) *evince* my ability to code machine learning (ML) models, (2) *showcase* my style of computative research, and most importantly, (3) to *politely shout out from the rooftops* my passion for machine learning. In this project, the Ames Housing Dataset, compiled in this [scientific paper](http://jse.amstat.org/v19n3/decock.pdf) by Dean De Cock, was used to build ML models that predict the sale price of houses. Both the training and testing datasets downloaded from Kaggle can be found in the `data` folder as `train_data.csv` and `test_data.csv`. The barometer of the model's predictiveness was mean absolute error (MAE), which measures how the absolute difference between the model's predictions and actual values; in this case, the MAE represents the arithmetic proximity of the model's predicted sale prices of houses in Ames, Iowa to the actual sale prices of these houses.
 
 ## C. Structure
 The portfolio is broken up into the following structure:
 
-1. Introduction (What you are reading now)
+### I. Introduction (What you are reading now)
     
-    * Crystalizes the main highlights of the portfolio and acts as a compass for a person navigating through the portoflio
+   * Crystalizes the main highlights of the portfolio and acts as a compass for a person navigating through the portoflio
   
-2. Exploring the Data
+### II. Taxonomy of Functions
     
-    * 
+   * Offers an evolutionary biologist overview for "family" of functions as an additional source in addition to the `help(...)` function that can be called for any function
     
 3. Decision Tree Regression
 
@@ -77,8 +78,8 @@ The portfolio is broken up into the following structure:
  
 4. Random Forest Regression
 
-    * Defines an family of functions for multivariable hyperparamter optimization of the number of trees ( `n_estimators` ) and max depth of each tree ( `max_depth` ) in a Random Forest Regressor from `sklearn.ensemble`
-    * Enables a visualization of results in an interactive 3D surface plot, the ability to produce these interactive results with a minimal coding background, and four experimental presets expound claims
+    * Defines an family of functions for multivariable hyperparameter optimization of the number of trees ( `n_estimators` ) and max depth of each tree ( `max_depth` ) in a Random Forest Regressor from `sklearn.ensemble`
+    * Enables a visualization of results in an interactive 3D surface plot, the ability to produce these interactive results with a minimal coding background, and four experimental presets to expound the designed use of functions
     * Compares the programmed hyperparamter optimization function to the public `GridSearchCV` from `sklearn.model_selection` in two areas: (1) speed of optimization program and (2) accuracy of optimization program
  
 5. Add More Predictors
