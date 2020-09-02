@@ -1,28 +1,50 @@
 # II. Taxonomy of Functions
-## A. Family
+*Please note in biological taxonomic classifications, only the genus (first letter capitalized) and species (not capitalized) is italicized to identify an organism in a system called binomical nomeclature. Here, trinomial nomenclature with adapted classifications, format typography, and abbreviations will be used to classify and explicate functions and attendant "ecosystems."*
+## Table of Contents
+#### A. Adaptations
+#### B. 
+## A. Adaptations
+### Classifications
+* `Family Genus Species`
+* Trinomial Nomenclature
+### Format Typography
+* Will not be italicized
+* Will be formatted as code like this: `code`
+* Capitalization will be determined by the individual names rather than collective ranks
+### Abbreviation
+* Will not follow *Genus species* becomes *G. species*
+* Instead, `Family Genus Species` becomes `F.G.Species`
+  * Note capitalization will follow rule declared in typography
+    * i.e. `Family genus SPECIES` becomes `F.g.SPECIES`
+  * Underscores and special characters will be ignored in this
+    * i.e. only the first letter will be used in abbreviation
+## B. Family
 
 ### `experiment`
-* Collects data for hyperparamter optimization
+* Collects data for hyperparameter optimization
 ### `optimize`
-* Performs hyperparamter optimization
+* Performs hyperparameter optimization
 ### `initialize`
-* Initializes a model or pipeline
+* Initializes a model or `Pipeline`
 ### `for_`
 * Converts data from `experiment` family to plottable data
 ### `plot`
-* Plots a static pyplot with what is returned from `for_` family
+* Plots a static `pyplot` with what is returned from `for_` family
 ### `interactive`
-* Plots an interactive plotly with what is returned froom `for_` family
+* Plots an interactive `plotly` with what is returned froom `for_` family
 ### `comparison`
-* Compares or generates comparison data for two datasets in a plot, DataFrame, etc.
+* Compares or generates comparison data for two datasets in a `plot`, `interactive`, `DataFrame`, etc.
 ### `multicomparison`
 * Strictly for plotting, enables comparison of up to five datasets
-## B. Genus
-### `experiment
+## C. Genus
+### `experiment`
 
-## C. Species
-
-## D. Ecosystems
+#### `experiment4D_with`
+## D. Species
+|Chronology|Family|Genus|Species|Function Name| Abbreviation| About|
+|----------|-----|-----|--------|-------------|-------------| -----|
+|1|`experiment`|`_with`|`_DT`    |`experiment_with_DT`| `e.w.DT`| dasdf|
+## E. Ecosystems
 ### Keystone Species
 `train_model(model_arg, X_arg, y_arg)`
 `test_model(model_arg, X_arg, y_arg, X_test_arg)`
