@@ -3,9 +3,13 @@
 ## Table of Contents
 ### II. Taxonomy of Functions
 #### [A. Adaptations](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#a-adaptations-1)
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [i. Classifications](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#i-classifications)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ii. Format Typography
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iii. Abbreviation
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [ii. Format Typography](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#ii-format-typography)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [iii. Abbreviation](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#iii-abbreviation)
+
 #### [B. Family](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#b-family-1)
 #### [C. Genus](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#c-genus-1)
 #### [D. Species](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#d-species-1)
