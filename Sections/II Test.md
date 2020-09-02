@@ -1,10 +1,24 @@
 # II. Taxonomy of Functions
 ## A. Family
+
 ### `experiment`
+* Collects data for hyperparamter optimization
 ### `optimize`
+* Performs hyperparamter optimization
 ### `initialize`
+* Initializes a model or pipeline
 ### `for_`
+* Converts data from `experiment` family to plottable data
+### `plot`
+* Plots a static pyplot with what is returned from `for_` family
+### `interactive`
+* Plots an interactive plotly with what is returned froom `for_` family
+### `comparison`
+* Compares or generates comparison data for two datasets in a plot, DataFrame, etc.
+### `multicomparison`
+* Strictly for plotting, enables comparison of up to five datasets
 ## B. Genus
+### `experiment
 
 ## C. Species
 
