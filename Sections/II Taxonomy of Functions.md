@@ -1,20 +1,24 @@
 # II. Taxonomy of Functions
 *Please note in biological taxonomic classifications, only the genus (first letter capitalized) and species (not capitalized) is italicized to identify an organism in a system called binomical nomeclature. Here, trinomial nomenclature with adapted classifications, format typography, and abbreviations will be used to classify and explicate functions and attendant "ecosystems."*
 ## Table of Contents
+### II. Taxonomy of Functions
 #### [A. Adaptations](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#a-adaptations-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i. Classifications
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ii. Format Typography
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iii. Abbreviation
 #### [B. Family](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#b-family-1)
-#### C. Genus
-#### D. Species
-#### E. Ecosystems
+#### [C. Genus](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#c-genus-1)
+#### [D. Species](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#d-species-1)
+#### [E. Ecosystems](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#e-ecosystems-1)
 ## A. Adaptations
-### Classifications
+### i. Classifications
 * `Family Genus Species`
 * Trinomial Nomenclature
-### Format Typography
+### ii. Format Typography
 * Will not be italicized
 * Will be formatted as code like this: `code`
 * Capitalization will be determined by the individual names rather than collective ranks
-### Abbreviation
+### iii. Abbreviation
 * Will not follow *Genus species* becomes *G. species*
 * Instead, `Family Genus Species` becomes `F.G.Species`
   * Note capitalization will follow rule declared in typography
