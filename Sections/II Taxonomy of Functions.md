@@ -2,7 +2,10 @@
 *Please note in biological taxonomic classifications, only the genus (first letter capitalized) and species (not capitalized) is italicized to identify an organism in a system called binomical nomeclature. Here, trinomial nomenclature with adapted classifications, format typography, and abbreviations will be used to classify and explicate functions and attendant "ecosystems."*
 ## Table of Contents
 #### A. Adaptations
-#### B. 
+#### B. Family
+#### C. Genus
+#### D. Species
+#### E. Ecosystems
 ## A. Adaptations
 ### Classifications
 * `Family Genus Species`
