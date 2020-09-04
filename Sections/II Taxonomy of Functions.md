@@ -17,6 +17,8 @@
 ## A. Adaptations
 ### i. Classifications
 * `Family Genus Species`
+  * Some families have *prefixes* in addition to the root name
+    * For instance, within the family `comparison`, there are the three prefixes `time_`, `opt_`, and `multi`, which can be concatenated
 * Trinomial Nomenclature
 ### ii. Format Typography
 * Will not be italicized
@@ -29,14 +31,11 @@
     * i.e. `Family genus SPECIES` becomes `F.g.SPECIES`
   * Underscores and special characters will be ignored in this
     * i.e. only the first letter will be used in abbreviation
+    
 ## B. Family
 
 ### `experiment`
 * Collects data for hyperparameter optimization
-### `optimize`
-* Performs hyperparameter optimization
-### `initialize`
-* Initializes a model or `Pipeline`
 ### `for_`
 * Converts data from `experiment` family to plottable data
 ### `plot`
@@ -45,12 +44,52 @@
 * Plots an interactive `plotly` with what is returned froom `for_` family
 ### `comparison`
 * Compares or generates comparison data for two datasets in a `plot`, `interactive`, `DataFrame`, etc.
-### `multicomparison`
+#### Prefix `multi`
 * Strictly for plotting, enables comparison of up to five datasets
-## C. Genus
-### `experiment`
+#### Prefix `time_`
+*
+#### Prefix `opt_`
 
-#### `experiment4D_with`
+## C. Genus
+
+### Family of `experiment`
+#### `_with`
+* Produces uni or bivariate hyperparameter optimization data depending on species
+#### `4D_with`
+* Produces trivariate hyperparameter optimization data exclusively for an XGB Regressor Model
+
+### Family of `_for`
+#### `_3D_plot`
+* Converts to a plottable 3D data (returns three variables)
+#### `_3D_comp`
+* Converts to a plottable 3D data (returns a dictionary with three variables) meant to simplify the argument syntax for functions that plot multiple surface plots
+#### `4D_comp`
+* Converts to a plottable 4D data (returns a dictionary) and only compatible with `experiment4D_with_XGB`
+
+### Family of `plot`
+#### `_wireframe`
+* Plots a wireframe plot in `pyplot`
+#### `_surface`
+* Plots a surface plot in `pyplot`
+
+### Family of `interactive`
+#### `_surface`
+* Plots an interactive 3D surface plot in `plotly`
+#### `_4Dsurface`
+* Plots an interactive 4D (color being the 4th dimension) surface plot in `plotly`
+
+### Family of `comparison`
+#### `_Grid_Search`
+* Performs hyperparamter optimization with `sklearn.model_selection.GridSearchCV` meant for comparison
+#### `_plot_surface`
+* Plots two sets of 3D data in the same `pyplot`
+#### `_interactive_surface`
+* Plots two sets of 3D data in the same `plotly`
+
+### Family of `multicomparison`
+###
+
+####
 ## D. Species
 |Chronology|Family|Genus|Species|Function Name| Abbreviation| About|
 |----------|-----|-----|--------|-------------|-------------| -----|
@@ -128,3 +167,4 @@
                         NE_increment = 1, cv = 5, percent_complete = False, test_max_depth = True,
                         learning_rate_divisor = 100, default_learning_rate = .1, default_max_depth = 5)`
 `zoom_4D_XGB(A_data_arg, mae_upper_limit)`
+`test_model_XGB`
