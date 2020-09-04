@@ -1,5 +1,5 @@
 # II. Taxonomy of Functions
-*Please note in biological taxonomic classifications, only the genus (first letter capitalized) and species (not capitalized) is italicized to identify an organism in a system called binomical nomeclature. Here, trinomial nomenclature with adapted classifications, format typography, and abbreviations will be used to classify and explicate functions and attendant "ecosystems."*
+*Please note in biological taxonomic classifications, only the genus (first letter capitalized) and species (not capitalized) is italicized to identify an organism in a system called binomical nomeclature. Here, trinomial nomenclature with adapted classifications, format typography, and abbreviations will be used to classify and explicate functions and attendant "ecosystems." This is not an exhuastive list of all functions but rather a strategic collection of functions that may be most confusing at first glance and/or with complementary functionality. *
 ## Table of Contents
 ### II. Taxonomy of Functions
 #### [A. Adaptations](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#a-adaptations-1)
@@ -47,17 +47,19 @@
 #### Prefix `multi`
 * Strictly for plotting, enables comparison of up to five datasets
 #### Prefix `time_`
-*
+* Meant to represent data from `comparison_Forest` to either a graphical or tabular format
 #### Prefix `opt_`
+* Meant to represent data from `comparison_Forest` to a graphical format
 
 ## C. Genus
 
 ### Family of `experiment`
+
 #### `_with`
 * Produces uni or bivariate hyperparameter optimization data depending on species
 #### `4D_with`
 * Produces trivariate hyperparameter optimization data exclusively for an XGB Regressor Model
-
+---
 ### Family of `_for`
 #### `_3D_plot`
 * Converts to a plottable 3D data (returns three variables)
@@ -65,19 +67,19 @@
 * Converts to a plottable 3D data (returns a dictionary with three variables) meant to simplify the argument syntax for functions that plot multiple surface plots
 #### `4D_comp`
 * Converts to a plottable 4D data (returns a dictionary) and only compatible with `experiment4D_with_XGB`
-
+---
 ### Family of `plot`
 #### `_wireframe`
 * Plots a wireframe plot in `pyplot`
 #### `_surface`
 * Plots a surface plot in `pyplot`
-
+---
 ### Family of `interactive`
 #### `_surface`
 * Plots an interactive 3D surface plot in `plotly`
 #### `_4Dsurface`
 * Plots an interactive 4D (color being the 4th dimension) surface plot in `plotly`
-
+---
 ### Family of `comparison`
 #### `_Grid_Search`
 * Performs hyperparamter optimization with `sklearn.model_selection.GridSearchCV` meant for comparison
@@ -85,10 +87,11 @@
 * Plots two sets of 3D data in the same `pyplot`
 #### `_interactive_surface`
 * Plots two sets of 3D data in the same `plotly`
-
-### Family of `multicomparison`
-###
-
+#### `_to_table`
+* From prefix of `time_` meant to present data from `comparison_Forest` into a tabular format
+#### `_plot`
+* From prefix of `time_` and `opt_` meant to present data from `comparison_Forest` into a graphical format
+---
 ####
 ## D. Species
 |Chronology|Family|Genus|Species|Function Name| Abbreviation| About|
