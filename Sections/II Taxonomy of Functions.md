@@ -91,7 +91,7 @@
 * From prefix of `time_` meant to present data from `comparison_Forest` into a tabular format
 #### `_plot`
 * From prefix of `time_` and `opt_` meant to present data from `comparison_Forest` into a graphical format
----
+
 ####
 ## D. Species
 |Chronology|Family|Genus|Species|Function Name| Abbreviation| About|
