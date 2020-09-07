@@ -18,7 +18,7 @@
 
 ### i. Classifications
 * `Family Genus Species`
-  * Some families have *prefixes* in addition to the root name
+  * Some families have *prefices* in addition to the root name
     * For instance, within the family `comparison`, there are the three prefixes `time_`, `opt_`, and `multi`, which can be concatenated
 * Trinomial Nomenclature
 ### ii. Format Typography
@@ -46,12 +46,15 @@
 ### `comparison`
 * Compares or generates comparison data for two datasets in a `plot`, `interactive`, `DataFrame`, etc.
 * There are three prefices which modify the family's function:
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Prefix `multi`
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:point_right: &nbsp; Strictly for plotting, enables comparison of up to five datasets
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Prefix `time_`
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:point_right: &nbsp; Meant to represent data from `comparison_Forest` to either a graphical or tabular format
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Prefix `opt_`
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:point_right: &nbsp; Meant to represent data from `comparison_Forest` to a graphical format
+#### Prefices 
+`multi`
+* Strictly for plotting, enables comparison of up to five datasets
+
+`time_`
+* Meant to represent data from `comparison_Forest` to either a graphical or tabular format
+
+`opt_`
+* Meant to represent data from `comparison_Forest` to a graphical format
 
 ## C. Genus
 
