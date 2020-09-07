@@ -47,11 +47,11 @@ li {list-style-type: none;}
 * Compares or generates comparison data for two datasets in a `plot`, `interactive`, `DataFrame`, etc.
 * There are three prefices, which modify the family's function:
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Prefix `multi`
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:point_right: Strictly for plotting, enables comparison of up to five datasets
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:point_right: &nbsp; Strictly for plotting, enables comparison of up to five datasets
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Prefix `time_`
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:point_right: Meant to represent data from `comparison_Forest` to either a graphical or tabular format
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:point_right: &nbsp; Meant to represent data from `comparison_Forest` to either a graphical or tabular format
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Prefix `opt_`
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:point_right: Meant to represent data from `comparison_Forest` to a graphical format
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:point_right: &nbsp; Meant to represent data from `comparison_Forest` to a graphical format
 
 ## C. Genus
 
