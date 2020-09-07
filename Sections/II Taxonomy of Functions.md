@@ -65,7 +65,7 @@
 #### `4D_with`
 * Produces trivariate hyperparameter optimization data exclusively for an XGB Regressor Model
 ---
-### Family of `_for`
+### Family of `for_`
 #### `_3D_plot`
 * Converts to a plottable 3D data (returns three variables)
 #### `_3D_comp`
