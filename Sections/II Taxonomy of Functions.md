@@ -15,6 +15,7 @@
 #### [D. Species](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#d-species-1)
 #### [E. Ecosystems](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#e-ecosystems-1)
 ## A. Adaptations
+li {list-style-type: none;}
 ### i. Classifications
 * `Family Genus Species`
   * Some families have *prefixes* in addition to the root name
@@ -44,13 +45,13 @@
 * Plots an interactive `plotly` with what is returned froom `for_` family
 ### `comparison`
 * Compares or generates comparison data for two datasets in a `plot`, `interactive`, `DataFrame`, etc.
-* There are three types of prefix (which change the family's function):
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Prefix `multi`
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Strictly for plotting, enables comparison of up to five datasets
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Prefix `time_`
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Meant to represent data from `comparison_Forest` to either a graphical or tabular format
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Prefix `opt_`
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Meant to represent data from `comparison_Forest` to a graphical format
+* There are three prefices, which modify the family's function:
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Prefix `multi`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:point_right: Strictly for plotting, enables comparison of up to five datasets
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Prefix `time_`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:point_right: Meant to represent data from `comparison_Forest` to either a graphical or tabular format
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Prefix `opt_`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:point_right: Meant to represent data from `comparison_Forest` to a graphical format
 
 ## C. Genus
 
