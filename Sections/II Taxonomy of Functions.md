@@ -99,11 +99,14 @@
 
 
 ## D. Species
-| Family       | Genus   | Species              | Function Name                       | About                                                                                                 |
-|--------------|---------|----------------------|-------------------------------------|-------------------------------------------------------------------------------------------------------|
-| `experiment` | `_with` | `_DT`                | `experiment_with_DT`                | *Univariate hyperparameter optimization of Decision Tree Regressor's* `max_leaf_nodes`                |
-| `experiment` | `_with` | `_Forest`            | `experiment_with_Forest`            | *Bivariate hyperparameter optimization of Random Forest Regressor's* `n_estimators` *and* `max_depth` |
-| `experiment` | `_with` | `_pipelineCV_Forest` | `experiment_with_pipelineCV_Forest` | *Same optimization as* `experiment_with_Forest` *                                                     |                                              |                                  |
+| Family       | Genus     | Species              | Function Name                       | About                                                                                                                                          |
+|--------------|-----------|----------------------|-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| `experiment` | `_with`   | `_DT`                | `experiment_with_DT`                | *Univariate hyperparameter optimization of Decision Tree Regressor's* `max_leaf_nodes`                                                         |
+| `experiment` | `_with`   | `_Forest`            | `experiment_with_Forest`            | *Bivariate hyperparameter optimization of Random Forest Regressor's* `n_estimators` *and* `max_depth`                                          |
+| `experiment` | `_with`   | `_pipelineCV_Forest` | `experiment_with_pipelineCV_Forest` | *Same optimization as* `experiment_with_Forest` *with the ability to add a* `ColumnTransformer` *preprocessor and specify a number of K-folds* |
+| `experiment` | `_with`   | `_XGB`               | `experiment_with_XGB`               | *Bivariate hyperparameter optimization of a XGB Regressor's* `n_estimators` *and either* `max_depth` *or* `learning_rate`                      |
+| `experiment` | `4D_with` | `_XGB`               | `experiment4D_with_XGB`             | *Trivariate hyperparameter optimization of a XGB Regressor's* `n_estimators` *,* `max_depth` *, and * `learning_rate`                          |
+
 ## E. Ecosystems
 ### Keystone Species
 `train_model(model_arg, X_arg, y_arg)`
