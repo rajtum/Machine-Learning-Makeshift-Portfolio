@@ -1,5 +1,5 @@
 # II. Taxonomy of Functions
-*Please note in biological taxonomic classifications, only the genus (first letter capitalized) and species (not capitalized) is italicized to identify an organism in a system called binomical nomeclature. Here, trinomial nomenclature with adapted classifications, format typography, and abbreviations will be used to classify and explicate functions and attendant "ecosystems." This is not an exhuastive list of all functions but rather a strategic collection of functions that may be most confusing at first glance and/or with complementary functionality. *
+*Please note in biological taxonomic classifications, only the genus (first letter capitalized) and species (not capitalized) is italicized to identify an organism in a system called binomial nomeclature. Here, trinomial nomenclature with adapted classifications, format typography, and abbreviations will be used to classify and explicate functions and attendant "ecosystems." This is not an exhuastive list of all functions but rather a strategic collection of functions that may be most confusing at first glance and/or with synergistic functionality.*
 ## Table of Contents
 ### II. Taxonomy of Functions
 #### [A. Adaptations](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#a-adaptations-1)
@@ -44,12 +44,13 @@
 * Plots an interactive `plotly` with what is returned froom `for_` family
 ### `comparison`
 * Compares or generates comparison data for two datasets in a `plot`, `interactive`, `DataFrame`, etc.
-#### Prefix `multi`
-* Strictly for plotting, enables comparison of up to five datasets
-#### Prefix `time_`
-* Meant to represent data from `comparison_Forest` to either a graphical or tabular format
-#### Prefix `opt_`
-* Meant to represent data from `comparison_Forest` to a graphical format
+* There are three types of prefix (which change the family's function):
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Prefix `multi`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Strictly for plotting, enables comparison of up to five datasets
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Prefix `time_`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Meant to represent data from `comparison_Forest` to either a graphical or tabular format
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Prefix `opt_`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Meant to represent data from `comparison_Forest` to a graphical format
 
 ## C. Genus
 
@@ -92,11 +93,12 @@
 #### `_plot`
 * From prefix of `time_` and `opt_` meant to present data from `comparison_Forest` into a graphical format
 
-####
+
 ## D. Species
 |Chronology|Family|Genus|Species|Function Name| Abbreviation| About|
 |----------|-----|-----|--------|-------------|-------------| -----|
 |1|`experiment`|`_with`|`_DT`    |`experiment_with_DT`| `e.w.DT`| dasdf|
+|2|`experiment`|`_with`|`_Forest`|`experiment_with_Forest`| `e.w.Fo`| |
 ## E. Ecosystems
 ### Keystone Species
 `train_model(model_arg, X_arg, y_arg)`
