@@ -99,10 +99,11 @@
 
 
 ## D. Species
-|Chronology|Family|Genus|Species|Function Name| Abbreviation| About|
-|----------|-----|-----|--------|-------------|-------------| -----|
-|1|`experiment`|`_with`|`_DT`    |`experiment_with_DT`| `e.w.DT`| dasdf|
-|2|`experiment`|`_with`|`_Forest`|`experiment_with_Forest`| `e.w.Fo`| |
+| Family       | Genus   | Species              | Function Name                       | Abbreviation | About                                                                                                 |
+|--------------|---------|----------------------|-------------------------------------|--------------|-------------------------------------------------------------------------------------------------------|
+| `experiment` | `_with` | `_DT`                | `experiment_with_DT`                | `e.w.DT`     | *Univariate hyperparameter optimization of Decision Tree Regressor's* `max_leaf_nodes`                |
+| `experiment` | `_with` | `_Forest`            | `experiment_with_Forest`            | `e.w.Fo`     | *Bivariate hyperparameter optimization of Random Forest Regressor's* `n_estimators` *and* `max_depth` |
+| `experiment` | `_with` | `_pipelineCV_Forest` | `experiment_with_pipelineCV_Forest` | `e.w.pi`     | *Same optimization as* `experiment_with_Forest` *                                                     |                                                |                                  |
 ## E. Ecosystems
 ### Keystone Species
 `train_model(model_arg, X_arg, y_arg)`
