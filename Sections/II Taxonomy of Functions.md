@@ -35,6 +35,9 @@
     * i.e. `Family genus SPECIES` becomes `F.g.SPECIES`
   * Underscores and special characters will be ignored in this
     * i.e. only the first letter will be used in abbreviation
+  * Prefices will be formatted with first letter of prefix + hyphen + normal abbreviation
+    * i.e. Prefix `multi` in `multicomparison_plot_surface_Forest` will become `m-c.p.Fo`
+  
     
 ## B. Family
 
