@@ -71,7 +71,12 @@
 
 `opt_`
 * Meant to represent data from `comparison_Forest` to a graphical format
-
+---
+### `optimize`
+* Finds the parameters of the model that had the lowest mean absolute error with data from the family `experiment`
+---
+### `initialize`
+* Creates an object specifed in the `Species` based on desired parameters
 ## C. Genus
 
 ### Family of `experiment`
@@ -113,35 +118,25 @@
 #### `_plot`
 * From prefix of `time_` and `opt_` meant to present data from `comparison_Forest` into a graphical format
 
-### Familyless
-
-## D. Species
-| Family               | Genus          | Species              | Function Name                         | About                                                                                                                                                                                   |
-|----------------------|----------------|----------------------|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `experiment`         | `_with`        | `_DT`                | `experiment_with_DT`                  | *Univariate hyperparameter optimization of Decision Tree Regressor's* `max_leaf_nodes`                                                                                                  |
-| `experiment`         | `_with`        | `_Forest`            | `experiment_with_Forest`              | *Bivariate hyperparameter optimization of Random Forest Regressor's* `n_estimators` *and* `max_depth`                                                                                   |
-| `experiment`         | `_with`        | `_pipelineCV_Forest` | `experiment_with_pipelineCV_Forest`   | *Same optimization as* `experiment_with_Forest` *with the ability to add a* `ColumnTransformer` *preprocessor and specify a number of K-folds*                                          |
-| `experiment`         | `_with`        | `_XGB`               | `experiment_with_XGB`                 | *Bivariate hyperparameter optimization of a XGB Regressor's* `n_estimators` *and either* `max_depth` *or* `learning_rate`                                                               |
-| `experiment`         | `4D_with`      | `_XGB`               | `experiment4D_with_XGB`               | *Trivariate hyperparameter optimization of a XGB Regressor's* `n_estimators` *,* `max_depth` *, and* `learning_rate`                                                                    |
-| `for_`               | `3D_plot`      | `_Forest`            | `for_3D_plot_Forest`                  | *Converts the dictionary data from the family* `experiment` *to three two-dimensional matrices (* `max_depth` *,* `mae` *,* `n_estimators` *in that order) that can plotted*            |
-| `for_`               | `3D_comp`      | `_Forest`            | `for_3D_comp_Forest`                  | *Converts the dictionary data from the family* `experiment` *into a single dictionary with the three two-dimensional matrices returned in* `for_3D_plot_Forest` *stored as keys*        |
-| `for_`               | `4D_plot`      | `_XGB`               | `for_4D_plot_Forest`                  | *Converts exclusively the dictionary data from* `experiment4D_with_XGB` *into a single dictionary with four two-dimensional matrices that can be plotted together on a 4D surface plot* |
-| `plot`               | `_wireframe`   | `_Forest`            | `plot_wireframe_Forest`               | *Plots data from* `for_3D_plot_Forest` *into a static wireframe plot*                                                                                                                   |
-| `plot`               | `_surface`     | `_Forest`            | `plot_surface_Forest`                 | *Plots data from* `for_3D_plot_Forest` *into a static surface plot*                                                                                                                     |
-| `interactive`        | `_surface`     | `_Forest`            | `interactive_surface_Forest`          | *Plots data from* `for_3D_plot_Forest` *into an interactive surface plot*                                                                                                               |
-| `interactive`        | `_4Dsurface`   | `_XGB`               | `interactive_4Dsurface_XGB`           | *Plots data from* `for_4D_plot_Forest` *into an interactive 4D surface plot (with color being the fourth dimension)*                                                                    |
-| `comparison`         | `_Grid_Search` | `_Forest`            | `comparison_Grid_Search_Forest`       |                                                                                                                                                                                         |
-| `comparison`         |                |                      |                                       |                                                                                                                                                                                         |
-| `comparison`         |                |                      |                                       |                                                                                                                                                                                         |
-| `comparison`         |                |                      |                                       |                                                                                                                                                                                         |
-| `comparison`         |                |                      |                                       |                                                                                                                                                                                         |
-| `comparison`         |                |                      |                                       |                                                                                                                                                                                         |
-|                      |                |                      |                                       |                                                                                                                                                                                         |
-|                      |                |                      |                                       |                                                                                                                                                                                         |
-|                      |                |                      |                                       |                                                                                                                                                                                         |
-|                      |                |                      |                                       |                                                                                                                                                                                         |
-|                      |                |                      |                                       |                                                                                                                                                                                         |
-| `multi`-`comparison` | `plot_surface` | `_Forest`            | `multicomparison_plot_surface_Forest` | *Plots up to five datasets from* `for_3D_comp_Forest` *into a single static surface plot*                                                                                               |
+## D. Species                                                                                      
+### Ecosystemic
+*Designated based on the ML regressor model used, separated by section often in porfolio, and form ~ 90% of all functions enumerated*
+#### `_DT`
+* Relates to a Decision Tree Regressor
+#### `_Forest`
+* Relates to a Random Forest Regressor
+#### `_XGB`
+* Relates to a XGB Regressor
+---
+### Niche
+*Describe at most two functions found within ecosystems due specificity of action*
+#### `_plot`
+* Plots the data from the function `comparison_Forest` into a line chart
+  * Do not confuse with the Family `plot` which deals with 3D plotting
+#### `_Pipeline`
+* Relates to a Pipeline from `sklearn`
+#### `_pipelineCV_Forest`
+* Implements the ability to add a `ColumnTransformer` to a Pipeline and specify a number of K-folds to the function `experiment_with_Forest`
 
 ## E. Ecosystems
 ### Keystone Species
