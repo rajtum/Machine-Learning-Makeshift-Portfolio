@@ -52,27 +52,26 @@ Collects data for hyperparameter optimization
 <hr width="3%">
 
 ### `for_`
-* Converts data from `experiment` family to plottable data
+Converts data from `experiment` family to plottable data
 <hr width="3%">
 
 ### `plot`
-* Plots a static `pyplot` with what is returned from `for_` family
+Plots a static `pyplot` with what is returned from `for_` family
 <hr width="3%">
 
 ### `interactive`
-* Plots an interactive `plotly` with what is returned froom `for_` family
+Plots an interactive `plotly` with what is returned froom `for_` family
 <hr width="3%">
 
 ### `comparison`
-* Compares or generates comparison data for two datasets in a `plot`, `interactive`, `DataFrame`, etc.
-* There are three prefices which modify the family's function
-* **Prefices**
-  * `multi`
-     * Strictly for plotting, enables comparison of up to five datasets
-  * `time_`
-     * Meant to represent data from `comparison_Forest` to either a graphical or tabular format
-  * `opt_`
-     * Meant to represent data from `comparison_Forest` to a graphical format
+Compares or generates comparison data for two datasets in a `plot`, `interactive`, `DataFrame`, etc.
+**Prefices**
+* `multi`
+   * Strictly for plotting, enables comparison of up to five datasets
+* `time_`
+   * Meant to represent data from `comparison_Forest` to either a graphical or tabular format
+* `opt_`
+   * Meant to represent data from `comparison_Forest` to a graphical format
 <hr width="3%">
 
 ### `optimize`
