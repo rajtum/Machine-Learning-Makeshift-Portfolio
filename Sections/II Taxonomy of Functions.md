@@ -48,29 +48,27 @@
 
 ## B. Family
 ### `experiment`
-#### *Collects data for hyperparameter optimization*
-
+* Collects data for hyperparameter optimization*
+---
 ### `for_`
-#### *Converts data from `experiment` family to plottable data*
-
+* Converts data from `experiment` family to plottable data
+---
 ### `plot`
-#### *Plots a static `pyplot` with what is returned from `for_` family*
-
+* Plots a static `pyplot` with what is returned from `for_` family
+---
 ### `interactive`
 * Plots an interactive `plotly` with what is returned froom `for_` family
 ---
 ### `comparison`
 * Compares or generates comparison data for two datasets in a `plot`, `interactive`, `DataFrame`, etc.
-* There are three prefices which modify the family's function:
-#### Prefices 
-`multi`
-* Strictly for plotting, enables comparison of up to five datasets
-
-`time_`
-* Meant to represent data from `comparison_Forest` to either a graphical or tabular format
-
-`opt_`
-* Meant to represent data from `comparison_Forest` to a graphical format
+* There are three prefices which modify the family's function
+* **Prefices**
+  * `multi`
+     * Strictly for plotting, enables comparison of up to five datasets
+  * `time_`
+     * Meant to represent data from `comparison_Forest` to either a graphical or tabular format
+  * `opt_`
+     * Meant to represent data from `comparison_Forest` to a graphical format
 ---
 ### `optimize`
 * Finds the parameters of the model that had the lowest mean absolute error with data from the family `experiment`
