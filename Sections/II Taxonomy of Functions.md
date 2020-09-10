@@ -92,7 +92,7 @@ Produces uni or bivariate hyperparameter optimization data depending on species
 
 #### `4D_with`
 Produces trivariate hyperparameter optimization data exclusively for an XGB Regressor Model
-<hr width="6%">
+<hr width="12%">
 
 ### Family of `for_`
 #### `_3D_plot`
@@ -105,7 +105,7 @@ Converts to a plottable 3D data (returns a dictionary with three variables) mean
 
 #### `4D_comp`
 Converts to a plottable 4D data (returns a dictionary) and only compatible with `experiment4D_with_XGB`
-<hr width="6%">
+<hr width="12%">
 
 ### Family of `plot`
 #### `_wireframe`
@@ -114,7 +114,7 @@ Plots a wireframe plot in `pyplot`
 
 #### `_surface`
 Plots a surface plot in `pyplot`
-<hr width="6%">
+<hr width="12%">
 
 ### Family of `interactive`
 #### `_surface`
@@ -123,7 +123,7 @@ Plots an interactive 3D surface plot in `plotly`
 
 #### `_4Dsurface`
 Plots an interactive 4D (color being the 4th dimension) surface plot in `plotly`
-<hr width="6%">
+<hr width="12%">
 
 ### Family of `comparison`
 #### `_Grid_Search`
@@ -144,7 +144,7 @@ From prefix of `time_` meant to present data from `comparison_Forest` into a tab
 
 #### `_plot`
 From prefix of `time_` and `opt_` meant to present data from `comparison_Forest` into a graphical format
-<hr width="6%">
+
 
 ## D. Species                                                                                      
 ### Ecosystemic
@@ -158,7 +158,7 @@ From prefix of `time_` and `opt_` meant to present data from `comparison_Forest`
 <hr width="3%">
 
 ### Niche
-*Describe at most two functions found within ecosystems due specificity of action*
+*Describe at most two functions found within ecosystems due to specificity of action*
 #### `_plot`
 * Plots the data from the function `comparison_Forest` into a line chart
   * Do not confuse with the Family `plot` which deals with 3D plotting
