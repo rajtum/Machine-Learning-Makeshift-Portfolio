@@ -48,7 +48,7 @@
 
 ## B. Family
 ### `experiment`
-* Collects data for hyperparameter optimization*
+* Collects data for hyperparameter optimization
 ---
 ### `for_`
 * Converts data from `experiment` family to plottable data
