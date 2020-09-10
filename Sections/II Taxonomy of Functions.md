@@ -88,50 +88,63 @@ Creates an object specifed in the `Species` based on desired parameters
 
 #### `_with`
 Produces uni or bivariate hyperparameter optimization data depending on species
-<hr width="6%">
+<hr width="3%">
 
 #### `4D_with`
 Produces trivariate hyperparameter optimization data exclusively for an XGB Regressor Model
-<hr width="3%">
+<hr width="6%">
 
 ### Family of `for_`
 #### `_3D_plot`
 Converts to a plottable 3D data (returns three variables)
-<hr width="6%">
+<hr width="3%">
 
 #### `_3D_comp`
 Converts to a plottable 3D data (returns a dictionary with three variables) meant to simplify the argument syntax for functions that plot multiple surface plots
-<hr width="6%">
+<hr width="3%">
 
 #### `4D_comp`
 Converts to a plottable 4D data (returns a dictionary) and only compatible with `experiment4D_with_XGB`
-<hr width="3%">
+<hr width="6%">
 
 ### Family of `plot`
 #### `_wireframe`
-* Plots a wireframe plot in `pyplot`
-#### `_surface`
-* Plots a surface plot in `pyplot`
+Plots a wireframe plot in `pyplot`
 <hr width="3%">
+
+#### `_surface`
+Plots a surface plot in `pyplot`
+<hr width="6%">
 
 ### Family of `interactive`
 #### `_surface`
-* Plots an interactive 3D surface plot in `plotly`
-#### `_4Dsurface`
-* Plots an interactive 4D (color being the 4th dimension) surface plot in `plotly`
+Plots an interactive 3D surface plot in `plotly`
 <hr width="3%">
+
+#### `_4Dsurface`
+Plots an interactive 4D (color being the 4th dimension) surface plot in `plotly`
+<hr width="6%">
 
 ### Family of `comparison`
 #### `_Grid_Search`
-* Performs hyperparamter optimization with `sklearn.model_selection.GridSearchCV` meant for comparison
+Performs hyperparamter optimization with `sklearn.model_selection.GridSearchCV` meant for comparison
+<hr width="3%">
+
 #### `_plot_surface`
-* Plots two sets of 3D data in the same `pyplot`
+Plots two sets of 3D data in the same `pyplot`
+<hr width="3%">
+
 #### `_interactive_surface`
-* Plots two sets of 3D data in the same `plotly`
+Plots two sets of 3D data in the same `plotly`
+<hr width="3%">
+
 #### `_to_table`
-* From prefix of `time_` meant to present data from `comparison_Forest` into a tabular format
+From prefix of `time_` meant to present data from `comparison_Forest` into a tabular format
+<hr width="3%">
+
 #### `_plot`
-* From prefix of `time_` and `opt_` meant to present data from `comparison_Forest` into a graphical format
+From prefix of `time_` and `opt_` meant to present data from `comparison_Forest` into a graphical format
+<hr width="6%">
 
 ## D. Species                                                                                      
 ### Ecosystemic
