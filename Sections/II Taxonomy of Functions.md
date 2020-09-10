@@ -1,7 +1,7 @@
 # II. Taxonomy of Functions
 ## Précis
 *The method of documentation presented in this section is more a creative flourish than an essential read. Conventional documentation can be found on any method below with the* `help` *command or in the function's code as docstring and commented code. The premise of this section is to seek to classify and explicate the functions within this portfolio by the looking at the functions through the prism of taxonomy.*
-
+## Author's Note
 *Please note in biological taxonomic classifications, only the genus (first letter capitalized) and species (not capitalized) is italicized to identify an organism in a system called binomial nomeclature. Here, trinomial nomenclature with adapted classifications, format typography, and abbreviations will be used to classify and explicate functions and attendant "ecosystems." Function "ecosystems" represented a group of functions that worked in a synergistic fashion and each section of code within this portfolio was designated its own "ecosystem." While a whimsical liberty was taken in the naming of "ecosystems," some more apropos than others, these names should not be impediment to comprehension and do not serve any special purpose beyond continuing the environmental-taxonomical biologist lens of expounding. This is not an exhuastive list of all functions but rather a strategic collection of functions that may be most confusing at first glance and/or with synergistic functionality.*
 ## Table of Contents
 ### II. Taxonomy of Functions
@@ -35,20 +35,21 @@
     * i.e. `Family genus SPECIES` becomes `F.g.SPECIES`
   * Underscores and special characters will be ignored in this
     * i.e. only the first letter will be used in abbreviation
-  * Prefices will be formatted with first letter of prefix + hyphen + normal abbreviation
-    * i.e. Prefix `multi` in `multicomparison_plot_surface_Forest` will become `m-c.p.Fo`
-  
     
 ## B. Family
 
 ### `experiment`
 * Collects data for hyperparameter optimization
+---
 ### `for_`
 * Converts data from `experiment` family to plottable data
+---
 ### `plot`
 * Plots a static `pyplot` with what is returned from `for_` family
+---
 ### `interactive`
 * Plots an interactive `plotly` with what is returned froom `for_` family
+---
 ### `comparison`
 * Compares or generates comparison data for two datasets in a `plot`, `interactive`, `DataFrame`, etc.
 * There are three prefices which modify the family's function:
