@@ -63,14 +63,14 @@
 ## `comparison`
 #### Compares or generates comparison data for two datasets in a `plot`, `interactive`, `DataFrame`, etc.
 #### There are three prefices which modify the family's function:
-##### Prefices 
-`multi`
+### Prefices 
+#### `multi`
 * Strictly for plotting, enables comparison of up to five datasets
 
-`time_`
+#### `time_`
 * Meant to represent data from `comparison_Forest` to either a graphical or tabular format
 
-`opt_`
+#### `opt_`
 * Meant to represent data from `comparison_Forest` to a graphical format
 
 ## `optimize`
