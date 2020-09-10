@@ -48,17 +48,21 @@
 
 ## B. Family
 ### `experiment`
-* Collects data for hyperparameter optimization
----
+Collects data for hyperparameter optimization
+<hr width="3%">
+
 ### `for_`
 * Converts data from `experiment` family to plottable data
----
+<hr width="3%">
+
 ### `plot`
 * Plots a static `pyplot` with what is returned from `for_` family
----
+<hr width="3%">
+
 ### `interactive`
 * Plots an interactive `plotly` with what is returned froom `for_` family
----
+<hr width="3%">
+
 ### `comparison`
 * Compares or generates comparison data for two datasets in a `plot`, `interactive`, `DataFrame`, etc.
 * There are three prefices which modify the family's function
@@ -69,10 +73,12 @@
      * Meant to represent data from `comparison_Forest` to either a graphical or tabular format
   * `opt_`
      * Meant to represent data from `comparison_Forest` to a graphical format
----
+<hr width="3%">
+
 ### `optimize`
 * Finds the parameters of the model that had the lowest mean absolute error with data from the family `experiment`
----
+<hr width="3%">
+
 ### `initialize`
 * Creates an object specifed in the `Species` based on desired parameters
 
@@ -84,7 +90,8 @@
 * Produces uni or bivariate hyperparameter optimization data depending on species
 #### `4D_with`
 * Produces trivariate hyperparameter optimization data exclusively for an XGB Regressor Model
----
+<hr width="3%">
+
 ### Family of `for_`
 #### `_3D_plot`
 * Converts to a plottable 3D data (returns three variables)
@@ -92,19 +99,22 @@
 * Converts to a plottable 3D data (returns a dictionary with three variables) meant to simplify the argument syntax for functions that plot multiple surface plots
 #### `4D_comp`
 * Converts to a plottable 4D data (returns a dictionary) and only compatible with `experiment4D_with_XGB`
----
+<hr width="3%">
+
 ### Family of `plot`
 #### `_wireframe`
 * Plots a wireframe plot in `pyplot`
 #### `_surface`
 * Plots a surface plot in `pyplot`
----
+<hr width="3%">
+
 ### Family of `interactive`
 #### `_surface`
 * Plots an interactive 3D surface plot in `plotly`
 #### `_4Dsurface`
 * Plots an interactive 4D (color being the 4th dimension) surface plot in `plotly`
----
+<hr width="3%">
+
 ### Family of `comparison`
 #### `_Grid_Search`
 * Performs hyperparamter optimization with `sklearn.model_selection.GridSearchCV` meant for comparison
@@ -126,7 +136,8 @@
 * Relates to a Random Forest Regressor
 #### `_XGB`
 * Relates to a XGB Regressor
----
+<hr width="3%">
+
 ### Niche
 *Describe at most two functions found within ecosystems due specificity of action*
 #### `_plot`
