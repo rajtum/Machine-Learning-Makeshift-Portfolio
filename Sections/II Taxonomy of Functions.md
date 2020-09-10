@@ -65,6 +65,7 @@ Plots an interactive `plotly` with what is returned froom `for_` family
 
 ### `comparison`
 Compares or generates comparison data for two datasets in a `plot`, `interactive`, `DataFrame`, etc.
+
 **Prefices**
 * `multi`
    * Strictly for plotting, enables comparison of up to five datasets
@@ -75,29 +76,35 @@ Compares or generates comparison data for two datasets in a `plot`, `interactive
 <hr width="3%">
 
 ### `optimize`
-* Finds the parameters of the model that had the lowest mean absolute error with data from the family `experiment`
+Finds the parameters of the model that had the lowest mean absolute error with data from the family `experiment`
 <hr width="3%">
 
 ### `initialize`
-* Creates an object specifed in the `Species` based on desired parameters
+Creates an object specifed in the `Species` based on desired parameters
 
 ## C. Genus
 
 ### Family of `experiment`
 
 #### `_with`
-* Produces uni or bivariate hyperparameter optimization data depending on species
+Produces uni or bivariate hyperparameter optimization data depending on species
+<hr width="6%">
+
 #### `4D_with`
-* Produces trivariate hyperparameter optimization data exclusively for an XGB Regressor Model
+Produces trivariate hyperparameter optimization data exclusively for an XGB Regressor Model
 <hr width="3%">
 
 ### Family of `for_`
 #### `_3D_plot`
-* Converts to a plottable 3D data (returns three variables)
+Converts to a plottable 3D data (returns three variables)
+<hr width="6%">
+
 #### `_3D_comp`
-* Converts to a plottable 3D data (returns a dictionary with three variables) meant to simplify the argument syntax for functions that plot multiple surface plots
+Converts to a plottable 3D data (returns a dictionary with three variables) meant to simplify the argument syntax for functions that plot multiple surface plots
+<hr width="6%">
+
 #### `4D_comp`
-* Converts to a plottable 4D data (returns a dictionary) and only compatible with `experiment4D_with_XGB`
+Converts to a plottable 4D data (returns a dictionary) and only compatible with `experiment4D_with_XGB`
 <hr width="3%">
 
 ### Family of `plot`
