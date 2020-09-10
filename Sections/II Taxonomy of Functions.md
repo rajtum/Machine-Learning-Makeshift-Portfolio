@@ -47,12 +47,12 @@
     
 ## B. Family
 
-### `experiment`
+## `experiment`
 * Collects data for hyperparameter optimization
----
-### `for_`
+
+## `for_`
 * Converts data from `experiment` family to plottable data
----
+
 ### `plot`
 * Plots a static `pyplot` with what is returned from `for_` family
 ---
