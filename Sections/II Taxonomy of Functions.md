@@ -17,7 +17,7 @@
 #### [C. Genus](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#c-genus-1)
 #### [D. Species](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#d-species-1)
 #### [E. Ecosystems](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#e-ecosystems-1)
----
+
 ## A. Adaptations
 
 ### i. Classifications
@@ -45,40 +45,39 @@
   * **Conflict Clause**: In the event that the same abbreviation will be used for two or more distinct functions, then the `Genus` will be appended to these function one letter at a time until no two functions have the same abbreviation.
     * i.e. `for_3D_plot_Forest` and `for_3D_comp_Forest` respectively become `f.3Dp.Fo` and `f.3Dc.Fo`
   * **Hypothetical but Extended Conflict Clause**: Athough no instance occurs where the aforementioned conflict clause enumerating the `Genus` letter by letter does not fail to distinguish multiple function's abbreviations, if such example were to occur theoretically, then the `Family`, `Species`, and `Prefix` in that order would be enumerated in the same fashion until the same aim of unique abbreviations for each function is accomplished. This rule would most likely be called upon in circumstances where there is the function has no `Genus` and would ergo seldom apply.
----
+
 ## B. Family
-
-## `experiment`
-#### Collects data for hyperparameter optimization
-
-## `for_`
-#### Converts data from `experiment` family to plottable data
-
-## `plot`
-#### Plots a static `pyplot` with what is returned from `for_` family
-
-## `interactive`
-#### Plots an interactive `plotly` with what is returned froom `for_` family
-
-## `comparison`
-#### Compares or generates comparison data for two datasets in a `plot`, `interactive`, `DataFrame`, etc.
-#### There are three prefices which modify the family's function:
-### Prefices 
-#### `multi`
+### `experiment`
+* Collects data for hyperparameter optimization
+---
+### `for_`
+* Converts data from `experiment` family to plottable data
+---
+### `plot`
+* Plots a static `pyplot` with what is returned from `for_` family
+---
+### `interactive`
+* Plots an interactive `plotly` with what is returned froom `for_` family
+---
+### `comparison`
+* Compares or generates comparison data for two datasets in a `plot`, `interactive`, `DataFrame`, etc.
+* There are three prefices which modify the family's function:
+#### Prefices 
+`multi`
 * Strictly for plotting, enables comparison of up to five datasets
 
-#### `time_`
+`time_`
 * Meant to represent data from `comparison_Forest` to either a graphical or tabular format
 
-#### `opt_`
+`opt_`
 * Meant to represent data from `comparison_Forest` to a graphical format
-
-## `optimize`
-#### Finds the parameters of the model that had the lowest mean absolute error with data from the family `experiment`
-
-## `initialize`
-#### Creates an object specifed in the `Species` based on desired parameters
 ---
+### `optimize`
+* Finds the parameters of the model that had the lowest mean absolute error with data from the family `experiment`
+---
+### `initialize`
+* Creates an object specifed in the `Species` based on desired parameters
+
 ## C. Genus
 
 ### Family of `experiment`
@@ -119,7 +118,7 @@
 * From prefix of `time_` meant to present data from `comparison_Forest` into a tabular format
 #### `_plot`
 * From prefix of `time_` and `opt_` meant to present data from `comparison_Forest` into a graphical format
----
+
 ## D. Species                                                                                      
 ### Ecosystemic
 *Designated based on the ML regressor model used, separated by section often in porfolio, and form ~ 90% of all functions enumerated*
