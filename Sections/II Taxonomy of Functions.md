@@ -1,4 +1,7 @@
 # II. Taxonomy of Functions
+
+
+[link](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#table-4-interactive-master-list)
 ## Précis
 *The method of documentation presented in this section is more a creative flourish than an essential read. Conventional documentation can be found on any method below with the* `help` *command or in the function's code as docstring and commented code. The premise of this section is to seek to classify and explicate the functions within this portfolio by the looking at the functions through the prism of taxonomy.*
 ## Author's Note
@@ -278,7 +281,24 @@ From prefix of `time_` and `opt_` meant to present data from `comparison_Forest`
 
 ### Table 4. Interactive Master List
 #### Follow these steps to create an interactive/sortable master list with all the aforementioned data:
-### 1)
+### 1) Hold down `⌘ Cmd` or `Ctrl` click [here](https://docs.google.com/spreadsheets/d/1ICA9vhXx4GZdsE9kFefcVO63GUSXlaC4pbMkB94_r4g/edit?usp=sharing)
+
+<details><summary> Here is the URL if the hyperlink fails:</summary>
+<em> https://docs.google.com/spreadsheets/d/1ICA9vhXx4GZdsE9kFefcVO63GUSXlaC4pbMkB94_r4g/edit?usp=sharing </em>
+</details>
+<hr width="12%">
+
+
+### 2) Press `⌘ Cmd + A` or `Ctrl + A` and select the filter icon in top left
+<hr width="3%">
+<img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Step%202%20Interactive%20Table.gif"   width="800" />
+<hr width="12%">
+
+### 3) Click `Create new temporary filter view` and voilà!
+<hr width="3%">
+<img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Step%203%20Interactive%20Table.gif"   width="800" />
+<hr width="12%">
+
 ## E. Ecosystems
 ### Keystone Species
 `train_model(model_arg, X_arg, y_arg)`
