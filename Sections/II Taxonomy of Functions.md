@@ -40,6 +40,7 @@
     * i.e. multicomparison_plot_surface_Forest with prefix `multi` abbreviates to `m-c.p.Fo`
   * If there is no `Genus`, abbreviation, standard abbreviation rules still apply
     * i.e. `Family Species` becomes `F.Sp` like the function `initialize_DT` which abbreviates to `i.DT`
+    * Though irksomely illogical in context of biology taxonomical paradigm which inspired its conception, the rule enables classification of more functions at the sake of introducting a systemics depravity.
   * **Conflict Clause**: In the event that the same abbreviation will be used for two or more distinct functions, then the `Genus` will be appended to these function one letter at a time until no two functions have the same abbreviation.
     * i.e. `for_3D_plot_Forest` and `for_3D_comp_Forest` respectively become `f.3Dp.Fo` and `f.3Dc.Fo`
   * **Hypothetical but Extended Conflict Clause**: Athough no instance occurs where the aforementioned conflict clause enumerating the `Genus` letter by letter does not fail to distinguish multiple function's abbreviations, if such example were to occur theoretically, then the `Family`, `Species`, and `Prefix` in that order would be enumerated in the same fashion until the same aim of unique abbreviations for each function is accomplished. This rule would most likely be called upon in circumstances where there is the function has no `Genus` and would ergo seldom apply.
