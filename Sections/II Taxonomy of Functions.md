@@ -281,7 +281,8 @@ From prefix of `time_` and `opt_` meant to present data from `comparison_Forest`
 
 ### Table 4. Interactive Master List
 #### Follow these steps to create an interactive/sortable master list with all the aforementioned data:
-### 1) Hold down `⌘ Cmd` or `Ctrl` click [here](https://docs.google.com/spreadsheets/d/1ICA9vhXx4GZdsE9kFefcVO63GUSXlaC4pbMkB94_r4g/edit?usp=sharing)
+
+### 1) Click <a href="https://docs.google.com/spreadsheets/d/1ICA9vhXx4GZdsE9kFefcVO63GUSXlaC4pbMkB94_r4g/edit?usp=sharing" target="_blank">here</a>
 
 <details><summary> Here is the URL if the hyperlink fails:</summary>
 <em> https://docs.google.com/spreadsheets/d/1ICA9vhXx4GZdsE9kFefcVO63GUSXlaC4pbMkB94_r4g/edit?usp=sharing </em>
