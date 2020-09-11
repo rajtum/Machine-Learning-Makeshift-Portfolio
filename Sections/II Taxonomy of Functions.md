@@ -1,7 +1,4 @@
 # II. Taxonomy of Functions
-
-
-[link](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#table-4-interactive-master-list)
 ## Précis
 *The method of documentation presented in this section is more a creative flourish than an essential read. Conventional documentation can be found on any method below with the* `help` *command or in the function's code as docstring and commented code. The premise of this section is to seek to classify and explicate the functions within this portfolio by the looking at the functions through the prism of taxonomy.*
 ## Author's Note
@@ -21,19 +18,37 @@
 
 #### [D. Species](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#d-species-1)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Ecosystemic](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#ecosystemic)
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Niche](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#niche)
 
 #### [E. Tabular Presentation](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#e-tabular-presentation)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Table 1. Function Assembly](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#table-1-function-assembly)
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Table 2. Function Abbreviation](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#table-2-function-abbreviation)
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Table 3. Function Purpose](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#table-3-function-purpose)
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Table 4. Interactive Master List](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#table-4-interactive-master-list)
 
+
 #### [F. Ecosystems](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#e-ecosystems-1)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [i. Keystone Species](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#i-keystone-species)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [ii. Decision Tree (Section III)](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#ii-decision-tree-section-iii)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [iii. Random Forest (Section IV)](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#iii-random-forest-section-iv)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [iv. Random Rainforest - Imputation & Encoding for Forest (Section V)](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#iv-random-rainforest---imputation--encoding-for-forest-section-v)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [a. Soil Percolation - Imputation (Section V.A)](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#a-soil-percolation---imputation-section-va)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [b. Canopy Percolation - Encoding (Section V.B)](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#b-canopy-percolation---encoding-section-vb)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [c. Rain & Weather - Pipeline & K-Fold CV (Section V.C)](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#c-rain--weather---pipeline--k-fold-cv-section-vc)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [v. Mountain - XGB Regressor (Section VI)](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#v-mountain---xgb-regressor-section-vi)
+
+
 ## A. Adaptations
 
 ### i. Classifications
@@ -322,6 +337,8 @@ From prefix of `time_` and `opt_` meant to present data from `comparison_Forest`
 2. `test_model(model_arg, X_arg, y_arg, X_test_arg)`
 
 3. `mae(model_arg, X_arg, y_arg)`
+<hr width="12%">
+
 ### ii. Decision Tree (Section III)
 1. `train_model(model_arg, X_arg, y_arg)`
 
@@ -334,6 +351,8 @@ From prefix of `time_` and `opt_` meant to present data from `comparison_Forest`
 5. `experiment_with_DT(max_leaf_nodes_range_arg, X_arg, y_arg, is_data_table = False)`
 
 6. `optimize_DT(max_leaf_nodes_range_arg, X_arg, y_arg)`
+<hr width="12%">
+
 ### iii. Random Forest (Section IV)
 1. `train_model(model_arg, X_arg, y_arg)`
 
@@ -366,6 +385,8 @@ From prefix of `time_` and `opt_` meant to present data from `comparison_Forest`
 15. `time_comparison_plot(graph_title, x_axis_arg, time_comp_table_arg, custom_x_axis_title='')`
 
 16. `opt_comparison_plot(graph_title, x_axis_arg, opt_comp_table_arg, custom_x_axis_title='')`
+<hr width="12%">
+
 ### iv. Random Rainforest - Imputation & Encoding for Forest (Section V)
 
 #### a. Soil Percolation - Imputation (Section V.A)
@@ -378,6 +399,8 @@ From prefix of `time_` and `opt_` meant to present data from `comparison_Forest`
                                           A_label = '', B_label = '', a_label_sep = 0, b_label_sep = 0)`
                                           
 `for_3D_comp_Forest(max_depth_arg, mae_arg, n_estimators_arg)`
+<hr width="3%">
+
 #### b. Canopy Percolation - Encoding (Section V.B)
 1. `encode(X_train_arg, X_test_arg, cardinality_thresh = 10)`
 
@@ -387,14 +410,15 @@ From prefix of `time_` and `opt_` meant to present data from `comparison_Forest`
                                         a_label_sep = 0, b_label_sep = 0, c_label_sep = 0,
                                         D_data = {}, d_alpha = .8, D_label = '', d_label_sep = 0,
                                         E_data = {}, e_alpha = .8, E_label = '', e_label_sep = 0)`
-                                        
+                                     
 3. `multicomparison_interactive_surface_Forest(title, A_data, B_data, C_data, 
                                                a_alpha = .8, b_alpha = .8, c_alpha = .8,
                                                A_label = '', B_label = '', C_label = '',
                                                a_label_sep = 0, b_label_sep = 0, c_label_sep = 0,
                                                D_data = {}, d_alpha = .8, D_label = '', d_label_sep = 0,
                                                E_data = {}, e_alpha = .8, E_label = '', e_label_sep = 0)`
-                                               
+<hr width="3%">
+
 #### c. Rain & Weather - Pipeline & K-Fold CV (Section V.C)
 1. `mae(model_arg, X_arg, y_arg)`
 
@@ -405,6 +429,8 @@ From prefix of `time_` and `opt_` meant to present data from `comparison_Forest`
 4. `experiment_with_pipelineCV_Forest(n_estimators_range_arg, max_depth_num_or_list_arg, X_arg, y_arg, preprocessor_arg, NE_increment = 1, cv = 5, percent_complete = False)`
 
 5. `average_SD_pipelineCV_Forest(mae_results_sd)`
+<hr width="12%">
+
 ### v. Mountain - XGB Regressor (Section VI)
 1. `experiment4D_with_XGB(n_estimators_range_arg, max_depth_num_or_list_arg, learning_rate_range_arg, X_arg, y_arg, preprocessor_arg, NE_increment = 1, cv = 5, percent_complete = False, learning_rate_divisor = 100)`
 
