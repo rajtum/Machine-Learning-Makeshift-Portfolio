@@ -5,7 +5,7 @@
 ## Précis
 *The method of documentation presented in this section is more a creative flourish than an essential read. Conventional documentation can be found on any method below with the* `help` *command or in the function's code as docstring and commented code. The premise of this section is to seek to classify and explicate the functions within this portfolio by the looking at the functions through the prism of taxonomy.*
 ## Author's Note
-*Please note in biological taxonomic classifications, only the genus (first letter capitalized) and species (not capitalized) is italicized to identify an organism in a system called binomial nomeclature. Here, trinomial nomenclature with adapted classifications, format typography, and abbreviations will be used to classify and explicate functions and attendant "ecosystems." Function "ecosystems" represented a group of functions that worked in a synergistic fashion and each section of code within this portfolio was designated its own "ecosystem." While a whimsical liberty was taken in the naming of "ecosystems," some more apropos than others, these names should not be impediment to comprehension and do not serve any special purpose beyond continuing the environmental-taxonomical biologist lens of expounding. This is not an exhuastive list of all functions but rather a strategic collection of functions that may be most confusing at first glance and/or with synergistic functionality.*
+*Please note in biological taxonomic classifications, only the genus (first letter capitalized) and species (not capitalized) is italicized to identify an organism in a system called binomial nomenclature. Here, trinomial nomenclature with adapted classifications, format typography, and abbreviations will be used to classify and explicate functions and attendant "ecosystems." Function "ecosystems" represented a group of functions that worked in a synergistic fashion and each section of code within this portfolio was designated its own "ecosystem." While a whimsical liberty was taken in the naming of "ecosystems," some more apropos than others, these names should not be impediment to comprehension and do not serve any special purpose beyond continuing the environmental-taxonomical biologist lens of expounding. This is not an exhaustive list of all functions but rather a strategic collection of functions that may be most confusing at first glance and/or with synergistic functionality.*
 ## Table of Contents
 ### II. Taxonomy of Functions
 #### [A. Adaptations](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#a-adaptations-1)
@@ -18,14 +18,27 @@
 
 #### [B. Family](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#b-family-1)
 #### [C. Genus](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#c-genus-1)
-#### [D. Species](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#d-species-1)
-#### [E. Ecosystems](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#e-ecosystems-1)
 
+#### [D. Species](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#d-species-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Ecosystemic](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#ecosystemic)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Niche](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#niche)
+
+#### [E. Tabular Presentation](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#e-tabular-presentation)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Table 1. Function Assembly](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#table-1-function-assembly)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Table 2. Function Abbreviation](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#table-2-function-abbreviation)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Table 3. Function Purpose](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#table-3-function-purpose)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Table 4. Interactive Master List](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#table-4-interactive-master-list)
+
+#### [F. Ecosystems](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#e-ecosystems-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ## A. Adaptations
 
 ### i. Classifications
 * `Family Genus Species`
-  * Some families have *prefices* in addition to the root name
+  * Some families have *prefixes* in addition to the root name
     * For instance, within the family `comparison`, there are the three prefixes `time_`, `opt_`, and `multi`, which can be concatenated
 * Trinomial Nomenclature
 ### ii. Format Typography
@@ -44,10 +57,10 @@
     * i.e. multicomparison_plot_surface_Forest with prefix `multi` abbreviates to `m-c.p.Fo`
   * If there is no `Genus`, abbreviation, standard abbreviation rules still apply
     * i.e. `Family Species` becomes `F.Sp` like the function `initialize_DT` which abbreviates to `i.DT`
-    * Though irksomely illogical in context of biology taxonomical paradigm which inspired its conception, the rule enables classification of more functions at the sake of introducting a systemics depravity.
-  * **Conflict Clause**: In the event that the same abbreviation will be used for two or more distinct functions, then the `Genus` will be appended to these function one letter at a time until no two functions have the same abbreviation.
+    * Though irksomely illogical in context of biology taxonomical paradigm which inspired its conception, the rule enables classification of more functions at the sake of introducing a systemics depravity.
+  * **Conflict Clause**: In the event that the same abbreviation will be used for two or more distinct functions, then the `Genus` will be appended to these abbreviations one letter at a time until no two functions have the same abbreviation.
     * i.e. `for_3D_plot_Forest` and `for_3D_comp_Forest` respectively become `f.3Dp.Fo` and `f.3Dc.Fo`
-  * **Hypothetical but Extended Conflict Clause**: Athough no instance occurs where the aforementioned conflict clause enumerating the `Genus` letter by letter does not fail to distinguish multiple function's abbreviations, if such example were to occur theoretically, then the `Family`, `Species`, and `Prefix` in that order would be enumerated in the same fashion until the same aim of unique abbreviations for each function is accomplished. This rule would most likely be called upon in circumstances where there is the function has no `Genus` and would ergo seldom apply.
+  * **Hypothetical but Extended Conflict Clause**: Although no instance occurs where the aforementioned conflict clause enumerating the `Genus` letter by letter does not fail to distinguish multiple function's abbreviations, if such example were to occur theoretically, then the `Family`, `Species`, and `Prefix` in that order would be enumerated in the same fashion until the same aim of unique abbreviations for each function is accomplished. This rule would most likely be called upon in circumstances where there is the function has no `Genus` and would ergo seldom apply.
 
 ## B. Family
 ### `experiment`
@@ -69,7 +82,7 @@ Plots an interactive `plotly` with what is returned froom `for_` family
 ### `comparison`
 Compares or generates comparison data for two datasets in a `plot`, `interactive`, `DataFrame`, etc.
 
-**Prefices**
+**Prefixes**
 * `multi`
    * Strictly for plotting, enables comparison of up to five datasets
 * `time_`
@@ -151,7 +164,7 @@ From prefix of `time_` and `opt_` meant to present data from `comparison_Forest`
 
 ## D. Species                                                                                      
 ### Ecosystemic
-*Designated based on the ML regressor model used, separated by section often in porfolio, and form ~ 90% of all functions enumerated*
+*Designated based on the ML regressor model used, separated by section often in portfolio, and form ~ 90% of all functions enumerated*
 #### `_DT`
 * Relates to a Decision Tree Regressor
 #### `_Forest`
@@ -170,7 +183,7 @@ From prefix of `time_` and `opt_` meant to present data from `comparison_Forest`
 #### `_pipelineCV_Forest`
 * Implements the ability to add a `ColumnTransformer` to a Pipeline and specify a number of K-folds to the function `experiment_with_Forest`
 
-## E. Tabular Presentataion
+## E. Tabular Presentation 
 ### Table 1. Function Assembly
 | Family                    | Genus                  | Species              | Function Name                                |
 |---------------------------|------------------------|----------------------|----------------------------------------------|
@@ -280,9 +293,9 @@ From prefix of `time_` and `opt_` meant to present data from `comparison_Forest`
 <hr width="12%">
 
 ### Table 4. Interactive Master List
-#### Follow these steps to create an interactive/sortable master list with all the aforementioned data:
+#### *Follow these steps to create an interactive/sortable master list with all the aforementioned data:*
 
-### 1) Click <a href="https://docs.google.com/spreadsheets/d/1ICA9vhXx4GZdsE9kFefcVO63GUSXlaC4pbMkB94_r4g/edit?usp=sharing" target="_blank">here</a>
+### 1) Hold down `⌘ Cmd` or `Ctrl` and click [here](https://docs.google.com/spreadsheets/d/1ICA9vhXx4GZdsE9kFefcVO63GUSXlaC4pbMkB94_r4g/edit?usp=sharing)
 
 <details><summary> Here is the URL if the hyperlink fails:</summary>
 <em> https://docs.google.com/spreadsheets/d/1ICA9vhXx4GZdsE9kFefcVO63GUSXlaC4pbMkB94_r4g/edit?usp=sharing </em>
@@ -301,15 +314,15 @@ From prefix of `time_` and `opt_` meant to present data from `comparison_Forest`
 <hr width="12%">
 
 ## F. Ecosystems
-*All the functions within each "ecosystem" is enumerated. There is no reasoning behind the naming of ecosystems beyond continuing the biologically-based paradigm. Also note the the comparison comes up short as biological ecosystems are made up of biotic and abiotic features, whereas all the functions were implicitly biotic features because only those features have classifcations in systematics.*
+*All the functions within each "ecosystem," a word used to describe a collection of synegistic functions, is enumerated and information about any function can be found in the docstring but will not presented here. There is no reasoning behind the naming of ecosystems beyond continuing the biologically based paradigm. Also note the comparison comes up short as biological ecosystems are made up of biotic and abiotic features, whereas all the functions were implicitly biotic features because only those features have classifications in systematics.*
 
-### Keystone Species
+### i. Keystone Species
 1. `train_model(model_arg, X_arg, y_arg)`
 
 2. `test_model(model_arg, X_arg, y_arg, X_test_arg)`
 
 3. `mae(model_arg, X_arg, y_arg)`
-### Decision Tree (Section III)
+### ii. Decision Tree (Section III)
 1. `train_model(model_arg, X_arg, y_arg)`
 
 2. `test_model(model_arg, X_arg, y_arg, X_test_arg)`
@@ -321,7 +334,7 @@ From prefix of `time_` and `opt_` meant to present data from `comparison_Forest`
 5. `experiment_with_DT(max_leaf_nodes_range_arg, X_arg, y_arg, is_data_table = False)`
 
 6. `optimize_DT(max_leaf_nodes_range_arg, X_arg, y_arg)`
-### Random Forest (Section IV)
+### iii. Random Forest (Section IV)
 1. `train_model(model_arg, X_arg, y_arg)`
 
 2. `test_model(model_arg, X_arg, y_arg, X_test_arg)`
@@ -353,9 +366,9 @@ From prefix of `time_` and `opt_` meant to present data from `comparison_Forest`
 15. `time_comparison_plot(graph_title, x_axis_arg, time_comp_table_arg, custom_x_axis_title='')`
 
 16. `opt_comparison_plot(graph_title, x_axis_arg, opt_comp_table_arg, custom_x_axis_title='')`
-### Random Rainforest - Imputation & Encoding for Forest (Section V)
+### iv. Random Rainforest - Imputation & Encoding for Forest (Section V)
 
-#### Soil Percolation - Imputation (Section V.A)
+#### a. Soil Percolation - Imputation (Section V.A)
 1. `impute(X_arg, drop_thresh = 2/3)`
 
 2. `comparison_plot_surface_Forest(title, A_data, B_data, a_alpha = .8, b_alpha = .8,
@@ -365,7 +378,7 @@ From prefix of `time_` and `opt_` meant to present data from `comparison_Forest`
                                           A_label = '', B_label = '', a_label_sep = 0, b_label_sep = 0)`
                                           
 `for_3D_comp_Forest(max_depth_arg, mae_arg, n_estimators_arg)`
-#### Canopy Percolation - Encoding (Section V.B)
+#### b. Canopy Percolation - Encoding (Section V.B)
 1. `encode(X_train_arg, X_test_arg, cardinality_thresh = 10)`
 
 2. `multicomparison_plot_surface_Forest(title, A_data, B_data, C_data, 
@@ -382,7 +395,7 @@ From prefix of `time_` and `opt_` meant to present data from `comparison_Forest`
                                                D_data = {}, d_alpha = .8, D_label = '', d_label_sep = 0,
                                                E_data = {}, e_alpha = .8, E_label = '', e_label_sep = 0)`
                                                
-#### Rain & Weather - Pipeline & K-Fold CV (Section V.C)
+#### c. Rain & Weather - Pipeline & K-Fold CV (Section V.C)
 1. `mae(model_arg, X_arg, y_arg)`
 
 2. `mae_cross_val(model_arg, X_arg, y_arg, cv_arg = 5)`
@@ -392,7 +405,7 @@ From prefix of `time_` and `opt_` meant to present data from `comparison_Forest`
 4. `experiment_with_pipelineCV_Forest(n_estimators_range_arg, max_depth_num_or_list_arg, X_arg, y_arg, preprocessor_arg, NE_increment = 1, cv = 5, percent_complete = False)`
 
 5. `average_SD_pipelineCV_Forest(mae_results_sd)`
-### Mountain - XGB Regressor (Section VI)
+### v. Mountain - XGB Regressor (Section VI)
 1. `experiment4D_with_XGB(n_estimators_range_arg, max_depth_num_or_list_arg, learning_rate_range_arg, X_arg, y_arg, preprocessor_arg, NE_increment = 1, cv = 5, percent_complete = False, learning_rate_divisor = 100)`
 
 2. `for_4D_plot_XGB(experiment_with_XGB_res)`
