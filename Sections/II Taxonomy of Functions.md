@@ -16,12 +16,12 @@
 #### &emsp;&emsp; [B. Family](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#b-family---point_up_2)
 #### &emsp;&emsp; [C. Genus](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#c-genus---point_up_2)
 
-#### &emsp;&emsp; [D. Species](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#d-species-1---point_up_2)
+#### &emsp;&emsp; [D. Species](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#d-species---point_up_2)
 &emsp;&emsp;&emsp;&emsp; [Ecosystemic](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#ecosystemic)
 
 &emsp;&emsp;&emsp;&emsp; [Niche](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#niche)
 
-#### &emsp;&emsp; [E. Tabular Presentation](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#e-tabular-presentation-1---point_up_2)
+#### &emsp;&emsp; [E. Tabular Presentation](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#e-tabular-presentation---point_up_2)
 &emsp;&emsp;&emsp;&emsp; [Table 1. Function Assembly](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#table-1-function-assembly)
 
 &emsp;&emsp;&emsp;&emsp; [Table 2. Function Abbreviation](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#table-2-function-abbreviation)
@@ -31,7 +31,7 @@
 &emsp;&emsp;&emsp;&emsp; [Table 4. Interactive Master List](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#table-4-interactive-master-list)
 
 
-#### &emsp;&emsp; [F. Ecosystems](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#f-ecosystems-1---point_up_2)
+#### &emsp;&emsp; [F. Ecosystems](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#f-ecosystems---point_up_2)
 &emsp;&emsp;&emsp;&emsp; [i. Keystone Species](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#i-keystone-species)
 
 &emsp;&emsp;&emsp;&emsp; [ii. Decision Tree (Section III)](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#ii-decision-tree-section-iii)
