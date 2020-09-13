@@ -545,17 +545,17 @@ Zooms in on 4D data
     A_data_4d_e2 = f4XG(XGB_4D_e2)
     i4XG('Experiment 2', A_data_4d_e2)
     
-<details><summary> <em> Curious about the first two lines of code? Click the toggle to learn more: </em></summary>
+> <details><summary> <em> Curious about the first two lines of code? Click the toggle to learn more: </em></summary>
 <p>
     
- * 200 = Searching from 1 to 200 `n_estimators`
- * `range(2,7)` = Searching from 2 to 6 `max_depth`
- * `range(1,101)` = Searching from .01 to 1 `learning_rate`
- * `X_train_pipeline` = training data
- * `y` = actual sale prices
- * `preprocessor` = `ColumnTransformer` object that imputes and encodes data
- * `NE_increment = 30`  = Increments `n_estimators` by 30, so instead of 1 to 200, [1, 31, ... 181]
- * `cv = 1` = Number of K-Folds
+> * 200 = Searching from 1 to 200 `n_estimators`
+> * `range(2,7)` = Searching from 2 to 6 `max_depth`
+> * `range(1,101)` = Searching from .01 to 1 `learning_rate`
+> * `X_train_pipeline` = training data
+> * `y` = actual sale prices
+> * `preprocessor` = `ColumnTransformer` object that imputes and encodes data
+> * `NE_increment = 30`  = Increments `n_estimators` by 30, so instead of 1 to 200, [1, 31, ... 181]
+> * `cv = 1` = Number of K-Folds
  
 </p>
 </details>
