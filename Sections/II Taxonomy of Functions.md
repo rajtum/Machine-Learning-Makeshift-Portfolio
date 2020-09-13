@@ -160,7 +160,7 @@ Converts to a plottable 3D data (returns three variables)
 Converts to a plottable 3D data (returns a dictionary with three variables) meant to simplify the argument syntax for functions that plot multiple surface plots
 <hr width="3%">
 
-#### `4D_comp`
+#### `4D_plot`
 Converts to a plottable 4D data (returns a dictionary) and only compatible with `experiment4D_with_XGB`
 <hr width="12%">
 
@@ -527,7 +527,7 @@ Zooms in on 4D data
 
 ### Excerpts & Annotations
 
-*Excerpts from* `A. Demo`*, Demo 1.0, Demo, Demo Unabbreviated, or Original Demo will be formatted like the following:*
+*Excerpts (not including code) from* `A. Demo`*, Demo 1.0, Demo, Demo Unabbreviated, or Original Demo will be formatted like the following:*
 
 > Words from the `A. Demo`, Demo 1.0, Demo, Demo Unabbreviated, or Original Demo
 
@@ -538,27 +538,16 @@ Zooms in on 4D data
 
 ### Demo 2.0
 
+Here, using the `experiment` family, `4D_with` genus, and `_XGB` species, the  function `experiment4D_with_XGB` can be abbreviated to `e4XG` to collect trivariate hyperparameter optimization data.
+
+Additionally, to convert the data into a plottable 4D visualization the function `for_4D_plot_XGB`, which has the family `for_`, genus `4D_plot`, and species `_XGB`, can be used and this abbreviates to `f4XG`. To plot an interactive surface plot, the abbreviation `i4XG` which stands for `interactive_4Dsurface_XGB`, can be used.
+
 > With the following code, you can plot a 4D (color being the 4th dimension) visualization of the hyperparameter optimization for a XGB Regressor Model:
 
     XGB_4D_e2 = e4XG(200, range(2,7), range(1,101), X_train_pipeline, y, 
                                       preprocessor, NE_increment=30, cv = 1)
     A_data_4d_e2 = f4XG(XGB_4D_e2)
-    i4XG('Experiment 2', A_data_4d_e2)
-    
-> <details><summary> <em> Curious about the first two lines of code? Click the toggle to learn more: </em></summary>
-> <p>
-    
- * 200 = Searching from 1 to 200 `n_estimators`
- * `range(2,7)` = Searching from 2 to 6 `max_depth`
- * `range(1,101)` = Searching from .01 to 1 `learning_rate`
- * `X_train_pipeline` = training data
- * `y` = actual sale prices
- * `preprocessor` = `ColumnTransformer` object that imputes and encodes data
- * `NE_increment = 30`  = Increments `n_estimators` by 30, so instead of 1 to 200, [1, 31, ... 181]
- * `cv = 1` = Number of K-Folds
- 
-</p>
-</details>
+    i4XG('Experiment 2 with Abbreviated Functions', A_data_4d_e2)
 
 > <details><summary> <em> Curious about the first two lines of code? Click the toggle to learn more: </em></summary> <p> <ul> <li> 200 = Searching from 1 to 200 <code> n_estimators </code> </li> <li> <code> range(2,7)</code>  = Searching from 2 to 6 <code>max_depth</code> </li> <li> <code> range(1,101)</code>  = Searching from .01 to 1 <code> learning_rate</code> </li> <li> <code> X_train_pipeline</code>  = training data </li> <li> <code> y</code>  = actual sale prices  </li> <li> <code> preprocessor</code>  = <code> ColumnTransformer</code>  object that imputes and encodes data </li> <li> <code> NE_increment = 30</code>   = Increments <code> n_estimators</code>  by 30, so instead of 1 to 200, [1, 31, ... 181] </li>  <li> <code> cv = 1</code>  = Number of K-Folds </li> </ul>  </p>
 </details>
