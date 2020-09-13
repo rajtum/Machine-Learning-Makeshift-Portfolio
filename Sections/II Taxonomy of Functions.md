@@ -1,9 +1,14 @@
 # II. Taxonomy of Functions
 ## Précis
-*The method of documentation presented in this section is more a creative flourish than an essential read. Conventional documentation can be found on any method below with the* `help` *command or in the function's code as docstring and commented code. The premise of this section is to seek to classify and explicate the functions within this portfolio by the looking at the functions through the prism of taxonomy.*
+*The premise of this section is to classify and explicate the functions within this portfolio by the looking at the functions through the prism of taxonomy. This section aims to create a logical and intuitive trinomial nomenclature framework for naming and abbreviating functions within this portfolio, enabling functions such as* `experiment_with_XGB` *to be shortened to* `ewXG` *and* `comparison_plot_surface_XGB` *to* `cpXG`*. None of these abbreviations were used in future sections in case the reader had not familiarized themselves with this section, but all abbreviations are performant and ergo can be used in the coding playground; additionally, to illustrate the implementation of this section, the subsection* `A. Demo` found in the `README.md` at this repository's homepage was recoded with abbreviations
 ## Author's Note
-*Please note in biological taxonomic classifications, only the genus (first letter capitalized) and species (not capitalized) is italicized to identify an organism in a system called binomial nomenclature. Here, trinomial nomenclature with adapted classifications, format typography, and abbreviations will be used to classify and explicate functions and attendant "ecosystems." Function "ecosystems" represented a group of functions that worked in a synergistic fashion and each section of code within this portfolio was designated its own "ecosystem." While a whimsical liberty was taken in the naming of "ecosystems," some more apropos than others, these names should not be impediment to comprehension and do not serve any special purpose beyond continuing the environmental-taxonomical biologist lens of expounding. This is not an exhaustive list of all functions but rather a strategic collection of functions that may be most confusing at first glance and/or with synergistic functionality.*
+*The method of documentation presented in this section is more a creative flourish than an essential read. Conventional documentation can be found on any method below with the* `help` *command or in the function's code as docstring and commented code.* 
+
+*Please note in biological taxonomic classifications, only the genus (first letter capitalized) and species (not capitalized) is italicized to identify an organism in a system called binomial nomenclature. Here, trinomial nomenclature with adapted classifications, format typography, and abbreviations will be used to classify and explicate functions and attendant "ecosystems."* 
+
+*Function "ecosystems" represented a group of functions that worked in a synergistic fashion and each section of code within this portfolio was designated its own "ecosystem." While a whimsical liberty was taken in the naming of "ecosystems," some more apropos than others, these names should not be impediment to comprehension and do not serve any special purpose beyond continuing the environmental-taxonomical biologist lens of expounding. This is not an exhaustive list of all functions but rather a strategic collection of functions that may be most confusing at first glance and/or with synergistic functionality.*
 ## Table of Contents
+*To ever return to the Table of Contents click the  :point_up_2:  located to the far right of the subsection title.*
 ### II. Taxonomy of Functions <!-- &emsp was used to demarcate indents--> 
 #### &emsp;&emsp; [A. Adaptations](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#a-adaptations---point_up_2)
 
@@ -11,7 +16,7 @@
 
 &emsp;&emsp;&emsp;&emsp; [ii. Format Typography](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#ii-format-typography)
 
-&emsp;&emsp;&emsp;&emsp; [iii. Abbreviation](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#iii-abbreviation)
+&emsp;&emsp;&emsp;&emsp; [iii. Abbreviation](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#iii-abbreviations)
 
 #### &emsp;&emsp; [B. Family](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#b-family---point_up_2)
 #### &emsp;&emsp; [C. Genus](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#c-genus---point_up_2)
@@ -60,7 +65,7 @@
 * Will not be italicized
 * Will be formatted as code like this: `code`
 * Capitalization will be determined by the individual names rather than collective ranks
-### iii. Abbreviation
+### iii. Abbreviations
 * Will not follow *Genus species* becomes *G. species*
 * Instead, `Family Genus Species` becomes `F.G.Species`
 * **Important Truncation Rules:**
@@ -76,6 +81,11 @@
   * **Conflict Clause**: In the event that the same abbreviation will be used for two or more distinct functions, then the `Genus` will be appended to these abbreviations one letter at a time until no two functions have the same abbreviation.
     * i.e. `for_3D_plot_Forest` and `for_3D_comp_Forest` respectively become `f.3Dp.Fo` and `f.3Dc.Fo`
   * **Hypothetical but Extended Conflict Clause**: Although no instance occurs where the aforementioned conflict clause enumerating the `Genus` letter by letter does not fail to distinguish multiple function's abbreviations, if such example were to occur theoretically, then the `Family`, `Species`, and `Prefix` in that order would be enumerated in the same fashion until the same aim of unique abbreviations for each function is accomplished. This rule would most likely be called upon in circumstances where there is the function has no `Genus` and would ergo seldom apply.
+* **Coding Implementation:**
+  * Equivalent functions will be available in both the abbreviated and unabbreviated in the coding environment, but only the unabbreviated versions will be used in section in case the reader has not familiarized themselves with this section.
+  * The abbreviated function name retains all the capitalization but the period mark demarcating classification rank will be removed
+    * i.e. The abbreviation `f.3Dp.Fo` (returns 3D plottable dictionary data) or `e.w.XG` (bivariate hyperparamter optimization of XGBR) become respectively `f3DpFo(...)` and `ewXG(...)` and are equivalent to the corresponding functions `for_3D_comp_Forest` and `experiment_with_XGB`
+  * Since no abbreviated functions were used in future sections, a exhibition of this section's contributions can 
 
 ## B. Family <!-- Below is an inelegant, verbose, unadaptive improvisation to flush text to right (\hfill in latex) since Github Markdown blocks CSS for security reasons --> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [:point_up_2:](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#table-of-contents)
 ### `experiment`
@@ -209,10 +219,12 @@ From prefix of `time_` and `opt_` meant to present data from `comparison_Forest`
 | `experiment`              | `4D_with`              | `_XGB`               | `experiment4D_with_XGB`                      |
 | `for_`                    | `3D_plot`              | `_Forest`            | `for_3D_plot_Forest`                         |
 | `for_`                    | `3D_comp`              | `_Forest`            | `for_3D_comp_Forest`                         |
+| `for_`                    | `3D_plot`              | `_XGB`               | `for_3D_plot_XGB`                            |
 | `for_`                    | `4D_plot`              | `_XGB`               | `for_4D_plot_XGB`                            |
 | `plot`                    | `_wireframe`           | `_Forest`            | `plot_wireframe_Forest`                      |
 | `plot`                    | `_surface`             | `_Forest`            | `plot_surface_Forest`                        |
 | `interactive`             | `_surface`             | `_Forest`            | `interactive_surface_Forest`                 |
+| `interactive`             | `_surface`             | `_XGB`               | `interactive_surface_XGB`                    |
 | `interactive`             | `_4Dsurface`           | `_XGB`               | `interactive_4Dsurface_XGB`                  |
 | `comparison`              | `_Grid_Search`         | `_Forest`            | `comparison_Grid_Search_Forest`              |
 | `comparison`              | n/a                    | `_Forest`            | `comparison_Forest`                          |
@@ -233,6 +245,9 @@ From prefix of `time_` and `opt_` meant to present data from `comparison_Forest`
 | `initialize`              | n/a                    | `_Forest`            | `initialize_Forest`                          |
 | `initialize`              | n/a                    | `_Pipeline`          | `initialize_Pipeline`                        |
 | `initialize`              | n/a                    | `_XGB`               | `initialize_XGB`                             |
+| `zoom`                    | `_3D`                  | `_Forest`            | `zoom_3D_Forest`                             |
+| `zoom`                    | `_3D`                  | `_XGB`               | `zoom_3D_XGB`                                |
+| `zoom`                    | `_4D`                  | `_XGB`               | `zoom_4D_XGB`                                |
 <hr width="12%">
 
 ### Table 2. Function Abbreviation
@@ -242,14 +257,16 @@ From prefix of `time_` and `opt_` meant to present data from `comparison_Forest`
 | `experiment`              | `_with`                | `_Forest`            | `e.w.Fo`      |
 | `experiment`              | `_with`                | `_pipelineCV_Forest` | `e.w.pi`      |
 | `experiment`              | `_with`                | `_XGB`               | `e.w.XG`      |
-| `experiment`              | `4D_with`              | `_XGB`               | `e.w.XG`      |
+| `experiment`              | `4D_with`              | `_XGB`               | `e.4.XG`      |
 | `for_`                    | `3D_plot`              | `_Forest`            | `f.3Dp.Fo`    |
 | `for_`                    | `3D_comp`              | `_Forest`            | `f.3Dc.Fo`    |
-| `for_`                    | `4D_plot`              | `_XGB`               | `f.4.Fo`      |
+| `for_`                    | `3D_plot`              | `_XGB`               | `f.3.XG`      |
+| `for_`                    | `4D_plot`              | `_XGB`               | `f.4.XG`      |
 | `plot`                    | `_wireframe`           | `_Forest`            | `p.w.Fo`      |
 | `plot`                    | `_surface`             | `_Forest`            | `p.s.Fo`      |
 | `interactive`             | `_surface`             | `_Forest`            | `i.s.Fo`      |
-| `interactive`             | `_4Dsurface`           | `_XGB`               | `i.4.Fo`      |
+| `interactive`             | `_surface`             | `_XGB`               | `i.s.XG`      |
+| `interactive`             | `_4Dsurface`           | `_XGB`               | `i.4.XG`      |
 | `comparison`              | `_Grid_Search`         | `_Forest`            | `c.G.Fo`      |
 | `comparison`              | n/a                    | `_Forest`            | `c.Fo`        |
 | `comparison`              | `_plot_surface`        | `_Forest`            | `c.p.Fo`      |
@@ -269,42 +286,50 @@ From prefix of `time_` and `opt_` meant to present data from `comparison_Forest`
 | `initialize`              | n/a                    | `_Forest`            | `i.Fo`        |
 | `initialize`              | n/a                    | `_Pipeline`          | `i.Pi`        |
 | `initialize`              | n/a                    | `_XGB`               | `i.XG`        |
+| `zoom`                    | `_3D`                  | `_Forest`            | `z.3.Fo`      |
+| `zoom`                    | `_3D`                  | `_XGB`               | `z.3.XG`      |
+| `zoom`                    | `_4D`                  | `_XGB`               | `z.4.XG`      |
 <hr width="12%">
 
 ### Table 3. Function Purpose
-| Function Name                                | Abbreviation  | About                                                                                                                                                                                           |
-|----------------------------------------------|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `experiment_with_DT`                         | `e.w.DT`      | *Univariate hyperparameter optimization of Decision Tree Regressor's* `max_leaf_nodes`                                                                                                          |
-| `experiment_with_Forest`                     | `e.w.Fo`      | *Bivariate hyperparameter optimization of Random Forest Regressor's* `n_estimators` *and* `max_depth`                                                                                           |
-| `experiment_with_pipelineCV_Forest`          | `e.w.pi`      | *Same optimization as* `experiment_with_Forest` *with the ability to add a* `ColumnTransformer` *preprocessor and specify a number of K-folds*                                                  |
-| `experiment_with_XGB`                        | `e.w.XG`      | *Bivariate hyperparameter optimization of a XGB Regressor's* `n_estimators` *and either* `max_depth` *or* `learning_rate`                                                                       |
-| `experiment4D_with_XGB`                      | `e.w.XG`      | *Trivariate hyperparameter optimization of a XGB Regressor's* `n_estimators` *,* `max_depth` *, and* `learning_rate`                                                                            |
-| `for_3D_plot_Forest`                         | `f.3Dp.Fo`    | *Converts the dictionary data from the family* `experiment` *to three two-dimensional matrices (* `max_depth` *,* `mae` *,* `n_estimators` *in that order) that can plotted*                    |
-| `for_3D_comp_Forest`                         | `f.3Dc.Fo`    | *Converts the dictionary data from the family* `experiment` *into a single dictionary with the three two-dimensional matrices returned in* `for_3D_plot_Forest` *stored as keys*                |
-| `for_4D_plot_XGB`                            | `f.4.Fo`      | *Converts exclusively the dictionary data from* `experiment4D_with_XGB` *into a single dictionary with four two-dimensional matrices that can be plotted together on a 4D surface plot*         |
-| `plot_wireframe_Forest`                      | `p.w.Fo`      | *Plots data from* `for_3D_plot_Forest` *into a static wireframe plot*                                                                                                                           |
-| `plot_surface_Forest`                        | `p.s.Fo`      | *Plots data from* `for_3D_plot_Forest` *into a static surface plot*                                                                                                                             |
-| `interactive_surface_Forest`                 | `i.s.Fo`      | *Plots data from* `for_3D_plot_Forest` *into an interactive surface plot*                                                                                                                       |
-| `interactive_4Dsurface_XGB`                  | `i.4.Fo`      | *Plots data from* `for_4D_plot_Forest` *into an interactive 4D surface plot (with color being the fourth dimension)*                                                                            |
-| `comparison_Grid_Search_Forest`              | `c.G.Fo`      | *Performs a* `GridSearchCV` *from* `sklearn` *argumentatively-similar to functions in* `experiment` *family*                                                                                    |
-| `comparison_Forest`                          | `c.Fo`        | *Compares* `GridSearchCV` *optimization to the natively programmed optimization scope of execution time and lowest MAE result; lengthy documentation can be found in the docstring of function* |
-| `comparison_plot_surface_Forest`             | `c.p.Fo`      | *Plots two datasets from* `for_3D_comp_Forest` *into a single static surface plot*                                                                                                              |
-| `comparison_interactive_surface_Forest`      | `c.i.Fo`      | *Plots two datasets from* `for_3D_comp_Forest` *into a single interactive surface plot*                                                                                                         |
-| `comparison_plot_surface_XGB`                | `c.p.XG`      | *Plots two datasets from* `for_3D_comp_Forest` *, which is cross-compatible with* `experiment_with_XGB` *, into a single static surface plot;*                                                  |
-| `comparison_interactive_surface_XGB`         | `c.i.XG`      | *Plots two datasets from* `for_3D_comp_Forest` *, which is cross-compatible with* `experiment_with_XGB` *, into a single interactive surface plot;*                                             |
-| `multicomparison_plot_surface_Forest`        | `m-c.p.Fo`    | *Plots up to five datasets from* `for_3D_comp_Forest` *into a single static surface plot*                                                                                                       |
-| `multicomparison_interactive_surface_Forest` | `m-c.i.Fo`    | *Plots up to five datasets from* `for_3D_comp_Forest` *into a single interactive surface plot*                                                                                                  |
-| `time_comparison_to_table`                   | `t-c.to`      | *Converts the first returned variable* `time_results` *from function* `comparison_Forest` *to plottable 2D table data.*                                                                         |
-| `time_comparison_plot`                       | `t-c.pl`      | *Converts the data from function* `time_comparison_to_table` *to a line chart.*                                                                                                                 |
-| `opt_comparison_plot`                        | `o-c.pl`      | *Converts the second returned variable* `optimization_results` *from function* `comparison_Forest` *to a line chart.*                                                                           |
-| `optimize_DT`                                | `o.DT`        | *Finds the parameters of the Decision Tree Regressor with the lowest mean absolute error*                                                                                                       |
-| `optimize_Forest`                            | `o.Fo`        | *Finds the parameters of the Random Forest Regressor with the lowest mean absolute error when* `isDataTable = False` *or unspecified in the argument of* `experiment_with_Forest`               |
-| `isDataTable_optimize_Forest`                | `i-o.Fo`      | *Finds the parameters of the Random Forest Regressor with the lowest mean absolute error when* `isDataTable = True` *in argument of* `experiment_with_Forest`                                   |
-| `optimize_XGB`                               | `o.XG`        | *Finds the parameters of the XGB Regressor with the lowest mean absolute error. If data is from* `experiment4D_with_XGB`*, then set* `is_4D = True` *in argument.*                              |
-| `initialize_DT`                              | `i.DT`        | *Initializes a Decision Tree Regressor with desired parameters*                                                                                                                                 |
-| `initialize_Forest`                          | `i.Fo`        | *Initializes a Random Forest Regressor with desired parameters*                                                                                                                                 |
-| `initialize_Pipeline`                        | `i.Pi`        | *Initializes a Pipeline with a given a ML model and preprocessing method (which is a* `ColumnTransformer` *object)*                                                                             |
-| `initialize_XGB`                             | `i.XG`        | *Initializes a XGB Regressor with desired parameters*                                                                                                                                           |
+| Function Name                                | Abbreviation  | About                                                                                                                                                                                                                        |
+|----------------------------------------------|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `experiment_with_DT`                         | `e.w.DT`      | *Univariate hyperparameter optimization of Decision Tree Regressor's* `max_leaf_nodes`                                                                                                                                       |
+| `experiment_with_Forest`                     | `e.w.Fo`      | *Bivariate hyperparameter optimization of Random Forest Regressor's* `n_estimators` *and* `max_depth`                                                                                                                        |
+| `experiment_with_pipelineCV_Forest`          | `e.w.pi`      | *Same optimization as* `experiment_with_Forest` *with the ability to add a* `ColumnTransformer` *preprocessor and specify a number of K-folds*                                                                               |
+| `experiment_with_XGB`                        | `e.w.XG`      | *Bivariate hyperparameter optimization of a XGB Regressor's* `n_estimators` *and either* `max_depth` *or* `learning_rate`                                                                                                    |
+| `experiment4D_with_XGB`                      | `e.4.XG`      | *Trivariate hyperparameter optimization of a XGB Regressor's* `n_estimators` *,* `max_depth` *, and* `learning_rate`                                                                                                         |
+| `for_3D_plot_Forest`                         | `f.3Dp.Fo`    | *Converts the dictionary data from the family* `experiment` *to three two-dimensional matrices (* `max_depth` *,* `mae` *,* `n_estimators` *in that order) that can plotted*                                                 |
+| `for_3D_comp_Forest`                         | `f.3Dc.Fo`    | *Converts the dictionary data from the family* `experiment` *into a single dictionary with the three two-dimensional matrices returned in* `for_3D_plot_Forest` *stored as keys*                                             |
+| `for_3D_plot_XGB`                            | `f.3.XG`      | *Converts the dictionary data from the family* `experiment` *in same manner as* `for_3D_comp_Forest` *but additional user-inputed boolean* `test_max_depth` *determines whether* `max_depth` *or* `learning_rate` was tested |
+| `for_4D_plot_XGB`                            | `f.4.XG`      | *Converts exclusively the dictionary data from* `experiment4D_with_XGB` *into a single dictionary with four two-dimensional matrices that can be plotted together on a 4D surface plot*                                      |
+| `plot_wireframe_Forest`                      | `p.w.Fo`      | *Plots data from* `for_3D_plot_Forest` *into a static wireframe plot*                                                                                                                                                        |
+| `plot_surface_Forest`                        | `p.s.Fo`      | *Plots data from* `for_3D_plot_Forest` *into a static surface plot*                                                                                                                                                          |
+| `interactive_surface_Forest`                 | `i.s.Fo`      | *Plots data from* `for_3D_plot_Forest` *into an interactive surface plot*                                                                                                                                                    |
+| `interactive_surface_XGB`                    | `i.s.XG`      | *Plots data from* `for_3D_plot_XGB` *into an interactive surface plot*                                                                                                                                                       |
+| `interactive_4Dsurface_XGB`                  | `i.4.XG`      | *Plots data from* `for_4D_plot_Forest` *into an interactive 4D surface plot (with color being the fourth dimension)*                                                                                                         |
+| `comparison_Grid_Search_Forest`              | `c.G.Fo`      | *Performs a* `GridSearchCV` *from* `sklearn` *argumentatively-similar to functions in* `experiment` *family*                                                                                                                 |
+| `comparison_Forest`                          | `c.Fo`        | *Compares* `GridSearchCV` *optimization to the natively programmed optimization scope of execution time and lowest MAE result; lengthy documentation can be found in the docstring of function*                              |
+| `comparison_plot_surface_Forest`             | `c.p.Fo`      | *Plots two datasets from* `for_3D_comp_Forest` *into a single static surface plot*                                                                                                                                           |
+| `comparison_interactive_surface_Forest`      | `c.i.Fo`      | *Plots two datasets from* `for_3D_comp_Forest` *into a single interactive surface plot*                                                                                                                                      |
+| `comparison_plot_surface_XGB`                | `c.p.XG`      | *Plots two datasets from* `for_3D_comp_Forest` *, which is cross-compatible with* `experiment_with_XGB` *, into a single static surface plot;*                                                                               |
+| `comparison_interactive_surface_XGB`         | `c.i.XG`      | *Plots two datasets from* `for_3D_comp_Forest` *, which is cross-compatible with* `experiment_with_XGB` *, into a single interactive surface plot;*                                                                          |
+| `multicomparison_plot_surface_Forest`        | `m-c.p.Fo`    | *Plots up to five datasets from* `for_3D_comp_Forest` *into a single static surface plot*                                                                                                                                    |
+| `multicomparison_interactive_surface_Forest` | `m-c.i.Fo`    | *Plots up to five datasets from* `for_3D_comp_Forest` *into a single interactive surface plot*                                                                                                                               |
+| `time_comparison_to_table`                   | `t-c.to`      | *Converts the first returned variable* `time_results` *from function* `comparison_Forest` *to plottable 2D table data.*                                                                                                      |
+| `time_comparison_plot`                       | `t-c.pl`      | *Converts the data from function* `time_comparison_to_table` *to a line chart.*                                                                                                                                              |
+| `opt_comparison_plot`                        | `o-c.pl`      | *Converts the second returned variable* `optimization_results` *from function* `comparison_Forest` *to a line chart.*                                                                                                        |
+| `optimize_DT`                                | `o.DT`        | *Finds the parameters of the Decision Tree Regressor with the lowest mean absolute error*                                                                                                                                    |
+| `optimize_Forest`                            | `o.Fo`        | *Finds the parameters of the Random Forest Regressor with the lowest mean absolute error when* `isDataTable = False` *or unspecified in the argument of* `experiment_with_Forest`                                            |
+| `isDataTable_optimize_Forest`                | `i-o.Fo`      | *Finds the parameters of the Random Forest Regressor with the lowest mean absolute error when* `isDataTable = True` *in argument of* `experiment_with_Forest`                                                                |
+| `optimize_XGB`                               | `o.XG`        | *Finds the parameters of the XGB Regressor with the lowest mean absolute error. If data is from* `experiment4D_with_XGB`*, then set* `is_4D = True` *in argument.*                                                           |
+| `initialize_DT`                              | `i.DT`        | *Initializes a Decision Tree Regressor with desired parameters*                                                                                                                                                              |
+| `initialize_Forest`                          | `i.Fo`        | *Initializes a Random Forest Regressor with desired parameters*                                                                                                                                                              |
+| `initialize_Pipeline`                        | `i.Pi`        | *Initializes a Pipeline with a given a ML model and preprocessing method (which is a* `ColumnTransformer` *object)*                                                                                                          |
+| `initialize_XGB`                             | `i.XG`        | *Initializes a XGB Regressor with desired parameters*                                                                                                                                                                        |
+| `zoom_3D_Forest`                             | `z.3.Fo`      | *Allows for* `interactive_surface_Forest` *to plot values only below a certain mean absolute error to enhance the granularity of surface plot*                                                                               |
+| `zoom_3D_XGB`                                | `z.3.XG`      | *Allows for* `interactive_surface_XGB` *to plot values only below a certain mean absolute error to enhance the granularity of surface plot*                                                                                  |
+| `zoom_4D_XGB`                                | `z.4.XG`      | *Allows for* `interactive_4Dsurface_XGB` *to plot values only below a certain mean absolute error to enhance the granularity of surface plot*                                                                                |
 <hr width="12%">
 
 ### Table 4. Interactive Master List
@@ -386,6 +411,8 @@ From prefix of `time_` and `opt_` meant to present data from `comparison_Forest`
 15. `time_comparison_plot(graph_title, x_axis_arg, time_comp_table_arg, custom_x_axis_title='')`
 
 16. `opt_comparison_plot(graph_title, x_axis_arg, opt_comp_table_arg, custom_x_axis_title='')`
+
+17. `zoom_3D_Forest(max_depth_arg, mae_arg, n_estimators_arg, mae_upper_limit)`
 <hr width="12%">
 
 ### iv. Random Rainforest - Imputation & Encoding for Forest (Section V)
@@ -457,3 +484,9 @@ From prefix of `time_` and `opt_` meant to present data from `comparison_Forest`
 9. `zoom_4D_XGB(A_data_arg, mae_upper_limit)`
 
 10. `test_model_XGB`
+
+11. `for_3D_plot_XGB(experiment_with_XGB_res, test_max_depth = True)`
+
+12. `interactive_surface_XGB(title, A_data)`
+
+13. `zoom_3D_XGB(A_data_arg, mae_upper_limit)`
