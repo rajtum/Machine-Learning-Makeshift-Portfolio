@@ -95,7 +95,8 @@
   * Equivalent functions will be available in both the abbreviated and unabbreviated in the coding environment, but only the unabbreviated versions will be used in section in case the reader has not familiarized themselves with this section.
   * The abbreviated function name retains all the capitalization but the period mark demarcating classification rank will be removed
     * i.e. The abbreviation `f.3Dp.Fo` (returns 3D plottable dictionary data) or `e.w.XG` (bivariate hyperparamter optimization of XGBR) become respectively `f3DpFo(...)` and `ewXG(...)` and are equivalent to the corresponding functions `for_3D_comp_Forest` and `experiment_with_XGB`
-  * Since no abbreviated functions were used in future sections, a exhibition of this section's contributions can 
+  * Since no abbreviated functions were used in future sections, a exhibition of this section's contributions can be found in the uninventively-titled subsection `G. Exhibition`
+    * The subsection abbreviates the functions used in the subsection `A. Demo` in section `I. Introduction` 
 
 
 ## B. Family <!-- Below is an inelegant, verbose, unadaptive improvisation to flush text to right (\hfill in latex) since Github Markdown blocks CSS for security reasons --> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [:point_up_2:](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#table-of-contents)
@@ -522,15 +523,17 @@ Zooms in on 4D data
 13. `zoom_3D_XGB(A_data_arg, mae_upper_limit)`
 
 ## G. Exhibition <!-- Below is an inelegant, verbose, unadaptive improvisation to flush text to right (\hfill in latex) since Github Markdown blocks CSS for security reasons --> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [:point_up_2:](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#table-of-contents)
-***Essentially Demo 2.0 or Demo Abbreviated, this subsection demonstrates the code implementation of the trinomial nomenclature framework developed in the previous subsections
+***Essentially Demo 2.0 or Demo Abbreviated, this subsection demonstrates the code implementation of the trinomial nomenclature framework developed in the previous subsections***
+* Wording from `A. Demo`, Demo 1.0, Demo, Demo Unabbreviated, or Original Demo will be formatted like the following:
+> Words from the `A. Demo`, Demo 1.0, Demo, Demo Unabbreviated, or Original Demo
 <hr width="3%">
 
-With the following code, you can plot a 4D (color being the 4th dimension) visualization of the hyperparameter optimization for a XGB Regressor Model:
+> With the following code, you can plot a 4D (color being the 4th dimension) visualization of the hyperparameter optimization for a XGB Regressor Model:
 
-    XGB_4D_e2 = experiment4D_with_XGB(200, range(2,7), range(1,101), X_train_pipeline, y, 
+    XGB_4D_e2 = e4XG(200, range(2,7), range(1,101), X_train_pipeline, y, 
                                       preprocessor, NE_increment=30, cv = 1)
-    A_data_4d_e2 = for_4D_plot_XGB(XGB_4D_e2)
-    interactive_4Dsurface_XGB('Experiment 2', A_data_4d_e2)
+    A_data_4d_e2 = f4XG(XGB_4D_e2)
+    i4XG('Experiment 2', A_data_4d_e2)
     
 <details><summary> <em> Curious about the first two lines of code? Click the toggle to learn more: </em></summary>
 <p>
@@ -558,8 +561,8 @@ With the following code, you can plot a 4D (color being the 4th dimension) visua
  
 Notice how the graph plateaus around mean absolute error (MAE) of 2000. To optimize the model, we want to find the lowest MAE value and the parameters that produced that value. To better observe where this optimal model is let's magnify that portion of the graph to increase the granularity:
     
-    A_data_4d_e2_mag = zoom_4D_XGB(A_data_4d_e2, 25000)
-    interactive_4Dsurface_XGB('Experiment 1 Magnified', A_data_4d_e2_mag)
+    A_data_4d_e2_mag = z4XG(A_data_4d_e2, 25000)
+    i4XG('Experiment 1 Magnified', A_data_4d_e2_mag)
 
 <p align="center">
   <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%202%20Magnified%20-%204D%20Surface%20Plot.gif"          width="500" /> 
