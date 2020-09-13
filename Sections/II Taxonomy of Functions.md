@@ -380,7 +380,7 @@ Zooms in on 4D data
 
 ## F. Ecosystems <!-- Below is an inelegant, verbose, unadaptive improvisation to flush text to right (\hfill in latex) since Github Markdown blocks CSS for security reasons --> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [:point_up_2:](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#table-of-contents)
 
-*All the functions within each "ecosystem," a word used to describe a collection of synegistic functions, is enumerated and information about any function can be found in the docstring but will not presented here. There is no reasoning behind the naming of ecosystems beyond continuing the biologically based paradigm. Also note the comparison comes up short as biological ecosystems are made up of biotic and abiotic features, whereas all the functions were implicitly biotic features because only those features have classifications in systematics.*
+*All the functions within each "ecosystem," a word used to describe a collection of synegistic functions, is enumerated and information about any function can be found in the docstring but will not be presented here. There is no reasoning behind the naming of ecosystems beyond continuing the biologically based paradigm. Also note that biological ecosystems are made up of biotic and abiotic features, whereas all the functions were implicitly biotic features because only those features have classifications in systematics, thus semantically, a more accurate description of this section is not an enumeration of an "Ecosystem" but of all the "biotic factors within an Ecosystem."*
 <hr width="12%">
 
 ### An Intrasectional Analogical Aside
@@ -520,3 +520,64 @@ Zooms in on 4D data
 12. `interactive_surface_XGB(title, A_data)`
 
 13. `zoom_3D_XGB(A_data_arg, mae_upper_limit)`
+
+## G. Exhibition <!-- Below is an inelegant, verbose, unadaptive improvisation to flush text to right (\hfill in latex) since Github Markdown blocks CSS for security reasons --> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [:point_up_2:](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#table-of-contents)
+***Essentially Demo 2.0 or Demo Abbreviated, this subsection demonstrates the code implementation of the trinomial nomenclature framework developed in the previous subsections
+<hr width="3%">
+
+With the following code, you can plot a 4D (color being the 4th dimension) visualization of the hyperparameter optimization for a XGB Regressor Model:
+
+    XGB_4D_e2 = experiment4D_with_XGB(200, range(2,7), range(1,101), X_train_pipeline, y, 
+                                      preprocessor, NE_increment=30, cv = 1)
+    A_data_4d_e2 = for_4D_plot_XGB(XGB_4D_e2)
+    interactive_4Dsurface_XGB('Experiment 2', A_data_4d_e2)
+    
+<details><summary> <em> Curious about the first two lines of code? Click the toggle to learn more: </em></summary>
+<p>
+    
+ * 200 = Searching from 1 to 200 `n_estimators`
+ * `range(2,7)` = Searching from 2 to 6 `max_depth`
+ * `range(1,101)` = Searching from .01 to 1 `learning_rate`
+ * `X_train_pipeline` = training data
+ * `y` = actual sale prices
+ * `preprocessor` = `ColumnTransformer` object that imputes and encodes data
+ * `NE_increment = 30`  = Increments `n_estimators` by 30, so instead of 1 to 200, [1, 31, ... 181]
+ * `cv = 1` = Number of K-Folds
+ 
+</p>
+</details>
+
+<p align="center">
+  <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%202-%204D%20Surface%20Plot.gif"   width="500" /> 
+</p>
+<p align="center">
+  <em>
+    Interactive 4D Plot from Experiment 2 - Section VI XGB Regression
+  </em>
+</p>
+ 
+Notice how the graph plateaus around mean absolute error (MAE) of 2000. To optimize the model, we want to find the lowest MAE value and the parameters that produced that value. To better observe where this optimal model is let's magnify that portion of the graph to increase the granularity:
+    
+    A_data_4d_e2_mag = zoom_4D_XGB(A_data_4d_e2, 25000)
+    interactive_4Dsurface_XGB('Experiment 1 Magnified', A_data_4d_e2_mag)
+
+<p align="center">
+  <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%202%20Magnified%20-%204D%20Surface%20Plot.gif"          width="500" /> 
+</p>
+<p align="center">
+  <em>
+    Experiment 2 Magnified (<2500 MAE) - Section VI XGB Regression
+  </em>
+</p>
+
+Though we know roughly know what model's optimal parameters should look like, to find the most performant model we can call the `optimize_XGB(...)` function:
+
+<p align="center">
+  <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%202%20XGBR%20Optimized.gif"   width="500" /> 
+</p>
+<p align="center">
+  <em>
+    1st argument = data, 2nd argument = classifier (4D will have one more dimension than 3D)
+  </em>
+</p>
+
