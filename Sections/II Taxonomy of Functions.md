@@ -546,19 +546,23 @@ Zooms in on 4D data
     i4XG('Experiment 2', A_data_4d_e2)
     
 > <details><summary> <em> Curious about the first two lines of code? Click the toggle to learn more: </em></summary>
-<p>
+> <p>
     
-> * 200 = Searching from 1 to 200 `n_estimators`
-> * `range(2,7)` = Searching from 2 to 6 `max_depth`
-> * `range(1,101)` = Searching from .01 to 1 `learning_rate`
-> * `X_train_pipeline` = training data
-> * `y` = actual sale prices
-> * `preprocessor` = `ColumnTransformer` object that imputes and encodes data
-> * `NE_increment = 30`  = Increments `n_estimators` by 30, so instead of 1 to 200, [1, 31, ... 181]
-> * `cv = 1` = Number of K-Folds
+ * 200 = Searching from 1 to 200 `n_estimators`
+ * `range(2,7)` = Searching from 2 to 6 `max_depth`
+ * `range(1,101)` = Searching from .01 to 1 `learning_rate`
+ * `X_train_pipeline` = training data
+ * `y` = actual sale prices
+ * `preprocessor` = `ColumnTransformer` object that imputes and encodes data
+ * `NE_increment = 30`  = Increments `n_estimators` by 30, so instead of 1 to 200, [1, 31, ... 181]
+ * `cv = 1` = Number of K-Folds
  
 </p>
 </details>
+
+> <details><summary> <em> Curious about the first two lines of code? Click the toggle to learn more: </em></summary> <p> <ul> <li> 200 = Searching from 1 to 200 <code> n_estimators </code> </li> <li> <code> range(2,7)</code>  = Searching from 2 to 6 <code>max_depth</code> </li> <li> <code> range(1,101)</code>  = Searching from .01 to 1 <code> learning_rate</code> </li> <li> <code> X_train_pipeline</code>  = training data </li> <li> <code> y</code>  = actual sale prices  </li> <li> <code> preprocessor</code>  = <code> ColumnTransformer</code>  object that imputes and encodes data </li> <li> <code> NE_increment = 30</code>   = Increments <code> n_estimators</code>  by 30, so instead of 1 to 200, [1, 31, ... 181] </li>  <li> <code> cv = 1</code>  = Number of K-Folds </li> </ul>  </p>
+</details>
+
 
 <p align="center">
   <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%202-%204D%20Surface%20Plot.gif"   width="500" /> 
