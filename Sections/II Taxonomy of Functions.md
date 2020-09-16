@@ -1,6 +1,6 @@
 # II. Taxonomy of Functions
 ## Précis
-*The premise of this section is to classify and explicate the functions within this portfolio by the looking at the functions through the prism of taxonomy. This section aims to create a logical and intuitive trinomial nomenclature framework, modeled after the binomial nomenclature classification of systematics, for naming and abbreviating of functions within this portfolio, enabling functions such as* `experiment_with_XGB` *to be shortened to* `ewXG` *and* `comparison_plot_surface_XGB` *to* `cpXG`*. None of these abbreviations were used in future sections in case the reader had not familiarized themselves with this section, but all abbreviations are performant and ergo can be used in the coding playground; additionally, to illustrate the implementation of this section, the subsection* `A. Demo` found in the `README.md` at this repository's homepage was recoded with abbreviated functions in subsection `G. Exhibition`.
+*The premise of this section is to classify and explicate the functions within this portfolio by looking at the functions through the prism of taxonomy. This section aims to create a logical and intuitive trinomial nomenclature framework, modeled after the binomial nomenclature classification of systematics, for naming and abbreviating of functions within this portfolio, enabling functions such as* `experiment_with_XGB` *to be shortened to* `ewXG` *and* `comparison_plot_surface_XGB` *to* `cpXG`*. None of these abbreviations were used in future sections in case the reader had not familiarized themselves with this section, but all abbreviations are performant and ergo can be used in the coding playground. So to illustrate the implementation of this section, the subsection* `A. Demo` *found in the* `README.md` *at this repository's homepage was recoded with abbreviated functions in subsection* `G. Exhibition`*.*
 
 
 ## Author's Note
@@ -87,10 +87,10 @@
     * i.e. multicomparison_plot_surface_Forest with prefix `multi` abbreviates to `m-c.p.Fo`
   * If there is no `Genus`, abbreviation, standard abbreviation rules still apply
     * i.e. `Family Species` becomes `F.Sp` like the function `initialize_DT` which abbreviates to `i.DT`
-    * Though irksomely illogical in context of biology taxonomical paradigm which inspired its conception, the rule enables classification of more functions at the sake of introducing a systemics depravity.
+    * Though irksomely illogical in context of biology taxonomical paradigm which inspired its conception, the rule enables the classification of more functions
   * **Conflict Clause**: In the event that the same abbreviation will be used for two or more distinct functions, then the `Genus` will be appended to these abbreviations one letter at a time until no two functions have the same abbreviation.
     * i.e. `for_3D_plot_Forest` and `for_3D_comp_Forest` respectively become `f.3Dp.Fo` and `f.3Dc.Fo`
-  * **Hypothetical but Extended Conflict Clause**: Although no instance occurs where the aforementioned conflict clause enumerating the `Genus` letter by letter does not fail to distinguish multiple function's abbreviations, if such example were to occur theoretically, then the `Family`, `Species`, and `Prefix` in that order would be enumerated in the same fashion until the same aim of unique abbreviations for each function is accomplished. This rule would most likely be called upon in circumstances where there is the function has no `Genus` and would ergo seldom apply.
+  * **Hypothetical Extension of Conflict Clause**: Although no instance occurs where the aforementioned conflict clause enumerating the `Genus` letter by letter does not fail to distinguish multiple function's abbreviations, if such example were to occur theoretically, then the `Family`, `Species`, and `Prefix` in that order would be enumerated in the same fashion until the same aim of unique abbreviations for each function is accomplished. This rule would most likely be called upon in circumstances where there is the function has no `Genus` and would ergo seldom apply.
 * **Coding Implementation:**
   * Equivalent functions will be available in both the abbreviated and unabbreviated in the coding environment, but only the unabbreviated versions will be used in section in case the reader has not familiarized themselves with this section.
   * The abbreviated function name retains all the capitalization but the period mark demarcating classification rank will be removed
@@ -130,6 +130,8 @@ Compares or generates comparison data for two datasets in a `plot`, `interactive
 
 ### `optimize`
 Finds the parameters of the model that had the lowest mean absolute error with data from the family `experiment`
+
+> <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%202%20XGBR%20Optimized.gif"   width="400" />
 <hr width="3%">
 
 ### `initialize`
@@ -137,7 +139,10 @@ Creates an object specifed in the `Species` based on desired parameters
 <hr width="3%">
 
 ### `zoom`
-Allows for functions in * `interactive` *family to plot values only below a certain mean absolute error to enhance the granularity of surface plot*
+*Allows for functions in* `interactive` *family to plot values only below a certain mean absolute error to enhance the granularity of surface plot*
+
+> <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%202%20Magnified%20-%204D%20Surface%20Plot.gif"   width="400" />
+<hr width="3%">
 
 ## C. Genus <!-- Below is an inelegant, verbose, unadaptive improvisation to flush text to right (\hfill in latex) since Github Markdown blocks CSS for security reasons --> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [:point_up_2:](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#table-of-contents)  
 
