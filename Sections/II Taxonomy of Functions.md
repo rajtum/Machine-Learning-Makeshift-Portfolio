@@ -249,7 +249,7 @@ Zooms in on 3D data
 |--------|
 |<img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/InteractiveFamilyAni.gif"   width="700" />|
 
-<hr width="12%">
+
 
 | With `zoom_3D` <27000 MAE |
 |--------|
