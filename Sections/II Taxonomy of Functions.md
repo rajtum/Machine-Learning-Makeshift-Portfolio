@@ -25,10 +25,18 @@
 #### &emsp;&emsp; [B. Family](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#b-family---point_up_2)
 
 &emsp;&emsp;&emsp;&emsp; [experiment](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#experiment)
+
 &emsp;&emsp;&emsp;&emsp; [for_](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#for_)
+
 &emsp;&emsp;&emsp;&emsp; [plot](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#plot)
+
 &emsp;&emsp;&emsp;&emsp; [interactive](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#interactive)
+
 &emsp;&emsp;&emsp;&emsp; [comparison](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#comparison)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [Prefixes](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#prefixes)
+
+
 
 
 #### &emsp;&emsp; [C. Genus](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#c-genus---point_up_2)
@@ -110,28 +118,29 @@
 ## B. Family <!-- Below is an inelegant, verbose, unadaptive improvisation to flush text to right (\hfill in latex) since Github Markdown blocks CSS for security reasons --> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [:point_up_2:](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#table-of-contents)
 ### `experiment`
 Collects data for hyperparameter optimization
-<hr width="3%">
+<hr width="12%">
 
 ### `for_`
 Converts data from `experiment` family to plottable data
-<hr width="3%">
+<hr width="12%">
 
 ### `plot`
 Plots a static `pyplot` with what is returned from `for_` family
 
 > <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/PlotFamilyImage.png"   width="700" />
-<hr width="3%">
+<hr width="12%">
 
 ### `interactive`
 Plots an interactive `plotly` with what is returned froom `for_` family
 
 > <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/InteractiveFamilyAni.gif"   width="700" />
-<hr width="3%">
+<hr width="12%">
 
 ### `comparison`
 Compares or generates comparison data for two datasets in a `plot`, `interactive`, `DataFrame`, etc.
 
 > <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/ComparisonFamilyImage.png"   width="700" />
+<hr width="3%">
 
 #### Prefixes ####
 * `multi`
@@ -144,23 +153,23 @@ Compares or generates comparison data for two datasets in a `plot`, `interactive
    * Meant to represent data from `comparison_Forest` to either a graphical or tabular format
 * `opt_`
    * Meant to represent data from `comparison_Forest` to a graphical format
-<hr width="3%">
+<hr width="12%">
 
 ### `optimize`
 Finds the parameters of the model that had the lowest mean absolute error with data from the family `experiment`
 
 > <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%202%20XGBR%20Optimized.gif"   width="400" />
-<hr width="3%">
+<hr width="12%">
 
 ### `initialize`
 Creates an object specifed in the `Species` based on desired parameters
-<hr width="3%">
+<hr width="12%">
 
 ### `zoom`
 *Allows for functions in* `interactive` *family to plot values only below a certain mean absolute error to enhance the granularity of surface plot*
 
 > <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%202%20Magnified%20-%204D%20Surface%20Plot.gif"   width="700" />
-<hr width="3%">
+<hr width="12%">
 
 ## C. Genus <!-- Below is an inelegant, verbose, unadaptive improvisation to flush text to right (\hfill in latex) since Github Markdown blocks CSS for security reasons --> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [:point_up_2:](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#table-of-contents)  
 
