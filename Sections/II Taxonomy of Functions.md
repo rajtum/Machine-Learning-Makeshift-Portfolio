@@ -24,27 +24,89 @@
 
 #### &emsp;&emsp; [B. Family](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#b-family---point_up_2)
 
-&emsp;&emsp;&emsp;&emsp; [experiment](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#experiment)
+&emsp;&emsp;&emsp;&emsp; [`experiment`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#experiment)
 
-&emsp;&emsp;&emsp;&emsp; [for_](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#for_)
+&emsp;&emsp;&emsp;&emsp; [`for_`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#for_)
 
-&emsp;&emsp;&emsp;&emsp; [plot](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#plot)
+&emsp;&emsp;&emsp;&emsp; [`plot`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#plot)
 
-&emsp;&emsp;&emsp;&emsp; [interactive](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#interactive)
+&emsp;&emsp;&emsp;&emsp; [`interactive`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#interactive)
 
-&emsp;&emsp;&emsp;&emsp; [comparison](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#comparison)
+&emsp;&emsp;&emsp;&emsp; [`comparison`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#comparison)
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [Prefixes](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#prefixes)
 
+&emsp;&emsp;&emsp;&emsp; [`optimize`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#optimize)
 
+&emsp;&emsp;&emsp;&emsp; [`intialize`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#initialize)
+
+&emsp;&emsp;&emsp;&emsp; [`zoom`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#zoom)
 
 
 #### &emsp;&emsp; [C. Genus](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#c-genus---point_up_2)
 
+&emsp;&emsp;&emsp;&emsp; [Family of `experiment`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#family-of-experiment)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [`_with`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#_with)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [`4D_with`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#4D_with)
+
+&emsp;&emsp;&emsp;&emsp; [Family of `for_`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#family-of-for_)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [`_3D_plot`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#_3D_plot)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [`_3D_comp`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#_3D_comp)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [`4D_plot`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#4D_plot)
+
+&emsp;&emsp;&emsp;&emsp; [Family of `plot`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#family-of-plot)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [`_wireframe`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#_wireframe)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [`_surface`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#_surface)
+
+&emsp;&emsp;&emsp;&emsp; [Family of `interactive`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#family-of-interactive)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [`_surface`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#_surface-1)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [`_4Dsurface`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#_4Dsurface)
+
+&emsp;&emsp;&emsp;&emsp; [Family of `comparison`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#family-of-comparison)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [`_Grid_Search`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#_Grid_Search)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [`_plot_surface`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#_plot_surface)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [`_interactive_surface`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#_interactive_surface)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [`_to_table`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#_to_table)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [`_plot`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#_plot)
+
+&emsp;&emsp;&emsp;&emsp; [Family of `zoom`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#family-of-experiment)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [`_3D`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#_3D)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [`_4D`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#_4D)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [Without `zoom` vs. With `zoom`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#without-zoom-vs-with-zoom)
+
 #### &emsp;&emsp; [D. Species](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#d-species---point_up_2)
 &emsp;&emsp;&emsp;&emsp; [Ecosystemic](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#ecosystemic)
 
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [`_DT`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#_DT)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [`_Forest`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#_Forest)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [`_XGB`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#_XGB)
+
 &emsp;&emsp;&emsp;&emsp; [Niche](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#niche)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [`_plot`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#_plot-1)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [`_Pipeline`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#_Pipeline)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [`_pipelineCV_Forest`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#_pipelineCV_Forest)
 
 #### &emsp;&emsp; [E. Tabular Presentation](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#e-tabular-presentation---point_up_2)
 &emsp;&emsp;&emsp;&emsp; [Table 1. Function Assembly](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#table-1-function-assembly)
@@ -166,7 +228,7 @@ Creates an object specifed in the `Species` based on desired parameters
 <hr width="3%">
 
 ### `zoom`
-*Allows for functions in* `interactive` *family to plot values only below a certain mean absolute error to enhance the granularity of surface plot*
+Allows for functions in `interactive` family to plot values only below a certain mean absolute error to enhance the granularity of surface plot
 
 > <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%202%20Magnified%20-%204D%20Surface%20Plot.gif"   width="700" />
 <hr width="3%">
