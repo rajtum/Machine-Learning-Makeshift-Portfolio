@@ -249,7 +249,7 @@ Zooms in on 3D data
 |--------|
 |<img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/InteractiveFamilyAni.gif"   width="700" />|
 
-<hr width="70%">
+<hr width="12%">
 
 | With `zoom_3D` <27000 MAE |
 |--------|
@@ -263,7 +263,7 @@ Zooms in on 4D data
 |--------|
 |<img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%202-%204D%20Surface%20Plot.gif"   width="700" />|
 
-<hr width="70%">
+<hr width="12%">
 
 | With `zoom_4D` <25000 MAE |
 |--------|
