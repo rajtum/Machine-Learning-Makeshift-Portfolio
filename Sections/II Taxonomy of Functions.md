@@ -690,6 +690,7 @@ Additionally, to convert the data into a plottable 4D visualization the function
     Interactive 4D Plot from Experiment 2 - Section VI XGB Regression
   </em>
 </p>
+
 Here, we use the `z4XG` function which is equivalent to `zoom_4D_XGB` to zoom in on the graph:
 
 > Notice how the graph plateaus around mean absolute error (MAE) of 2000. To optimize the model, we want to find the lowest MAE value and the parameters that produced that value. To better observe where this optimal model is let's magnify that portion of the graph to increase the granularity:
