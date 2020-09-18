@@ -173,6 +173,8 @@
   * Equivalent functions will be available in both the abbreviated and unabbreviated in the coding environment, but only the unabbreviated versions will be used in section in case the reader has not familiarized themselves with this section.
   * The abbreviated function name retains all the capitalization but the period mark demarcating classification rank will be removed
     * i.e. The abbreviation `f.3Dp.Fo` (returns 3D plottable dictionary data) or `e.w.XG` (bivariate hyperparamter optimization of XGBR) become respectively `f3DpFo(...)` and `ewXG(...)` and are equivalent to the corresponding functions `for_3D_comp_Forest` and `experiment_with_XGB`
+  * Prefixes separated by the hyphen `-` in standard abbreviation formatting will become an underscore as `_` for coding implementation
+    * i.e. The abbreviation `m-c.p.Fo` (plots multiple 3D surface plots) becomes `m_cpFo`which is equivalent to `multicomparison_plot_surface_Forest`
   * Since no abbreviated functions were used in future sections, a exhibition of this section's contributions can be found in the uninventively-titled subsection `G. Exhibition`
     * The subsection abbreviates the functions used in the subsection `A. Demo` in section `I. Introduction` 
 
@@ -672,8 +674,7 @@ Additionally, to convert the data into a plottable 4D visualization the function
 
 > With the following code, you can plot a 4D (color being the 4th dimension) visualization of the hyperparameter optimization for a XGB Regressor Model:
 
-    XGB_4D_e2 = e4XG(200, range(2,7), range(1,101), X_train_pipeline, y, 
-                                      preprocessor, NE_increment=30, cv = 1)
+    XGB_4D_e2 = e4XG(200, range(2,7), range(1,101), X_train_pipeline, y, preprocessor, NE_increment=30, cv = 1)
     A_data_4d_e2 = f4XG(XGB_4D_e2)
     i4XG('Experiment 2 with Abbreviated Functions', A_data_4d_e2)
 
@@ -689,8 +690,9 @@ Additionally, to convert the data into a plottable 4D visualization the function
     Interactive 4D Plot from Experiment 2 - Section VI XGB Regression
   </em>
 </p>
- 
-Notice how the graph plateaus around mean absolute error (MAE) of 2000. To optimize the model, we want to find the lowest MAE value and the parameters that produced that value. To better observe where this optimal model is let's magnify that portion of the graph to increase the granularity:
+Here, we use the `z4XG` function which is equivalent to `zoom_4D_XGB` to zoom in on the graph:
+
+> Notice how the graph plateaus around mean absolute error (MAE) of 2000. To optimize the model, we want to find the lowest MAE value and the parameters that produced that value. To better observe where this optimal model is let's magnify that portion of the graph to increase the granularity:
     
     A_data_4d_e2_mag = z4XG(A_data_4d_e2, 25000)
     i4XG('Experiment 1 Magnified', A_data_4d_e2_mag)
@@ -704,14 +706,15 @@ Notice how the graph plateaus around mean absolute error (MAE) of 2000. To optim
   </em>
 </p>
 
-Though we know roughly know what model's optimal parameters should look like, to find the most performant model we can call the `optimize_XGB(...)` function:
+To find the optimal parameters, we can use the abbreviated function `oXG` instead of `optimize_XGB`:
+
+> Though we know roughly know what model's optimal parameters should look like, to find the most performant model we can call the `optimize_XGB(...)` function:
 
 <p align="center">
-  <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%202%20XGBR%20Optimized.gif"   width="500" /> 
+  <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%202%20Abbreviated%20Magnified%20-%204D%20Surface%20Plot.gif"   width="500" /> 
 </p>
 <p align="center">
   <em>
     1st argument = data, 2nd argument = classifier (4D will have one more dimension than 3D)
   </em>
 </p>
-
