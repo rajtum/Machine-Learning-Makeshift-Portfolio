@@ -175,7 +175,7 @@
     * i.e. The abbreviation `f.3Dp.Fo` (returns 3D plottable dictionary data) or `e.w.XG` (bivariate hyperparamter optimization of XGBR) become respectively `f3DpFo(...)` and `ewXG(...)` and are equivalent to the corresponding functions `for_3D_comp_Forest` and `experiment_with_XGB`
   * Prefixes separated by the hyphen `-` in standard abbreviation formatting will become an underscore as `_` for coding implementation
     * i.e. The abbreviation `m-c.p.Fo` (plots multiple 3D surface plots) becomes `m_cpFo`which is equivalent to `multicomparison_plot_surface_Forest`
-  * Since no abbreviated functions were used in future sections, a exhibition of this section's contributions can be found in the uninventively-titled subsection `G. Exhibition`
+  * Since no abbreviated functions were used in future sections, a exhibition of this section's contributions can be found in the uninventively-titled subsection [`G. Exhibition`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#g-exhibition---point_up_2)
     * The subsection abbreviates the functions used in the subsection `A. Demo` in section `I. Introduction` 
 
 
@@ -366,85 +366,409 @@ Zooms in on 4D data
 
 ## E. Tabular Presentation <!-- Below is an inelegant, verbose, unadaptive improvisation to flush text to right (\hfill in latex) since Github Markdown blocks CSS for security reasons --> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [:point_up_2:](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#table-of-contents)  
 ### Table 1. Function Assembly
-| Family                    | Genus                  | Species              | Function Name                                |
-|---------------------------|------------------------|----------------------|----------------------------------------------|
-| `experiment`              | `_with`                | `_DT`                | `experiment_with_DT`                         |
-| `experiment`              | `_with`                | `_Forest`            | `experiment_with_Forest`                     |
-| `experiment`              | `_with`                | `_pipelineCV_Forest` | `experiment_with_pipelineCV_Forest`          |
-| `experiment`              | `_with`                | `_XGB`               | `experiment_with_XGB`                        |
-| `experiment`              | `4D_with`              | `_XGB`               | `experiment4D_with_XGB`                      |
-| `for_`                    | `3D_plot`              | `_Forest`            | `for_3D_plot_Forest`                         |
-| `for_`                    | `3D_comp`              | `_Forest`            | `for_3D_comp_Forest`                         |
-| `for_`                    | `3D_plot`              | `_XGB`               | `for_3D_plot_XGB`                            |
-| `for_`                    | `4D_plot`              | `_XGB`               | `for_4D_plot_XGB`                            |
-| `plot`                    | `_wireframe`           | `_Forest`            | `plot_wireframe_Forest`                      |
-| `plot`                    | `_surface`             | `_Forest`            | `plot_surface_Forest`                        |
-| `interactive`             | `_surface`             | `_Forest`            | `interactive_surface_Forest`                 |
-| `interactive`             | `_surface`             | `_XGB`               | `interactive_surface_XGB`                    |
-| `interactive`             | `_4Dsurface`           | `_XGB`               | `interactive_4Dsurface_XGB`                  |
-| `comparison`              | `_Grid_Search`         | `_Forest`            | `comparison_Grid_Search_Forest`              |
-| `comparison`              | n/a                    | `_Forest`            | `comparison_Forest`                          |
-| `comparison`              | `_plot_surface`        | `_Forest`            | `comparison_plot_surface_Forest`             |
-| `comparison`              | `_interactive_surface` | `_Forest`            | `comparison_interactive_surface_Forest`      |
-| `comparison`              | `_plot_surface`        | `_XGB`               | `comparison_plot_surface_XGB`                |
-| `comparison`              | `_interactive_surface` | `_XGB`               | `comparison_interactive_surface_XGB`         |
-| `multi`-`comparison`      | `plot_surface`         | `_Forest`            | `multicomparison_plot_surface_Forest`        |
-| `multi`-`comparison`      | `_interactive_surface` | `_Forest`            | `multicomparison_interactive_surface_Forest` |
-| `time_`-`comparison`      | n/a                    | `_to_table`          | `time_comparison_to_table`                   |
-| `time_`-`comparison`      | n/a                    | `_plot`              | `time_comparison_plot`                       |
-| `opt_`-`comparison`       | n/a                    | `_plot`              | `opt_comparison_plot`                        |
-| `optimize`                | n/a                    | `_DT`                | `optimize_DT`                                |
-| `optimize`                | n/a                    | `_Forest`            | `optimize_Forest`                            |
-| `isDataTable_`-`optimize` | n/a                    | `_Forest`            | `isDataTable_optimize_Forest`                |
-| `optimize`                | n/a                    | `_XGB`               | `optimize_XGB`                               |
-| `initialize`              | n/a                    | `_DT`                | `initialize_DT`                              |
-| `initialize`              | n/a                    | `_Forest`            | `initialize_Forest`                          |
-| `initialize`              | n/a                    | `_Pipeline`          | `initialize_Pipeline`                        |
-| `initialize`              | n/a                    | `_XGB`               | `initialize_XGB`                             |
-| `zoom`                    | `_3D`                  | `_Forest`            | `zoom_3D_Forest`                             |
-| `zoom`                    | `_3D`                  | `_XGB`               | `zoom_3D_XGB`                                |
-| `zoom`                    | `_4D`                  | `_XGB`               | `zoom_4D_XGB`                                |
+<table>
+<thead>
+  <tr>
+    <th>Family</th>
+    <th>Genus</th>
+    <th>Species</th>
+    <th>Function Name</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="5"><code>experiment</code></td>
+    <td rowspan="4"><code>_with</code></td>
+    <td><code>_DT</code></td>
+    <td><code>experiment_with_DT</code></td>
+  </tr>
+  <tr>
+    <td><code>_Forest</code></td>
+    <td><code>experiment_with_Forest</code></td>
+  </tr>
+  <tr>
+    <td><code>_pipelineCV_Forest</code></td>
+    <td><code>experiment_with_pipelineCV_Forest</code></td>
+  </tr>
+  <tr>
+    <td><code>_XGB</code></td>
+    <td><code>experiment_with_XGB</code></td>
+  </tr>
+  <tr>
+    <td><code>4D_with</code></td>
+    <td><code>_XGB</code></td>
+    <td><code>experiment4D_with_XGB</code></td>
+  </tr>
+  <tr>
+    <td rowspan="4"><code>for_</code></td>
+    <td rowspan="2"><code>3D_plot</code></td>
+    <td><code>_Forest</code></td>
+    <td><code>for_3D_plot_Forest</code></td>
+  </tr>
+  <tr>
+    <td><code>_XGB</code></td>
+    <td><code>for_3D_plot_XGB</code></td>
+  </tr>
+  <tr>
+    <td><code>3D_comp</code></td>
+    <td><code>_Forest</code></td>
+    <td><code>for_3D_comp_Forest</code></td>
+  </tr>
+  <tr>
+    <td><code>4D_plot</code></td>
+    <td><code>_XGB</code></td>
+    <td><code>for_4D_plot_XGB</code></td>
+  </tr>
+  <tr>
+    <td rowspan="2"><code>plot</code></td>
+    <td><code>_wireframe</code></td>
+    <td><code>_Forest</code></td>
+    <td><code>plot_wireframe_Forest</code></td>
+  </tr>
+  <tr>
+    <td><code>_surface</code></td>
+    <td><code>_Forest</code></td>
+    <td><code>plot_surface_Forest</code></td>
+  </tr>
+  <tr>
+    <td rowspan="3"><code>interactive</code></td>
+    <td rowspan="2"><code>_surface</code></td>
+    <td><code>_Forest</code></td>
+    <td><code>interactive_surface_Forest</code></td>
+  </tr>
+  <tr>
+    <td><code>_XGB</code></td>
+    <td><code>interactive_surface_XGB</code></td>
+  </tr>
+  <tr>
+    <td><code>_4Dsurface</code></td>
+    <td><code>_XGB</code></td>
+    <td><code>interactive_4Dsurface_XGB</code></td>
+  </tr>
+  <tr>
+    <td rowspan="6"><code>comparison</code></td>
+    <td><code>_Grid_Search</code></td>
+    <td><code>_Forest</code></td>
+    <td><code>comparison_Grid_Search_Forest</code></td>
+  </tr>
+  <tr>
+    <td>n/a</td>
+    <td><code>_Forest</code></td>
+    <td><code>comparison_Forest</code></td>
+  </tr>
+  <tr>
+    <td><code>_plot_surface</code></td>
+    <td><code>_Forest</code></td>
+    <td><code>comparison_plot_surface_Forest</code></td>
+  </tr>
+  <tr>
+    <td><code>_interactive_surface</code></td>
+    <td><code>_Forest</code></td>
+    <td><code>comparison_interactive_surface_Forest</code></td>
+  </tr>
+  <tr>
+    <td><code>_plot_surface</code></td>
+    <td><code>_XGB</code></td>
+    <td><code>comparison_plot_surface_XGB</code></td>
+  </tr>
+  <tr>
+    <td><code>_interactive_surface</code></td>
+    <td><code>_XGB</code></td>
+    <td><code>comparison_interactive_surface_XGB</code></td>
+  </tr>
+  <tr>
+    <td rowspan="2"><code>multi</code>-<code>comparison</code></td>
+    <td><code>plot_surface</code></td>
+    <td><code>_Forest</code></td>
+    <td><code>multicomparison_plot_surface_Forest</code></td>
+  </tr>
+  <tr>
+    <td><code>_interactive_surface</code></td>
+    <td><code>_Forest</code></td>
+    <td><code>multicomparison_interactive_surface_Forest</code></td>
+  </tr>
+  <tr>
+    <td rowspan="2"><code>time_</code>-<code>comparison</code></td>
+    <td>n/a</td>
+    <td><code>_to_table</code></td>
+    <td><code>time_comparison_to_table</code></td>
+  </tr>
+  <tr>
+    <td>n/a</td>
+    <td><code>_plot</code></td>
+    <td><code>time_comparison_plot</code></td>
+  </tr>
+  <tr>
+    <td><code>opt_</code>-<code>comparison</code></td>
+    <td>n/a</td>
+    <td><code>_plot</code></td>
+    <td><code>opt_comparison_plot</code></td>
+  </tr>
+  <tr>
+    <td rowspan="2"><code>optimize</code></td>
+    <td>n/a</td>
+    <td><code>_DT</code></td>
+    <td><code>optimize_DT</code></td>
+  </tr>
+  <tr>
+    <td>n/a</td>
+    <td><code>_Forest</code></td>
+    <td><code>optimize_Forest</code></td>
+  </tr>
+  <tr>
+    <td><code>isDataTable_</code>-<code>optimize</code></td>
+    <td>n/a</td>
+    <td><code>_Forest</code></td>
+    <td><code>isDataTable_optimize_Forest</code></td>
+  </tr>
+  <tr>
+    <td><code>optimize</code></td>
+    <td>n/a</td>
+    <td><code>_XGB</code></td>
+    <td><code>optimize_XGB</code></td>
+  </tr>
+  <tr>
+    <td rowspan="4"><code>initialize</code></td>
+    <td>n/a</td>
+    <td><code>_DT</code></td>
+    <td><code>initialize_DT</code></td>
+  </tr>
+  <tr>
+    <td>n/a</td>
+    <td><code>_Forest</code></td>
+    <td><code>initialize_Forest</code></td>
+  </tr>
+  <tr>
+    <td>n/a</td>
+    <td><code>_Pipeline</code></td>
+    <td><code>initialize_Pipeline</code></td>
+  </tr>
+  <tr>
+    <td>n/a</td>
+    <td><code>_XGB</code></td>
+    <td><code>initialize_XGB</code></td>
+  </tr>
+  <tr>
+    <td rowspan="3"><code>zoom</code></td>
+    <td rowspan="2"><code>_3D</code></td>
+    <td><code>_Forest</code></td>
+    <td><code>zoom_3D_Forest</code></td>
+  </tr>
+  <tr>
+    <td><code>_XGB</code></td>
+    <td><code>zoom_3D_XGB</code></td>
+  </tr>
+  <tr>
+    <td><code>_4D</code></td>
+    <td><code>_XGB</code></td>
+    <td><code>zoom_4D_XGB</code></td>
+  </tr>
+</tbody>
+</table>
+
 <hr width="12%">
 
 ### Table 2. Function Abbreviation
-| Family                    | Genus                  | Species              | Abbreviation  |
-|---------------------------|------------------------|----------------------|---------------|
-| `experiment`              | `_with`                | `_DT`                | `e.w.DT`      |
-| `experiment`              | `_with`                | `_Forest`            | `e.w.Fo`      |
-| `experiment`              | `_with`                | `_pipelineCV_Forest` | `e.w.pi`      |
-| `experiment`              | `_with`                | `_XGB`               | `e.w.XG`      |
-| `experiment`              | `4D_with`              | `_XGB`               | `e.4.XG`      |
-| `for_`                    | `3D_plot`              | `_Forest`            | `f.3Dp.Fo`    |
-| `for_`                    | `3D_comp`              | `_Forest`            | `f.3Dc.Fo`    |
-| `for_`                    | `3D_plot`              | `_XGB`               | `f.3.XG`      |
-| `for_`                    | `4D_plot`              | `_XGB`               | `f.4.XG`      |
-| `plot`                    | `_wireframe`           | `_Forest`            | `p.w.Fo`      |
-| `plot`                    | `_surface`             | `_Forest`            | `p.s.Fo`      |
-| `interactive`             | `_surface`             | `_Forest`            | `i.s.Fo`      |
-| `interactive`             | `_surface`             | `_XGB`               | `i.s.XG`      |
-| `interactive`             | `_4Dsurface`           | `_XGB`               | `i.4.XG`      |
-| `comparison`              | `_Grid_Search`         | `_Forest`            | `c.G.Fo`      |
-| `comparison`              | n/a                    | `_Forest`            | `c.Fo`        |
-| `comparison`              | `_plot_surface`        | `_Forest`            | `c.p.Fo`      |
-| `comparison`              | `_interactive_surface` | `_Forest`            | `c.i.Fo`      |
-| `comparison`              | `_plot_surface`        | `_XGB`               | `c.p.XG`      |
-| `comparison`              | `_interactive_surface` | `_XGB`               | `c.i.XG`      |
-| `multi`-`comparison`      | `plot_surface`         | `_Forest`            | `m-c.p.Fo`    |
-| `multi`-`comparison`      | `_interactive_surface` | `_Forest`            | `m-c.i.Fo`    |
-| `time_`-`comparison`      | n/a                    | `_to_table`          | `t-c.to`      |
-| `time_`-`comparison`      | n/a                    | `_plot`              | `t-c.pl`      |
-| `opt_`-`comparison`       | n/a                    | `_plot`              | `o-c.pl`      |
-| `optimize`                | n/a                    | `_DT`                | `o.DT`        |
-| `optimize`                | n/a                    | `_Forest`            | `o.Fo`        |
-| `isDataTable_`-`optimize` | n/a                    | `_Forest`            | `i-o.Fo`      |
-| `optimize`                | n/a                    | `_XGB`               | `o.XG`        |
-| `initialize`              | n/a                    | `_DT`                | `i.DT`        |
-| `initialize`              | n/a                    | `_Forest`            | `i.Fo`        |
-| `initialize`              | n/a                    | `_Pipeline`          | `i.Pi`        |
-| `initialize`              | n/a                    | `_XGB`               | `i.XG`        |
-| `zoom`                    | `_3D`                  | `_Forest`            | `z.3.Fo`      |
-| `zoom`                    | `_3D`                  | `_XGB`               | `z.3.XG`      |
-| `zoom`                    | `_4D`                  | `_XGB`               | `z.4.XG`      |
+<table>
+<thead>
+  <tr>
+    <th>Family</th>
+    <th>Genus</th>
+    <th>Species</th>
+    <th>Abbreviation </th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="5"><code>experiment</code></td>
+    <td rowspan="4"><code>_with</code></td>
+    <td><code>_DT</code></td>
+    <td><code>e.w.DT</code></td>
+  </tr>
+  <tr>
+    <td><code>_Forest</code></td>
+    <td><code>e.w.Fo</code></td>
+  </tr>
+  <tr>
+    <td><code>_pipelineCV_Forest</code></td>
+    <td><code>e.w.pi</code></td>
+  </tr>
+  <tr>
+    <td><code>_XGB</code></td>
+    <td><code>e.w.XG</code></td>
+  </tr>
+  <tr>
+    <td><code>4D_with</code></td>
+    <td><code>_XGB</code></td>
+    <td><code>e.4.XG</code></td>
+  </tr>
+  <tr>
+    <td rowspan="4"><code>for_</code></td>
+    <td rowspan="2"><code>3D_plot</code></td>
+    <td><code>_Forest</code></td>
+    <td><code>f.3Dp.Fo</code></td>
+  </tr>
+  <tr>
+    <td><code>_XGB</code></td>
+    <td><code>f.3.XG</code></td>
+  </tr>
+  <tr>
+    <td><code>3D_comp</code></td>
+    <td><code>_Forest</code></td>
+    <td><code>f.3Dc.Fo</code></td>
+  </tr>
+  <tr>
+    <td><code>4D_plot</code></td>
+    <td><code>_XGB</code></td>
+    <td><code>f.4.XG</code></td>
+  </tr>
+  <tr>
+    <td rowspan="2"><code>plot</code></td>
+    <td><code>_wireframe</code></td>
+    <td><code>_Forest</code></td>
+    <td><code>p.w.Fo</code></td>
+  </tr>
+  <tr>
+    <td><code>_surface</code></td>
+    <td><code>_Forest</code></td>
+    <td><code>p.s.Fo</code></td>
+  </tr>
+  <tr>
+    <td rowspan="3"><code>interactive</code></td>
+    <td rowspan="2"><code>_surface</code></td>
+    <td><code>_Forest</code></td>
+    <td><code>i.s.Fo</code></td>
+  </tr>
+  <tr>
+    <td><code>_XGB</code></td>
+    <td><code>i.s.XG</code></td>
+  </tr>
+  <tr>
+    <td><code>_4Dsurface</code></td>
+    <td><code>_XGB</code></td>
+    <td><code>i.4.XG</code></td>
+  </tr>
+  <tr>
+    <td rowspan="6"><code>comparison</code></td>
+    <td><code>_Grid_Search</code></td>
+    <td><code>_Forest</code></td>
+    <td><code>c.G.Fo</code></td>
+  </tr>
+  <tr>
+    <td>n/a</td>
+    <td><code>_Forest</code></td>
+    <td><code>c.Fo</code></td>
+  </tr>
+  <tr>
+    <td><code>_plot_surface</code></td>
+    <td><code>_Forest</code></td>
+    <td><code>c.p.Fo</code></td>
+  </tr>
+  <tr>
+    <td><code>_interactive_surface</code></td>
+    <td><code>_Forest</code></td>
+    <td><code>c.i.Fo</code></td>
+  </tr>
+  <tr>
+    <td><code>_plot_surface</code></td>
+    <td><code>_XGB</code></td>
+    <td><code>c.p.XG</code></td>
+  </tr>
+  <tr>
+    <td><code>_interactive_surface</code></td>
+    <td><code>_XGB</code></td>
+    <td><code>c.i.XG</code></td>
+  </tr>
+  <tr>
+    <td rowspan="2"><code>multi</code>-<code>comparison</code></td>
+    <td><code>plot_surface</code></td>
+    <td><code>_Forest</code></td>
+    <td><code>m-c.p.Fo</code></td>
+  </tr>
+  <tr>
+    <td><code>_interactive_surface</code></td>
+    <td><code>_Forest</code></td>
+    <td><code>m-c.i.Fo</code></td>
+  </tr>
+  <tr>
+    <td rowspan="2"><code>time_</code>-<code>comparison</code></td>
+    <td>n/a</td>
+    <td><code>_to_table</code></td>
+    <td><code>t-c.to</code></td>
+  </tr>
+  <tr>
+    <td>n/a</td>
+    <td><code>_plot</code></td>
+    <td><code>t-c.pl</code></td>
+  </tr>
+  <tr>
+    <td><code>opt_</code>-<code>comparison</code></td>
+    <td>n/a</td>
+    <td><code>_plot</code></td>
+    <td><code>o-c.pl</code></td>
+  </tr>
+  <tr>
+    <td rowspan="2"><code>optimize</code></td>
+    <td>n/a</td>
+    <td><code>_DT</code></td>
+    <td><code>o.DT</code></td>
+  </tr>
+  <tr>
+    <td>n/a</td>
+    <td><code>_Forest</code></td>
+    <td><code>o.Fo</code></td>
+  </tr>
+  <tr>
+    <td><code>isDataTable_</code>-<code>optimize</code></td>
+    <td>n/a</td>
+    <td><code>_Forest</code></td>
+    <td><code>i-o.Fo</code></td>
+  </tr>
+  <tr>
+    <td><code>optimize</code></td>
+    <td>n/a</td>
+    <td><code>_XGB</code></td>
+    <td><code>o.XG</code></td>
+  </tr>
+  <tr>
+    <td rowspan="4"><code>initialize</code></td>
+    <td>n/a</td>
+    <td><code>_DT</code></td>
+    <td><code>i.DT</code></td>
+  </tr>
+  <tr>
+    <td>n/a</td>
+    <td><code>_Forest</code></td>
+    <td><code>i.Fo</code></td>
+  </tr>
+  <tr>
+    <td>n/a</td>
+    <td><code>_Pipeline</code></td>
+    <td><code>i.Pi</code></td>
+  </tr>
+  <tr>
+    <td>n/a</td>
+    <td><code>_XGB</code></td>
+    <td><code>i.XG</code></td>
+  </tr>
+  <tr>
+    <td rowspan="3"><code>zoom</code></td>
+    <td rowspan="2"><code>_3D</code></td>
+    <td><code>_Forest</code></td>
+    <td><code>z.3.Fo</code></td>
+  </tr>
+  <tr>
+    <td><code>_XGB</code></td>
+    <td><code>z.3.XG</code></td>
+  </tr>
+  <tr>
+    <td><code>_4D</code></td>
+    <td><code>_XGB</code></td>
+    <td><code>z.4.XG</code></td>
+  </tr>
+</tbody>
+</table>
+
 <hr width="12%">
 
 ### Table 3. Function Purpose
