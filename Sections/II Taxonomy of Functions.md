@@ -835,7 +835,7 @@ Zooms in on 4D data
 
 ## F. Ecosystems <!-- Below is an inelegant, verbose, unadaptive improvisation to flush text to right (\hfill in latex) since Github Markdown blocks CSS for security reasons --> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [:point_up_2:](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#table-of-contents)
 
-*All the functions within each "ecosystem," a word used to describe a collection of synegistic functions, is enumerated and information about any function can be found in the docstring but will not be presented here. There is no reasoning behind the naming of ecosystems beyond continuing the biologically based paradigm. Also note that biological ecosystems are made up of biotic and abiotic features, whereas all the functions were implicitly biotic features because only those features have classifications in systematics, thus semantically, a more accurate description of this section is not an enumeration of an "Ecosystem" but of all the "biotic factors within an Ecosystem."*
+*All the functions within each "ecosystem," a word used to describe a collection of synegistic functions, is enumerated and information about any function can be found in the docstring but will not be presented here. There is no reasoning behind the naming of ecosystems beyond continuing the biologically based paradigm. Also note that biological ecosystems are made up of biotic and abiotic features, whereas all the functions were implicitly biotic features because only those features have classifications in systematics, thus semantically, a more accurate description of this section is not an enumeration of an "Ecosystem" but of all the "biotic factors within an Ecosystem." Some functions here were not included in the trinomial nomenclature, so perhaps they could be the abiotic factors to an analagously imaginative mind.*
 <hr width="12%">
 
 ### An Intrasectional Analogical Aside
@@ -1015,7 +1015,7 @@ Additionally, to convert the data into a plottable 4D visualization the function
   </em>
 </p>
 
-Here, we use the `z4XG` function which is equivalent to `zoom_4D_XGB` to zoom in on the graph:
+Here, since we want to enlarge the granularity of the graph due to the plateau, we can use the `zoom` family. Since this is a 4D plot, we know to use the genus `_4D` and because this was produced by an `XGBR` we know to use the ecosystemic species `_XGB`. From these deductions we can use the abbreviated function `z4XG` function which is equivalent to `zoom_4D_XGB` to zoom in on the graph:
 
 > Notice how the graph plateaus around mean absolute error (MAE) of 2000. To optimize the model, we want to find the lowest MAE value and the parameters that produced that value. To better observe where this optimal model is let's magnify that portion of the graph to increase the granularity:
     
@@ -1031,7 +1031,7 @@ Here, we use the `z4XG` function which is equivalent to `zoom_4D_XGB` to zoom in
   </em>
 </p>
 
-To find the optimal parameters, we can use the abbreviated function `oXG` instead of `optimize_XGB`:
+To find the optimal parameters, we can we want to use the `optimize` family and because this is an `XBGR` we also know to use the species `_XGB`, thus we find the abbreviated function `oXG` which is equivalent to `optimize_XGB`. However, if this was a `Random Forest Regressor` then we would know to use `oFo` or for a `Decision Tree Regressor` we would know to use `oDT` demonstrating the flexibility and intuitiveness of the system.
 
 > Though we know roughly know what model's optimal parameters should look like, to find the most performant model we can call the `optimize_XGB(...)` function:
 
