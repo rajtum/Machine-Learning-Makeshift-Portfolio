@@ -835,7 +835,7 @@ Zooms in on 4D data
 
 ## F. Ecosystems <!-- Below is an inelegant, verbose, unadaptive improvisation to flush text to right (\hfill in latex) since Github Markdown blocks CSS for security reasons --> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [:point_up_2:](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#table-of-contents)
 
-*All the functions within each "ecosystem," a word used to describe a collection of synegistic functions, is enumerated and information about any function can be found in the docstring but will not be presented here. There is no reasoning behind the naming of ecosystems beyond continuing the biologically based paradigm. Also note that biological ecosystems are made up of biotic and abiotic features, whereas all the functions were implicitly biotic features because only those features have classifications in systematics, thus semantically, a more accurate description of this section is not an enumeration of an "Ecosystem" but of all the "biotic factors within an Ecosystem." Some functions here were not included in the trinomial nomenclature, so perhaps they could be the abiotic factors to an analagously imaginative mind.*
+*All the functions within each "ecosystem," a word used to describe a collection of synegistic functions, is enumerated and information about any function can be found in the docstring but will not be presented here. There is no reasoning behind the naming of ecosystems beyond continuing the biologically based paradigm. Also note that biological ecosystems are made up of biotic and abiotic features, whereas all the functions were implicitly biotic features because only those features have classifications in systematics, thus semantically, a more accurate description of this section is not an enumeration of an "Ecosystem" but of all the "biotic factors within an Ecosystem." Some functions here were not included in the functions enumerated and abbreviated in trinomial nomenclature, so perhaps they could be the abiotic factors to an analagously imaginative mind.*
 <hr width="12%">
 
 ### An Intrasectional Analogical Aside
@@ -1043,3 +1043,36 @@ To find the optimal parameters, we can we want to use the `optimize` family and 
     1st argument = data, 2nd argument = classifier (4D will have one more dimension than 3D)
   </em>
 </p>
+
+## H. Areas of Improvement <!-- Below is an inelegant, verbose, unadaptive improvisation to flush text to right (\hfill in latex) since Github Markdown blocks CSS for security reasons --> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [:point_up_2:](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#table-of-contents)
+
+*Like anything in this world, the pursuit of perfection is an asymptote not a loading screen &mdash; though the latter at times may remarkably feel like the former. Here, we briefly discuss systemic and mechanical shortcomings, possible counter claims, and so on; however, I hypothesize all the points enumerated here are but the tip of the iceberg.*
+
+<hr width="12%">
+
+### Trinomial Nomenclature System
+#### Counterclaim
+Instead of creating this complicated classification system, the easiest solution to lessening the typing burden would simply be to reduce the unabbreviated names and arguments of functions. Though this solution is easy, it overlooks the nature of this section's quest, which is not the simplify but classify. Only from this classification, does abbreviation rather than an oversimplification becomes possible. I fear that the prefix "over" is hard to separate from the simplify, and without this separation, an oversimplification implies a truncation of relevant information, whereas an abbreviation represents an optimization of relevant information. The section aims to achieve the latter without leading to the former.
+
+<hr width="3%">
+
+#### Ambiguity
+Although the system works optimally with functions of most functions, with optimally being defined as a each part of classifications and abbreviation being cogent and intuitively-applied, some functions' abbreviations such as `i-o.Fo` which stands for `isDataTable_optimize_Forest` leave a residue of ambiguity counter to the definition "optimally."
+
+<hr width="3%">
+
+#### Functional vs. Argumentative
+All the functions classified in the trinomial nomenclature system were functional names, and more needs to be done in the area of the standardization and abbreviation of the argumentative environment for each function. If we temporarily dismiss the higher of aim of this section for the material comforts of lessening the typing burden and ergo increasing the efficiency, then I suspect that a majority of the typing burden falls not in the typing of functions but rather the typing of these function's arguments. The enjoyable irony of this section is that it discusses a method of "decreasing the typing burden" by a lot of typing.
+
+<hr width="3%">
+
+#### Simplicity
+Though the fear of *over*simplication was stated in the `Counterclaim` section, simplification and its attendant characteristic of simplicity should be welcomed like a familiar face returning home. Things were often simple before they were complicated. This system, termed a "Trinomial Nomenclature" to me feels like a regression to the "Binomial Nomenclature" due to its dependence to an extra term for its abbreviation, but perhaps the comparison is unjust. Regardless, though I felt like the system accomplished much in classification and abbreviation, I always felt a simpler, more elegant solution always elusive like Tantalus's fruit, but one cannot utter the words on the tip of one's tongue.
+
+<hr width="12%">
+
+### Holistic Section
+#### Expository Style
+It would be ignorant of me to acknowledge that many sections are explained in a writing style that relies upon intricate setences bordering on Hawthornian syntax that may convolute the sentence's meaning. To address these criticisms, I accept them. My style was more a natural stream of consciousness than a contrived jet stream of eloquence. The latter is what I strive for in works that I design to appeal to larger audience and when the purpose is meant for audience consumption, but the purpose of this writing is more a earnest exploration of my curiosity that so happens to be crystallized in writing here. I will make no effort to change the writing style here but I do acknowledge that deficiencies in the expository style that impede comprehension by favoring verbiage.
+
+
