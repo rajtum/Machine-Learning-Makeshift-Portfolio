@@ -258,4 +258,27 @@ Instead of this:
 
 This is why the the links for Section III-VI open to a shared Google Colab instead of the Github file location.
 
+## To View Notebook:
+
+### Step 1. Open a Google Colab Share Link
+*You will not have to run a single piece of code to view the output of a notebook. All changes made on this document will not be saved, so feel to tinker around with the code, but you will need to first follow the steps below [To Run Code in Notebook:]()*
+| <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Opening%20Section%20VI%20Google%20Colab%20Share%20Link.gif" width="1000"/> |
+|--------|
+
+<hr width="3%">
+
+## To Run Code in Notebook:
+Typically, one should not run code not authored by a reputable source in case the code runs malicious software. Even though that is not the case here, all notebooks are entirely viewable without needing to run a single coding block to avoid this dilemma as I am not a Google, Amazon, or Facebook.
+
+<hr width="3%">
+
+### Step 2. Will Require You to Sign in to Run Code Blocks
+| <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Google%20Sign-in%20Required%20to%20Run%20Code.gif" width="1000"/> |
+|-------|
+
+
+### Step 3. Will Give You A Warning that Notebook Not Authored by Google
+*Again, you do not need to run any code block to any notebook output for code already written. However, to tinker around with the code or to add your own data you select* `RUN AWAY` . 
+| <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Warning%20-%20Notebook%20Not%20Authored%20by%20Google.gif" width="1000"/> |
+|-------|
 
