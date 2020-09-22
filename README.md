@@ -1,9 +1,9 @@
 # About
-*The portfolio can be found in the folder* `Sections` .* All the other folders are complimentary and referenced within `Sections` . Please note that `.ipynb` files sometimes do not work due to the way Github views. Before opening these files, please read the section [How to Explore]()
+The portfolio can be found in the folder `Sections` . All the other folders are complimentary and referenced within `Sections` . Please note that `.ipynb` files sometimes do not work due to the way Github views. Before opening these files, please read the section [How to Explore](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/README.md#how-to-explore) to learn a workaround of how to view these files. Any comments, questions, or concerns can be directed to [rajit@uchicago.edu](mailto:rajit@uchicago.edu).
 
-*In this project, the Ames Housing Dataset, compiled in this [scientific paper](http://jse.amstat.org/v19n3/decock.pdf) by Dean De Cock was used to build ML models that predict the sale price of houses. The Mean Absolute Error (MAE) represents how close the model's sale price prediction was to the actual sale price. For instance, when* `MAE = 20000` *that signifies a model predicted housing sale prices on average within $20,000 of the actual housing sale prices.*
+In this project, the Ames Housing Dataset, compiled in this [scientific paper](http://jse.amstat.org/v19n3/decock.pdf) by Dean De Cock was used to build ML models that predict the sale price of houses. The Mean Absolute Error (MAE) represents how close the model's sale price prediction was to the actual sale price. For instance, when `MAE = 20000` that signifies a model predicted housing sale prices on average within $20,000 of the actual housing sale prices.
 
-*Though many topics were discussed in the project, the main highlights were the trivariate hyperparameter optimization, 4D visualization of a XGBoost Regressor, capability to overlay multiple visualizations, and a taxonomical explanation of functions.*
+Though many topics were discussed in the project, the main highlights were the trivariate hyperparameter optimization, 4D visualization of a XGBoost Regressor, capability to overlay multiple visualizations, and a taxonomical explanation of functions.
 
 ## Highlights
 
@@ -248,14 +248,14 @@
   #### &emsp;&emsp; [VI. XGBoost Regressor](https://colab.research.google.com/drive/1VbZ3RL22IGlTu3wydawMK0SQwMkIuomQ?usp=sharing)
   
 # How to Explore
-*Section I and II are Markdown files (* `file_name.md` *) and can be viewed directly from Github. *Section III-VI are Jupyter Notebooks (* `file_name.ipynb` *) **should be viewed from Google Colab NOT Github** for reasons explained in subsection of [I. Introduction ](). Sometimes the* `Open to Colab` *does not work due to the way Github views* `.ipynb` *with the following error:*
+Section I and II are Markdown files ( `file_name.md` ) and can be viewed directly from Github. Section III-VI are Jupyter Notebooks ( `file_name.ipynb` ) **should be viewed from Google Colab NOT Github** for reasons explained in subsection of [I. Introduction ](). Sometimes the `Open to Colab` does not work due to the way Github views `.ipynb` with the following error:
 
 > <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Jupyter%20Notebook%20Github%20Error.gif"   width="500" />
 
-*Instead of this:*
+Instead of this:
 
 <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Github%20Jupyter%20Notebook%20Viewer%20Working.gif" width="1000"/>
 
-*This is why the the links for Section III-VI open to a shared Google Colab instead of the Github file location.*
+This is why the the links for Section III-VI open to a shared Google Colab instead of the Github file location.
 
 
