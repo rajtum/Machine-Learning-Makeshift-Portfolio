@@ -1,4 +1,6 @@
 # About
+*The portfolio can be found in the folder* `Sections` .* All the other folders are complimentary and referenced within `Sections` . Please note that `.ipynb` files sometimes do not work due to the way Github views. Before opening these files, please read the section [How to Explore]()
+
 *In this project, the Ames Housing Dataset, compiled in this [scientific paper](http://jse.amstat.org/v19n3/decock.pdf) by Dean De Cock was used to build ML models that predict the sale price of houses. The Mean Absolute Error (MAE) represents how close the model's sale price prediction was to the actual sale price. For instance, when* `MAE = 20000` *that signifies a model predicted housing sale prices on average within $20,000 of the actual housing sale prices.*
 
 *Though many topics were discussed in the project, the main highlights were the trivariate hyperparameter optimization, 4D visualization of a XGBoost Regressor, capability to overlay multiple visualizations, and a taxonomical explanation of functions.*
@@ -240,14 +242,20 @@
 ### Machine Learning Makeshift Portfolio
   #### &emsp;&emsp; [I. Introduction](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/I%20Introduction.md)
   #### &emsp;&emsp; [II. Taxonomy of Functions](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md)
-  #### &emsp;&emsp; [III. Decision Tree Regressor](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/III%20Decision%20Tree%20Regressor.ipynb)
-  #### &emsp;&emsp; [IV. Random Forest Regressor](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/IV%20Random%20Forest%20Regressor.ipynb)
-  #### &emsp;&emsp; [V. Adding More Predictors](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/V%20Adding%20More%20Predictors.ipynb)
-  #### &emsp;&emsp; [VI. XGBoost Regressor](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/VI%20XGBoost%20Regressor.ipynb)
+  #### &emsp;&emsp; [III. Decision Tree Regressor](https://colab.research.google.com/drive/1q2WktD37RdSJzF2eTMzsMa8wdAQdwri1?usp=sharing)
+  #### &emsp;&emsp; [IV. Random Forest Regressor](https://colab.research.google.com/drive/1VgqSp3BSiRJeZZWfxzLEkD7xe6EWQ_f1?usp=sharing)
+  #### &emsp;&emsp; [V. Adding More Predictors](https://colab.research.google.com/drive/1V8bdK2vUBGASpOIfo_-K7-iNbOVAiPmh?usp=sharing)
+  #### &emsp;&emsp; [VI. XGBoost Regressor](https://colab.research.google.com/drive/1VbZ3RL22IGlTu3wydawMK0SQwMkIuomQ?usp=sharing)
   
 # How to Explore
-## Method 1)
+*Section I and II are Markdown files (* `file_name.md` *) and can be viewed directly from Github. *Section III-VI are Jupyter Notebooks (* `file_name.ipynb` *) **should be viewed from Google Colab NOT Github** for reasons explained in subsection of [I. Introduction ](). Sometimes the* `Open to Colab` *does not work due to the way Github views* `.ipynb` *with the following error:*
+
+> <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Jupyter%20Notebook%20Github%20Error.gif"   width="500" />
+
+*Instead of this:*
+
+<img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Github%20Jupyter%20Notebook%20Viewer%20Working.gif" width="1000"/>
+
+*This is why the the links for Section III-VI open to a shared Google Colab instead of the Github file location.*
 
 
-
-## Method 2)
