@@ -261,14 +261,14 @@ This is why the the links for Section III-VI open to a shared Google Colab inste
 ## To View Notebook:
 
 ### Step 1. Open a Google Colab Share Link
-*You will not have to run a single piece of code to view the output of a notebook. All changes made on this document will not be saved, so feel to tinker around with the code, but you will need to first follow the steps below [To Run Code in Notebook:]()*
+*You will not have to run a single piece of code to view the output of a notebook. All changes made on this document will not be saved, so feel to tinker around with the code. Note however you will need to first follow the steps below [To Run Code in Notebook:](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio#to-run-code-in-notebook) to be able to run code.*
 | <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Opening%20Section%20VI%20Google%20Colab%20Share%20Link.gif" width="1000"/> |
 |--------|
 
 <hr width="3%">
 
 ## To Run Code in Notebook:
-Typically, one should not run code not authored by a reputable source in case the code runs malicious software. Even though that is not the case here, all notebooks are entirely viewable without needing to run a single coding block to avoid this dilemma as I am not a Google, Amazon, or Facebook.
+Typically, one should not run code not authored by a reputable source lest the code runs malicious software. Even though that is not the case here, all notebooks are entirely viewable without needing to run a single coding block to avoid this dilemma. But to tinker around with the code or use your own datasets on the functions, you will need to follow the below steps:
 
 <hr width="3%">
 
