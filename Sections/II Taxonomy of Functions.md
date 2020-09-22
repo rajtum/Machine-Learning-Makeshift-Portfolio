@@ -1074,7 +1074,7 @@ Instead of creating this complicated classification system, the easiest solution
 <hr width="3%">
 
 #### Ambiguity
-Although the system works optimally with functions of most functions, with optimally being defined as a each part of classifications and abbreviation being cogent and intuitively-applied, some functions' abbreviations such as `i-o.Fo` which stands for `isDataTable_optimize_Forest` leave a residue of ambiguity counter to the definition "optimally."
+Although the system works optimally with most functions, with optimally being defined as a each part of classifications and abbreviation being cogent and intuitively-applied, some functions' abbreviations such as `i-o.Fo` which stands for `isDataTable_optimize_Forest` leave a residue of ambiguity counter to the definition "optimally" and the aim to optimize information.
 
 <hr width="3%">
 
@@ -1084,12 +1084,12 @@ All the functions classified in the trinomial nomenclature system were functiona
 <hr width="3%">
 
 #### Simplicity
-Though the fear of *over*simplication was stated in the `Counterclaim` section, simplification and its attendant characteristic of simplicity should be welcomed like a familiar face returning home. Things were often simple before they were complicated. This system, termed a "Trinomial Nomenclature" to me feels like a regression to the "Binomial Nomenclature" due to its dependence to an extra term for its abbreviation, but perhaps the comparison is unjust. Regardless, though I felt like the system accomplished much in classification and abbreviation, I always felt a simpler, more elegant solution always elusive like Tantalus's fruit, but one cannot utter the words on the tip of one's tongue.
+Though the fear of *over*simplication was stated in the `Counterclaim` section, simplification and its attendant characteristic of simplicity should be welcomed like a familiar face returning home. Things were often simple before they were complicated. This system, termed a "Trinomial Nomenclature" to me feels like a regression to the "Binomial Nomenclature" due to its dependence to an extra term for its abbreviation, but perhaps the comparison is unjust. Regardless, though I felt like the system accomplished much in classification and abbreviation, I always felt a simpler, more elegant solution always elusive like Tantalus's fruit was about to be concieved to replace the current system, but alas, one cannot utter the words on the tip of one's tongue and I did not find such system.
 
 <hr width="12%">
 
 ### Holistic Section
 #### Expository Style
-It would be ignorant of me to acknowledge that many sections are explained in a writing style that relies upon intricate setences bordering on Hawthornian syntax that may convolute the sentence's meaning. To address these criticisms, I accept them. My style was more a natural stream of consciousness than a contrived jet stream of eloquence. The latter is what I strive for in works that I design to appeal to larger audience and when the purpose is meant for audience consumption, but the purpose of this writing is more a earnest exploration of my curiosity that so happens to be crystallized in writing here. I will make no effort to change the writing style here but I do acknowledge that deficiencies in the expository style that impede comprehension by favoring verbiage.
+It would be ignorant of me to acknowledge that many sections are explained in a writing style that relies upon intricate setences bordering on Hawthornian syntax that may convolute the sentence's meaning. To address these criticisms, I accept them. My style was more a natural stream of consciousness than a contrived jet stream of eloquence. The latter is what I strive for in works that I design to appeal to larger audience and when the purpose is meant for audience consumption, but the purpose of this writing is more a earnest exploration of my curiosity that so happens to be crystallized in writing here. I will make no effort to change the writing style here but I do acknowledge that deficiencies in the expository style may hinder comprehension.
 
 
