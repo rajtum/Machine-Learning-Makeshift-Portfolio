@@ -1,7 +1,9 @@
-## About
-*In this project, the Ames Housing Dataset, compiled in this [scientific paper](http://jse.amstat.org/v19n3/decock.pdf) by Dean De Cock was used to build ML models that predict the sale price of houses. The Mean Absolute Error (MAE) represents how close the model's sale price prediction was to the actual sale price. For instance, when* `MAE = 20000` *that means a model predicted housing sale prices on average within $20,000 of the actual housing sale prices.*
+# About
+*In this project, the Ames Housing Dataset, compiled in this [scientific paper](http://jse.amstat.org/v19n3/decock.pdf) by Dean De Cock was used to build ML models that predict the sale price of houses. The Mean Absolute Error (MAE) represents how close the model's sale price prediction was to the actual sale price. For instance, when* `MAE = 20000` *that signifies a model predicted housing sale prices on average within $20,000 of the actual housing sale prices.*
 
 *Though many topics were discussed in the project, the main highlights were the trivariate hyperparameter optimization, 4D visualization of a XGBoost Regressor, capability to overlay multiple visualizations, and a taxonomical explanation of functions.*
+
+## Highlights
 
 <details><summary> "trivariate hyperparameter optimization" = Three variables of ML model were optimized to produce the lowest MAE </summary>
 
@@ -21,7 +23,9 @@
 
 <details><summary> Capability to overlay multiple visualizations </summary>
 
-<img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/MultiPrefixAni.gif"   width="500" /> 
+| With `multicomparison` function |
+|---------------------------------|
+|<img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/MultiPrefixAni.gif"   width="500" /> |
 
 </details>
 
@@ -240,3 +244,10 @@
   #### &emsp;&emsp; [IV. Random Forest Regressor](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/IV%20Random%20Forest%20Regressor.ipynb)
   #### &emsp;&emsp; [V. Adding More Predictors](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/V%20Adding%20More%20Predictors.ipynb)
   #### &emsp;&emsp; [VI. XGBoost Regressor](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/VI%20XGBoost%20Regressor.ipynb)
+  
+# How to Explore
+## Method 1)
+
+
+
+## Method 2)
