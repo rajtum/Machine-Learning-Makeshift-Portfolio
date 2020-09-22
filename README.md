@@ -1,4 +1,13 @@
 # I. Introduction
+
+## Précis
+
+## Author's Note
+
+This "Machine Learning Makeshift Portfolio" was initially conceived to be as it is titled, a makeshift to demonstrate my proficiency in coding machine learning models; something short and quick, but nonetheless demonstrating. However, as I am finishing this project, I realize curiosity took the reigns of pragmatism's chariot and the project drifted far from the purpose of its conception with Section II eccentrically and probably too thouroughly propounding a trinomial nomenclature framework for classifying functions or Section IV's spritied but flawed comparison of the optimization function programmed with `GridSearchCV` optimization from `sklearn` or the 4D graphical representation of trivariate hyperparameter optimization for an XGBR which sounds ostensibly impressive until learning the fourth dimension is simply color. Though I know I have slightly belittled what I have made in prior sentence, make no mistake, I enjoyed every second of this intellectual voyage despite arriving at a different destination. 
+
+I hope you find something of value in this different destination. Feel free to explore whatever interests you.
+
 ## A. Demo
 
 With the following code, you can plot a 4D (color being the 4th dimension) visualization of the hyperparameter optimization for a XGB Regressor Model:
