@@ -287,16 +287,17 @@ Converts to a plottable 4D data (returns a dictionary) and only compatible with 
 #### `_wireframe`
 Plots a wireframe plot in `pyplot`
 
-| <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/WireframeGenusImage.png"   width="700" />
-<hr width="3%"> |
+| <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/WireframeGenusImage.png"   width="700" /> |
 |-|
+<hr width="3%">
 
 #### `_surface`
 Plots a surface plot in `pyplot`
 
-| <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/PlotFamilyImage.png"   width="700" />
-<hr width="12%"> |
+| <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/PlotFamilyImage.png"   width="700" /> |
 |-|
+<hr width="12%">
+
 
 
 
@@ -304,16 +305,17 @@ Plots a surface plot in `pyplot`
 #### `_surface`
 Plots an interactive 3D surface plot in `plotly`
 
-| <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/InteractiveFamilyAni.gif"   width="700" />
-<hr width="3%"> |
+| <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/InteractiveFamilyAni.gif"   width="700" /> |
 |-|
+<hr width="3%">
 
 #### `_4Dsurface`
 Plots an interactive 4D (color being the 4th dimension) surface plot in `plotly`
 
-| <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%202-%204D%20Surface%20Plot.gif"   width="700" />
-<hr width="12%"> |
+| <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%202-%204D%20Surface%20Plot.gif"   width="700" /> |
 |-|
+<hr width="12%">
+
 
 ### Family of `comparison`
 #### `_Grid_Search`
