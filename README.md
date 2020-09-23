@@ -1,9 +1,22 @@
 # About
+### How to View Portfolio
 The portfolio can be found in the folder `Sections` . All the other folders are complimentary and referenced within `Sections` . Please note that `.ipynb` files sometimes do not work due to the way Github viewer works. Before opening these files, please read the section [How to Explore](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/README.md#how-to-explore) to learn a workaround of how to view these files. Any comments, questions, or concerns can be directed to [rajit@uchicago.edu](mailto:rajit@uchicago.edu).
 
-In this project, the Ames Housing Dataset, compiled in this [scientific paper](http://jse.amstat.org/v19n3/decock.pdf) by Dean De Cock was used to build ML models that predict the sale price of houses. The Mean Absolute Error (MAE) represents how close the model's sale price prediction was to the actual sale price. For instance, when `MAE = 20000` that signifies a model predicted housing sale prices on average within $20,000 of the actual housing sale prices.
+<hr width="3%">
+
+### Context
+
+In this project, the Ames Housing Dataset, compiled in this [scientific paper](http://jse.amstat.org/v19n3/decock.pdf) by Dean De Cock was used to build ML models that predict the sale price of houses. The Mean Absolute Error (MAE) represents how close the model's sale price prediction was to the actual sale price. For instance, when `MAE = 20000` that signifies a model predicted housing sale prices on average within $20,000 of the actual housing sale prices. 
+
+<hr width="3%">
+
+### Application
+
+The dataset was used as a validation for the functions programmed, but in [Section VII. Add Your Own Dataset](), one can use their own dataset to conduct and visualize the hyperparameter optimization of their own machine learning models.
 
 Though many topics were discussed in the project, the main highlights were the trivariate hyperparameter optimization, 4D visualization of a XGBoost Regressor, capability to overlay multiple visualizations, and a taxonomical explanation of functions.
+
+<hr width="3%">
 
 ## Highlights
 
