@@ -208,26 +208,30 @@ Converts data from `experiment` family to plottable data
 ### `plot`
 Plots a static `pyplot` with what is returned from `for_` family
 
-> <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/PlotFamilyImage.png"   width="700" />
+| <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/PlotFamilyImage.png"   width="700" /> |
+|-|
 <hr width="3%">
 
 ### `interactive`
 Plots an interactive `plotly` with what is returned froom `for_` family
 
-> <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/InteractiveFamilyAni.gif"   width="700" />
+| <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/InteractiveFamilyAni.gif"   width="700" /> |
+|-|
 <hr width="3%">
 
 ### `comparison`
 Compares or generates comparison data for two datasets in a `plot`, `interactive`, `DataFrame`, etc.
 
-> <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/ComparisonFamilyImage.png"   width="700" />
+| <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/ComparisonFamilyImage.png"   width="700" /> |
+|-|
 
 
 #### Prefixes ####
 * `multi`
    * Strictly for plotting, enables comparison of up to five datasets
    
-> <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/MultiPrefixAni.gif"   width="700" />
+| <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/MultiPrefixAni.gif"   width="700" /> |
+|-|
 
 
 * `time_`
@@ -239,7 +243,8 @@ Compares or generates comparison data for two datasets in a `plot`, `interactive
 ### `optimize`
 Finds the parameters of the model that had the lowest mean absolute error with data from the family `experiment`
 
-> <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%202%20XGBR%20Optimized.gif"   width="400" />
+| <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%202%20XGBR%20Optimized.gif"   width="400" /> |
+|-|
 <hr width="3%">
 
 ### `initialize`
@@ -249,7 +254,8 @@ Creates an object specifed in the `Species` based on desired parameters
 ### `zoom`
 Allows for functions in `interactive` family to plot values only below a certain mean absolute error to enhance the granularity of surface plot
 
-> <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%202%20Magnified%20-%204D%20Surface%20Plot.gif"   width="700" />
+| <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%202%20Magnified%20-%204D%20Surface%20Plot.gif"   width="700" /> |
+|-|
 <hr width="3%">
 
 ## C. Genus <!-- Below is an inelegant, verbose, unadaptive improvisation to flush text to right (\hfill in latex) since Github Markdown blocks CSS for security reasons --> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [:point_up_2:](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#table-of-contents)  
@@ -281,14 +287,16 @@ Converts to a plottable 4D data (returns a dictionary) and only compatible with 
 #### `_wireframe`
 Plots a wireframe plot in `pyplot`
 
-> <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/WireframeGenusImage.png"   width="700" />
-<hr width="3%">
+| <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/WireframeGenusImage.png"   width="700" />
+<hr width="3%"> |
+|-|
 
 #### `_surface`
 Plots a surface plot in `pyplot`
 
-> <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/PlotFamilyImage.png"   width="700" />
-<hr width="12%">
+| <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/PlotFamilyImage.png"   width="700" />
+<hr width="12%"> |
+|-|
 
 
 
@@ -296,14 +304,16 @@ Plots a surface plot in `pyplot`
 #### `_surface`
 Plots an interactive 3D surface plot in `plotly`
 
-> <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/InteractiveFamilyAni.gif"   width="700" />
-<hr width="3%">
+| <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/InteractiveFamilyAni.gif"   width="700" />
+<hr width="3%"> |
+|-|
 
 #### `_4Dsurface`
 Plots an interactive 4D (color being the 4th dimension) surface plot in `plotly`
 
-> <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%202-%204D%20Surface%20Plot.gif"   width="700" />
-<hr width="12%">
+| <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%202-%204D%20Surface%20Plot.gif"   width="700" />
+<hr width="12%"> |
+|-|
 
 ### Family of `comparison`
 #### `_Grid_Search`
@@ -313,13 +323,15 @@ Performs hyperparamter optimization with `sklearn.model_selection.GridSearchCV` 
 #### `_plot_surface`
 Plots two sets of 3D data in the same `pyplot`
 
-> <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/ComparisonFamilyImage.png"   width="700" />
+| <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/ComparisonFamilyImage.png"   width="700" /> |
+|-|
 <hr width="3%">
 
 #### `_interactive_surface`
 Plots two sets of 3D data in the same `plotly`
 
-> <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/FamilyComparisonGenusInteractiveAni.gif"   width="700" />
+| <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/FamilyComparisonGenusInteractiveAni.gif"   width="700" /> |
+|-|
 <hr width="3%">
 
 #### `_to_table`
@@ -842,13 +854,17 @@ Zooms in on 4D data
 
 ### 2) Press `⌘ Cmd + A` or `Ctrl + A` and select the filter icon in top left
 <hr width="3%">
-<img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Step%202%20Interactive%20Table.gif"   width="800" />
+
+| <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Step%202%20Interactive%20Table.gif"   width="800" /> |
+|-|
+
 <hr width="12%">
 
 ### 3) Click `Create new temporary filter view` and voilà!
 <hr width="3%">
-<img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Step%203%20Interactive%20Table.gif"   width="800" />
 
+| <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Step%203%20Interactive%20Table.gif"   width="800" /> |
+|-|
 
 ## F. Ecosystems <!-- Below is an inelegant, verbose, unadaptive improvisation to flush text to right (\hfill in latex) since Github Markdown blocks CSS for security reasons --> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [:point_up_2:](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#table-of-contents)
 
