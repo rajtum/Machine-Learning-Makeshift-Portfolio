@@ -14,15 +14,17 @@ In this project, the Ames Housing Dataset, compiled in this [scientific paper](h
 
 The dataset was used as a validation for the functions programmed, but in [Section VII. Add Your Own Dataset](), one can use their own dataset to conduct and visualize the hyperparameter optimization of their own machine learning models.
 
-Though many topics were discussed in the project, the main highlights were the trivariate hyperparameter optimization, 4D visualization of a XGBoost Regressor, capability to overlay multiple visualizations, and a taxonomical explanation of functions.
-
 <hr width="3%">
+
+Though many topics were discussed in the project, the main highlights were the trivariate hyperparameter optimization, 4D visualization of a XGBoost Regressor, capability to overlay multiple visualizations, and a taxonomical explanation of functions.
 
 ## Highlights
 
 <details><summary> "trivariate hyperparameter optimization" = Three variables of ML model were optimized to produce the lowest MAE </summary>
 
-<img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%202%20Abbreviated%20Magnified%20-%204D%20Surface%20Plot.gif"   width="500" /> 
+| Taxonomical Abbreviation of `optimize_XGB` |
+|--------------------------------------------|
+| <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%202%20Abbreviated%20Magnified%20-%204D%20Surface%20Plot.gif"   width="500" /> |
 
 </details>
 
@@ -261,13 +263,20 @@ Though many topics were discussed in the project, the main highlights were the t
   #### &emsp;&emsp; [VI. XGBoost Regressor](https://colab.research.google.com/drive/1VbZ3RL22IGlTu3wydawMK0SQwMkIuomQ?usp=sharing)
   
 # How to Explore
-Section I and II are Markdown files ( `file_name.md` ) and can be viewed directly from Github. Section III-VI are Jupyter Notebooks ( `file_name.ipynb` ) **should be viewed from Google Colab NOT Github** for reasons explained in subsection of [I. Introduction ](). Sometimes the `Open to Colab` does not work due to the way Github views `.ipynb` with the following error:
+## Basics and Potential Errors
+Section I and II are Markdown files ( `file_name.md` ) and can be viewed directly from Github. Section III-VI are Jupyter Notebooks ( `file_name.ipynb` ) **should be viewed from Google Colab NOT Github** for reasons explained in subsection of [I. Introduction](). Sometimes the `Open to Colab` does not work due to the way Github views `.ipynb` with the following error:
 
-> <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Jupyter%20Notebook%20Github%20Error.gif"   width="500" />
+<blockquote>
+  
+|<img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Jupyter%20Notebook%20Github%20Error.gif"   width="500" />|
+|-|
+
+</blockquote>
 
 Instead of this:
 
-<img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Github%20Jupyter%20Notebook%20Viewer%20Working.gif" width="1000"/>
+|<img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Github%20Jupyter%20Notebook%20Viewer%20Working.gif" width="1000"/>|
+|-|
 
 This is why the the links for Section III-VI open to a shared Google Colab instead of the Github file location.
 
