@@ -370,4 +370,32 @@ The portfolio is broken up into the following structure:
 |<img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%203%20-%204D%20Surface%20Plot.gif"   width="500" />|<img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%203%20Magnified%20-%204D%20Surface%20Plot.gif"   width="500" />| 
 
    * Maintains the bivariate hyperparameter optimization compatibility in the genus `experiment(...)` and `optimize(...)` developed in previous sections
+
+## D. Reasons for Viewing `.ipynb` on Google Colab
+
+### i. Table of Contents
+| Github `.ipynb` Viewer | Google Colab `.ipynb` Viewer |
+|:----------------------:|:----------------------------:|
+| No Table of Contents | <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Google%20Colab%20ipynb%20Viewer%20-%20Table%20of%20Contents.gif"   width="750" /> |
+
 <hr width = "3%">
+
+### ii. Display of Data
+| Github `.ipynb` Viewer | Google Colab `.ipynb` Viewer |
+|:----------------------:|:----------------------------:|
+| <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Github%20ipynb%20Viewer%20-%20Display%20of%20Data.gif"   width="500" /> | <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Google%20Colab%20ipynb%20Viewer%20-%20Display%20of%20Data.gif"   width="500" /> |
+| Data Displayed on Multiple Lines | Single Line of Data |
+
+<hr width = "3%">
+
+### iii. Toggle for Sections
+| Github `.ipynb` Viewer | Google Colab `.ipynb` Viewer |
+|:----------------------:|:----------------------------:|
+| No Toggle for Sections | <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%203%20Magnified%20-%204D%20Surface%20Plot.gif"   width="750" /> |
+
+<hr width = "3%">
+
+### iv. Interactive Surface Plot
+| Github `.ipynb` Viewer | Google Colab `.ipynb` Viewer |
+|:----------------------:|:----------------------------:|
+| Interactive Surface Plot Does Not Render | <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Google%20Colab%20ipynb%20Viewer%20-%20Interactive%20Surface%20Plot.gif"   width="750" /> |
