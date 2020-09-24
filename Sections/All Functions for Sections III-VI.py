@@ -1077,7 +1077,7 @@ def ciFo(title, A_data, B_data, a_alpha = .8, b_alpha = .8, A_label = '', B_labe
   return comparison_interactive_surface_Forest(title, A_data, B_data, a_alpha = a_alpha, b_alpha = b_alpha, A_label = A_label, 
                                         B_label = B_label, a_label_sep = a_label_sep, b_label_sep = b_label_sep)
 
-Section V.B
+#Section V.B
 
 def encode(X_train_arg, X_test_arg, cardinality_thresh = 10):
   """
@@ -1320,7 +1320,7 @@ def m_ciFo(title, A_data, B_data, C_data, a_alpha = .8, b_alpha = .8, c_alpha = 
                                                     c_label_sep = c_label_sep, D_data = D_data, d_alpha = d_alpha, D_label = D_label, d_label_sep = d_label_sep, 
                                                     E_data = E_data, e_alpha = e_alpha, E_label = E_label, e_label_sep = e_label_sep)
 
-Section V.C
+# Section V.C
 
 def mae(model_arg, X_arg, y_arg):
   """
@@ -1549,8 +1549,7 @@ def for_4D_plot_XGB(experiment_with_XGB_res):
   n_estimators_vals = pruned_4D[0:,0:,2].T
   learning_rate_vals = pruned_4D[0:,0:,3].T
   return {'max_depth':max_depth_vals,'mae':mae_vals,'n_estimators':n_estimators_vals,'learning_rate':learning_rate_vals}
-
-def optimize_XGB(DataTable, is_4D = False):
+def optimize_XGB(DataTable, is_4D = False, test_max_depth = True):
   """
   Returns the lowest MAE value and parameters attendant including learning_rate, n_estimators, and max_depth.
   If the function experiment4D_with_XGB was used, set is_4D to True, otherwise simply insert what was returned
@@ -1561,22 +1560,26 @@ def optimize_XGB(DataTable, is_4D = False):
   mae_results = list(all_vals[0:,0:,1].flatten())
   max_depth_results = list(all_vals[0:,0:,0].flatten())
   n_estimators_results = list(all_vals[0:,0:,2].flatten())
+  learning_rate_results = list(all_vals[0:,0:,3].flatten())
 
-  #Tests Random Forest Regressor Model with given inputs and stores mae results in one-dimensional list
-  #mae_results = experiment_with_Forest(n_estimators_range_arg, max_depth_range, X_arg, y_arg, NE_increment=NE_increment_arg)
   #Finds the loewst MAE value in the list of mae_results
   min_mae = min(mae_results)
   #Locates the index of the lowest MAE value
   min_mae_index = mae_results.index(min_mae)
   opt_n_estimators = n_estimators_results[min_mae_index]
   opt_max_depth = max_depth_results[min_mae_index]
+  opt_learning_rate = learning_rate_results[min_mae_index]
+  
+  #Sorts optimization results based on experiment
   if is_4D:
-    learning_rate_results = list(all_vals[0:,0:,3].flatten())
-    opt_learning_rate = learning_rate_results[min_mae_index]
     return {'Optimal max_depth':int(opt_max_depth), 'Optimal n_estimators':int(opt_n_estimators), 'Optimal MAE':min_mae,
           'Optimal learning_rate':opt_learning_rate}
+  elif test_max_depth:
+    return {'Optimal max_depth':int(opt_max_depth), 'Optimal n_estimators':int(opt_n_estimators), 
+            'Optimal MAE':min_mae, 'Constant learning_rate':opt_learning_rate}
   else:
-    return {'Optimal max_depth':int(opt_max_depth), 'Optimal n_estimators':int(opt_n_estimators), 'Optimal MAE':min_mae}
+    return {'Constant max_depth':int(opt_max_depth), 'Optimal n_estimators':int(opt_n_estimators), 
+            'Optimal MAE':min_mae, 'Optimal learning_rate':opt_learning_rate}
 def for_3D_plot_XGB(experiment_with_XGB_res, test_max_depth = True):
   """
   Converts the data from the function experiment_with_XGB into plottable 3D data. If the function
@@ -1906,6 +1909,7 @@ def test_model_XGB(model_arg, X_arg, y_arg, X_test_arg, preprocessor_arg = None)
 ### Abbreviated Functions
 ### ---------------------
 ### For information consult Section II on Taxonomy of Functions
+
 def iXG(n_estimators_arg, learning_rate_arg, max_depth_arg):
   """
   Consult initialize_XGB for documentation.
@@ -1963,11 +1967,11 @@ def ciXG(title, A_data, B_data, a_alpha = .8, b_alpha = .8, A_label = '', B_labe
   """
   return comparison_interactive_surface_XGB(title, A_data, B_data, a_alpha = a_alpha, b_alpha = b_alpha, A_label = A_label, B_label = B_label,
                                             a_label_sep = a_label_sep, b_label_sep = b_label_sep, a_xshift = a_xshift, b_xshift = b_xshift)
-def oXG(DataTable, is_4D = False):
+def oXG(DataTable, is_4D = False, test_max_depth = True):
   """
   Consult optimize_XGB for documentation.
   """
-  return optimize_XGB(DataTable, is_4D = is_4D)
+  return optimize_XGB(DataTable, is_4D = is_4D, test_max_depth = test_max_depth)
 def z3XG(A_data_arg, mae_upper_limit):
   """
   Consult zoom_3D_XGB for documentation.
