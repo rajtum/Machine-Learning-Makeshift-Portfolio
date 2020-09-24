@@ -71,18 +71,18 @@ The purpose of this portfolio is to (1) *evince* my ability to code machine lear
 ## C. Structure
 The portfolio is broken up into the following structure:
 
-### `I. Introduction.md`
+### [`I. Introduction.md`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/I%20Introduction.md)
     
    * Crystalizes the main highlights of the portfolio and acts as a compass for a person navigating through the portoflio
 
 <hr width = "3%">
 
-### `II Taxonomy of Functions.md`
+### [`II Taxonomy of Functions.md`](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md)
     
    * Offers an evolutionary biologist overview for "family" of functions as an additional source of documentation in addition to the `help(...)` function that can be called for any function
    * Trinomial Nomenclature with adapted typography, classification ranks, and abbreviation rules enabled the creation of logical and intuitive shorthand for coding functions within portfolio
    
-<details><summary> Trinomial Nomenclature of Functions (Table 2 & 3 from to Section <a href="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md">II Taxonomy of Functions</a>)   </summary>
+<details><summary> Trinomial Nomenclature of Functions (Table 2 & 3 from Section <a href="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md"><code> II Taxonomy of Functions.md </code></a>)   </summary>
 
 ### Table 2. Function Abbreviation
 <table>
@@ -331,12 +331,12 @@ The portfolio is broken up into the following structure:
 
 <hr width = "3%">
     
-### `III Decision Tree Regression.ipynb`
+### [`III Decision Tree Regression.ipynb`](https://colab.research.google.com/drive/1q2WktD37RdSJzF2eTMzsMa8wdAQdwri1?usp=sharing)
 
    * Defines a family of functions for univariable hyperparameter optimization of the decision tree's max number of leaf nodes ( `max_leaf_nodes` ) in a Decision Tree Regressor from `sklearn.tree`
 <hr width = "3%">
  
-### `IV Random Forest Regression.ipynb`
+### [`IV Random Forest Regression.ipynb`](https://colab.research.google.com/drive/1VgqSp3BSiRJeZZWfxzLEkD7xe6EWQ_f1?usp=sharing)
 
    * Defines an family of functions for multivariable hyperparameter optimization of the number of trees ( `n_estimators` ) and max depth of each tree ( `max_depth` ) in a Random Forest Regressor from `sklearn.ensemble`
    * Enables a visualization of results in an interactive 3D surface plot, the ability to produce these interactive results with a minimal coding background, and four experimental presets to expound the designed use of functions
@@ -351,7 +351,7 @@ The portfolio is broken up into the following structure:
    
 <hr width = "3%">
  
-### `V Add More Predictors.ipynb`
+### [`V Add More Predictors.ipynb`](https://colab.research.google.com/drive/1V8bdK2vUBGASpOIfo_-K7-iNbOVAiPmh?usp=sharing)
  
    * Creates functions for imputation, encoding, pipeline, and cross-validation that are compatible with hyperparamter optimization and visualization functions derived in the above section
    * Extends graphing capabilities of previous functions to enable the juxtaposition of multiple datasets in an interactive 3D surface plot
@@ -359,7 +359,7 @@ The portfolio is broken up into the following structure:
 |-|
 <hr width = "3%">
  
-### `VI XGB Regression.ipynb`
+### [`VI XGB Regression.ipynb`](https://colab.research.google.com/drive/1VbZ3RL22IGlTu3wydawMK0SQwMkIuomQ?usp=sharing)
 
    * Extends the capabiility for the family of functions devised in Section IV to trivariate hyperparameter optimization and 4D graphical capabilites (color being the fourth dimension) to optimize and visualize how the number of trees ( `n_estimators` ), max depth of each tree ( `max_depth` ), and learning rate ( `learning_rate` ) influences model predictiveness
    
