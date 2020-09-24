@@ -1,5 +1,5 @@
 # About
-For employers looking only for written code, consider viewing the file `All Functions for Sections III-VI.py` in the `Sections` folder which represents all the python code for all the functions in this portfolio.
+For potential employers looking only for written code, consider viewing the file `All Functions for Sections III-VI.py` in the `Sections` folder which represents all the python code for all the functions in this portfolio.
 
 ### How to View Portfolio
 The portfolio can be found in the folder `Sections` . All the other folders are complimentary and referenced within `Sections` . Please note that `.ipynb` files sometimes do not work due to the way Github viewer works. Before opening these files, please read the section [How to Explore](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/README.md#how-to-explore) to learn a workaround of how to view these files. Any comments, questions, or concerns can be directed to [rajit@uchicago.edu](mailto:rajit@uchicago.edu).
