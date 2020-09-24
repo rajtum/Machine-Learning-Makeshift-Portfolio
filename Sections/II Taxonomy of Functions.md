@@ -984,7 +984,7 @@ Zooms in on 4D data
 
 2. `for_4D_plot_XGB(experiment_with_XGB_res)`
 
-3. `optimize_XGB(DataTable, is_4D = False)`
+3. `optimize_XGB(DataTable, is_4D = False, test_max_depth = True)`
 
 4. `comparison_plot_surface_XGB(title, A_data, B_data, a_alpha = .8, b_alpha = .8,
                                    A_label = '', B_label = '', a_label_sep = 0, b_label_sep = 0,
