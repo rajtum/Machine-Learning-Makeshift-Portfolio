@@ -50,7 +50,7 @@ Though many topics were discussed in the project, the main highlights were the t
 
 
 
-<details><summary> Taxonomical classification of functions (Refer to Section <a href="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md">II Taxonomy of Functions</a>)   </summary>
+<details><summary> Taxonomical classification of functions (Refer to Section <a href="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md">II. Taxonomy of Functions</a>)   </summary>
 
 <table>
 <thead>
@@ -268,7 +268,7 @@ Though many topics were discussed in the project, the main highlights were the t
   
 # How to Explore
 ## Basics and Potential Errors
-Section I and II are Markdown files ( `file_name.md` ) and can be viewed directly from Github. Section III-VI are Jupyter Notebooks ( `file_name.ipynb` ) **should be viewed from Google Colab NOT Github** for reasons explained in the subsection of [I. Introduction](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/I%20Introduction.md). Sometimes the `Open to Colab` does not work due to the way Github views `.ipynb` with the following error:
+Section I and II are Markdown files ( `file_name.md` ) and can be viewed directly from Github. Section III-VI are Jupyter Notebooks ( `file_name.ipynb` ) **should be viewed from Google Colab NOT Github** for reasons explained in the subsection [D. Reasons for Viewing `.ipynb` on Google Colab](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/I%20Introduction.md#d-reasons-for-viewing-ipynb-on-google-colab) of [I. Introduction](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/I%20Introduction.md). Sometimes the `Open to Colab` does not work due to the way Github views `.ipynb` with the following error:
 
 <blockquote>
   
