@@ -391,7 +391,7 @@ The portfolio is broken up into the following structure:
 ### iii. Toggle for Sections
 | Github `.ipynb` Viewer | Google Colab `.ipynb` Viewer |
 |:----------------------:|:----------------------------:|
-| No Toggle for Sections | <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%203%20Magnified%20-%204D%20Surface%20Plot.gif"   width="750" /> |
+| No Toggle for Sections | <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Google%20Colab%20ipynb%20Viewer%20-%20Toggle.gif"   width="750" /> |
 
 <hr width = "3%">
 
