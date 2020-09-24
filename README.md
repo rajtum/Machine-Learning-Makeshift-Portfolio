@@ -18,7 +18,7 @@ The dataset was used as a validation for the functions programmed, but in [Secti
 
 <hr width="3%">
 
-Though many topics were discussed in the project, the main highlights were the trivariate hyperparameter optimization, 4D visualization of a XGBoost Regressor, capability to overlay multiple visualizations, and a taxonomical explanation of functions.
+Though many topics were discussed in the project, the main highlights were the trivariate hyperparameter optimization, 4D visualization of an XGBoost Regressor, the capability to overlay multiple visualizations, and a taxonomical explanation of functions.
 
 ## Highlights
 
@@ -263,12 +263,12 @@ Though many topics were discussed in the project, the main highlights were the t
   #### &emsp;&emsp; [IV. Random Forest Regressor](https://colab.research.google.com/drive/1VgqSp3BSiRJeZZWfxzLEkD7xe6EWQ_f1?usp=sharing)
   #### &emsp;&emsp; [V. Adding More Predictors](https://colab.research.google.com/drive/1V8bdK2vUBGASpOIfo_-K7-iNbOVAiPmh?usp=sharing)
   #### &emsp;&emsp; [VI. XGBoost Regressor](https://colab.research.google.com/drive/1VbZ3RL22IGlTu3wydawMK0SQwMkIuomQ?usp=sharing)
-  #### &emsp;&emsp; [VII Testing other Datasets](https://colab.research.google.com/drive/1nk0OvUlw-fEz263t9Y-iX0PHZoFa_95K?usp=sharing)  
+  #### &emsp;&emsp; [VII. Testing other Datasets](https://colab.research.google.com/drive/1nk0OvUlw-fEz263t9Y-iX0PHZoFa_95K?usp=sharing)  
   
   
 # How to Explore
 ## Basics and Potential Errors
-Section I and II are Markdown files ( `file_name.md` ) and can be viewed directly from Github. Section III-VI are Jupyter Notebooks ( `file_name.ipynb` ) **should be viewed from Google Colab NOT Github** for reasons explained in subsection of [I. Introduction](). Sometimes the `Open to Colab` does not work due to the way Github views `.ipynb` with the following error:
+Section I and II are Markdown files ( `file_name.md` ) and can be viewed directly from Github. Section III-VI are Jupyter Notebooks ( `file_name.ipynb` ) **should be viewed from Google Colab NOT Github** for reasons explained in the subsection of [I. Introduction](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/I%20Introduction.md). Sometimes the `Open to Colab` does not work due to the way Github views `.ipynb` with the following error:
 
 <blockquote>
   
@@ -282,7 +282,7 @@ Instead of this:
 |<img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Github%20Jupyter%20Notebook%20Viewer%20Working.gif" width="1000"/>|
 |-|
 
-This is why the the links for Section III-VI open to a shared Google Colab instead of the Github file location.
+This is why the links for Section III-VI open to a shared Google Colab instead of the Github file location.
 
 ## To View Notebook:
 
@@ -304,7 +304,7 @@ Typically, one should not run code not authored by a reputable source lest the c
 
 
 ### Step 3. Will Give You A Warning that Notebook Not Authored by Google
-*Again, you do not need to run any code block to any notebook output for code already written. However, to tinker around with the code or to add your own data you select* `RUN AWAY` . 
+*Again, you do not need to run any code block to any notebook output for code already written. However, to tinker around with the code or to add your own data you select* `RUN ANYWAY` . 
 | <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Warning%20-%20Notebook%20Not%20Authored%20by%20Google.gif" width="1000"/> |
 |-------|
 
