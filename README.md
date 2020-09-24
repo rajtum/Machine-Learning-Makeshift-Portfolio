@@ -255,7 +255,7 @@ Though many topics were discussed in the project, the main highlights were the t
 </details>
 
 ## Structure 
-*This portfolio is divided into six sections:*
+*This portfolio is divided into seven sections:*
 ### Machine Learning Makeshift Portfolio
   #### &emsp;&emsp; [I. Introduction](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/I%20Introduction.md)
   #### &emsp;&emsp; [II. Taxonomy of Functions](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md)
@@ -263,6 +263,8 @@ Though many topics were discussed in the project, the main highlights were the t
   #### &emsp;&emsp; [IV. Random Forest Regressor](https://colab.research.google.com/drive/1VgqSp3BSiRJeZZWfxzLEkD7xe6EWQ_f1?usp=sharing)
   #### &emsp;&emsp; [V. Adding More Predictors](https://colab.research.google.com/drive/1V8bdK2vUBGASpOIfo_-K7-iNbOVAiPmh?usp=sharing)
   #### &emsp;&emsp; [VI. XGBoost Regressor](https://colab.research.google.com/drive/1VbZ3RL22IGlTu3wydawMK0SQwMkIuomQ?usp=sharing)
+  #### &emsp;&emsp; [VII Testing other Datasets](https://colab.research.google.com/drive/1nk0OvUlw-fEz263t9Y-iX0PHZoFa_95K?usp=sharing)  
+  
   
 # How to Explore
 ## Basics and Potential Errors
