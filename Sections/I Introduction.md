@@ -370,6 +370,12 @@ The portfolio is broken up into the following structure:
 |<img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%203%20-%204D%20Surface%20Plot.gif"   width="500" />|<img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%203%20Magnified%20-%204D%20Surface%20Plot.gif"   width="500" />| 
 
    * Maintains the bivariate hyperparameter optimization compatibility in the genus `experiment(...)` and `optimize(...)` developed in previous sections
+   
+<hr width = "3%">   
+
+### [`VI Testing Other Datasets.ipynb`](https://colab.research.google.com/drive/1nk0OvUlw-fEz263t9Y-iX0PHZoFa_95K?usp=sharing)
+
+  * Enables one to conduct and visualize the hyperparameter optimization with their own datasets utilizing all the functions and function abbreviations defined in previous sections
 
 ## D. Reasons for Viewing `.ipynb` on Google Colab
 
