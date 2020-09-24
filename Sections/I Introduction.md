@@ -373,7 +373,7 @@ The portfolio is broken up into the following structure:
    
 <hr width = "3%">   
 
-### [`VI Testing Other Datasets.ipynb`](https://colab.research.google.com/drive/1nk0OvUlw-fEz263t9Y-iX0PHZoFa_95K?usp=sharing)
+### [`VII Testing Other Datasets.ipynb`](https://colab.research.google.com/drive/1nk0OvUlw-fEz263t9Y-iX0PHZoFa_95K?usp=sharing)
 
   * Enables one to conduct and visualize the hyperparameter optimization with their own datasets utilizing all the functions and function abbreviations defined in previous sections
 
