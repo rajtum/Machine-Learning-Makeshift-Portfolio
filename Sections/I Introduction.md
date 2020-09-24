@@ -71,30 +71,37 @@ The purpose of this portfolio is to (1) *evince* my ability to code machine lear
 ## C. Structure
 The portfolio is broken up into the following structure:
 
-### `I. Introduction.md` (What you are reading now)
+### `I. Introduction.md`
     
    * Crystalizes the main highlights of the portfolio and acts as a compass for a person navigating through the portoflio
-  
+
+<hr width = "3%">
+
 ### `II Taxonomy of Functions.md`
     
    * Offers an evolutionary biologist overview for "family" of functions as an additional source of documentation in addition to the `help(...)` function that can be called for any function
+<hr width = "3%">
     
 ### `III Decision Tree Regression.ipynb`
 
    * Defines a family of functions for univariable hyperparameter optimization of the decision tree's max number of leaf nodes ( `max_leaf_nodes` ) in a Decision Tree Regressor from `sklearn.tree`
+<hr width = "3%">
  
 ### `IV Random Forest Regression.ipynb`
 
    * Defines an family of functions for multivariable hyperparameter optimization of the number of trees ( `n_estimators` ) and max depth of each tree ( `max_depth` ) in a Random Forest Regressor from `sklearn.ensemble`
    * Enables a visualization of results in an interactive 3D surface plot, the ability to produce these interactive results with a minimal coding background, and four experimental presets to expound the designed use of functions
    * Compares the programmed hyperparamter optimization function to the public `GridSearchCV` from `sklearn.model_selection` in two areas: (1) speed of optimization program and (2) accuracy of optimization program
+<hr width = "3%">
  
 ### `V Add More Predictors.ipynb`
  
    * Creates functions for imputation, encoding, pipeline, and cross-validation that are compatible with hyperparamter optimization and visualization functions derived in the above section
    * Extends graphing capabilities of previous functions to enable the juxtaposition of multiple datasets in an interactive 3D surface plot
+<hr width = "3%">
  
 ### `VI XGB Regression.ipynb`
 
    * Extends the capabiility for the family of functions devised in Section IV to trivariate hyperparameter optimization and 4D graphical capabilites (color being the fourth dimension) to optimize and visualize how the number of trees ( `n_estimators` ), max depth of each tree ( `max_depth` ), and learning rate ( `learning_rate` ) influences model predictiveness
    * Maintains the bivariate hyperparameter optimization compatibility in the genus `experiment(...)` and `optimize(...)` developed in previous sections
+<hr width = "3%">
