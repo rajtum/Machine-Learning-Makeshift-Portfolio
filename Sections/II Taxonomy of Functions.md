@@ -141,7 +141,7 @@
 
 &emsp;&emsp;&emsp;&emsp; [Demo 2.0](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#demo-20)
 
-#### &emsp;&emsp; [G. Areas of Improvement](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#h-areas-of-improvement---point_up_2)
+#### &emsp;&emsp; [H. Areas of Improvement](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#h-areas-of-improvement---point_up_2)
 
 &emsp;&emsp;&emsp;&emsp; [Trinomial Nomenclature System](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#trinomial-nomenclature-system)
 
@@ -151,7 +151,7 @@
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [Functional vs. Argumentative](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#functional-vs-argumentative)
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [Simplicity)](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#simplicity)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [Simplicity](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#simplicity)
 
 &emsp;&emsp;&emsp;&emsp; [Holistic Section](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Sections/II%20Taxonomy%20of%20Functions.md#holistic-section)
 
