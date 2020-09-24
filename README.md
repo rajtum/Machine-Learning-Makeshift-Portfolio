@@ -14,7 +14,7 @@ In this project, the Ames Housing Dataset, compiled in this [scientific paper](h
 
 ### Application
 
-The dataset was used as a validation for the functions programmed, but in [Section VII. Add Your Own Dataset](), one can use their own dataset to conduct and visualize the hyperparameter optimization of their own machine learning models.
+The dataset was used as a validation for the functions programmed, but in [Section VII. Testing Other Datasets](https://colab.research.google.com/drive/1nk0OvUlw-fEz263t9Y-iX0PHZoFa_95K?usp=sharing), one can use their own dataset to conduct and visualize the hyperparameter optimization of their own machine learning models.
 
 <hr width="3%">
 
