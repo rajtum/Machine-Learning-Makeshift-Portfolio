@@ -1,6 +1,22 @@
 # About
 For potential employers looking only for written code, consider viewing the file `All Functions for Sections III-VI.py` in the `Sections` folder which represents all the python code for all the functions in this portfolio.
 
+<hr width = "3%">
+
+|<img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%203%20-%204D%20Surface%20Plot.gif"   width="1000" />|
+|-|
+
+4D Visualization of Trivariate Hyperparameter Optimization for XGB Regressor with function `interactive_4Dsurface_XGB(...)`
+<hr width = "3%">
+
+|<img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%203%20Magnified%20-%204D%20Surface%20Plot.gif"   width="1000" />|
+|-|
+
+
+Increased Granularity of Above Visualization with `zoom(..)` within `interactive_4Dsurface_XGB(...)`
+
+<hr width = "3%">
+
 ### How to View Portfolio
 The portfolio can be found in the folder `Sections` . All the other folders are complimentary and referenced within `Sections` . Please note that `.ipynb` files sometimes do not work due to the way Github viewer works. Before opening these files, please read the section [How to Explore](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/README.md#how-to-explore) to learn a workaround of how to view these files. Any comments, questions, or concerns can be directed to [rajit@uchicago.edu](mailto:rajit@uchicago.edu).
 
