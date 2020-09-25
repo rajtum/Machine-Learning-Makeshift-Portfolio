@@ -13,7 +13,7 @@ For potential employers looking only for written code, consider viewing the file
 |-|
 
 
-Increased Granularity of Above Visualization with `zoom(..)` within `interactive_4Dsurface_XGB(...)`
+Increased Granularity of Above Visualization with `zoom(..)` function placed within `interactive_4Dsurface_XGB(...)`
 
 <hr width = "3%">
 
