@@ -3,11 +3,13 @@ For potential employers looking only for written code, consider viewing the file
 
 <hr width = "3%">
 
+### Hors d'Oeuvre of Portfolio
+
 |<img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%203%20-%204D%20Surface%20Plot.gif"   width="1000" />|
 |-|
 
 4D Visualization of Trivariate Hyperparameter Optimization for XGB Regressor with function `interactive_4Dsurface_XGB(...)`
-<hr width = "3%">
+<hr width = "12%">
 
 Increased Granularity of Above Visualization's Ostensible Plateau with `zoom(..)` function placed within `interactive_4Dsurface_XGB(...)`
 
