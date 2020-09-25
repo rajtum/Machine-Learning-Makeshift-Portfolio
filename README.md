@@ -9,11 +9,10 @@ For potential employers looking only for written code, consider viewing the file
 4D Visualization of Trivariate Hyperparameter Optimization for XGB Regressor with function `interactive_4Dsurface_XGB(...)`
 <hr width = "3%">
 
+Increased Granularity of Above Visualization with `zoom(..)` function placed within `interactive_4Dsurface_XGB(...)`
+
 |<img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%203%20Magnified%20-%204D%20Surface%20Plot.gif"   width="1000" />|
 |-|
-
-
-Increased Granularity of Above Visualization with `zoom(..)` function placed within `interactive_4Dsurface_XGB(...)`
 
 <hr width = "3%">
 
