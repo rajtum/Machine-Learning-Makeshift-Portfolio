@@ -287,7 +287,7 @@ This is why the links for Section III-VI open to a shared Google Colab instead o
 ## To View Notebook:
 
 ### Step 1. Open a Google Colab Share Link
-*You will not have to run a single piece of code to view the output of a notebook. All changes made on this document will not be saved, so feel to tinker around with the code. Note however you will need to first follow the steps below [To Run Code in Notebook:](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio#to-run-code-in-notebook) to be able to run code.*
+You will not have to run a single piece of code to view the output of a notebook. All changes made on this document will not be saved, so feel to tinker around with the code. Note however you will need to first follow the steps below [To Run Code in Notebook:](https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio#to-run-code-in-notebook) to be able to run code.
 | <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Opening%20Section%20VI%20Google%20Colab%20Share%20Link.gif" width="1000"/> |
 |--------|
 
@@ -304,7 +304,7 @@ Typically, one should not run code not authored by a reputable source lest the c
 
 
 ### Step 3. Will Give You A Warning that Notebook Not Authored by Google
-*Again, you do not need to run any code block to any notebook output for code already written. However, to tinker around with the code or to add your own data you select* `RUN ANYWAY` . 
+Again, you do not need to run any code block to any notebook output for code already written. However, to tinker around with the code or to add your own data you select `RUN ANYWAY` . 
 | <img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Warning%20-%20Notebook%20Not%20Authored%20by%20Google.gif" width="1000"/> |
 |-------|
 
