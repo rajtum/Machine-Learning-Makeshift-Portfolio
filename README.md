@@ -3,7 +3,7 @@ For potential employers looking only for written code, consider viewing the file
 
 <hr width = "3%">
 
-### Hors d'Oeuvre of Portfolio
+### Heart of Portfolio
 
 |<img src="https://github.com/rajtum/Machine-Learning-Makeshift-Portfolio/blob/master/Animations/Experiment%203%20-%204D%20Surface%20Plot.gif"   width="1000" />|
 |-|
